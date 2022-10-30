@@ -5,4 +5,9 @@ Entré en el aula 1.10 algo apurada pensando que la clase habría empezado pero 
 
 Entonces cruzó la puerta María Dolores Díaz Noguera, a la vez que nos preguntaba si eran suficientes los 5 minutos de cortesía para dar comienzo a la clase. Inmediatamente a continuación, se acerco hacia mi e hizo amago de coger algo que se situaría en mi mesa. Cogió entonces un folio de los de mi "taquito" y lo arrugó hasta convertirlo en una pelota. Después aclaró que era Lola como le llamaban.
 
-Era el día de la Presentación de la asignatura y como su propió nombre indica, comenzaron las presentaciones, donde la pelota tomó el papel de rompedora del hielo. Lola la lanzó aleatoriamente a uno de nosotros
+Era el día de la Presentación de la asignatura y como su propió nombre indica, comenzaron las presentaciones, donde la pelota tomó el papel de rompedora del hielo. Lola la lanzó aleatoriamente a uno de nosotros y así fuimos diciendo nuestro nombre, especialidad en la que nos habámos matriculado (en mi caso Matemáticas) y el motivo por el cual habíamos optado por estudiar el MAES. Esa tarea nos ocupó la primera hora de la sesión.
+
+En la segunda hora, Lola nos explicó cómo iba a desarrollarse la asignatura y los aspectos generales de la misma, así como estaba orgnizada la evaluación. Como punto número 1, nos planteo la primera cuestión que para nada trivial:
+
+¿Queremos ser estudiantes asintentes o no asistentes?
+
