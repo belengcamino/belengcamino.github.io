@@ -11,3 +11,30 @@ En la segunda hora, Lola nos explicó cómo iba a desarrollarse la asignatura y 
 
 ¿Queremos ser estudiantes asintentes o no asistentes?
 
+Aún denominándose esta clase "estudiantes asistentes", se les permitiría un 20% de faltas, que se traducen a dos días de ausencia. Esto se debe a que el número total de sesiones que componen la asignatura son 10.
+
+Las sesiones se estructuran de la siguiente forma:
+- Sesión 1: La presentación.
+- Sesión 2: formación de grupos y explicación de roles del Reto 1.
+- Sesión 3: Reto 1.
+- Sesión 4: Reto 2.
+- Sesión 5: Reto 2.
+- Sesión 6: Reto 3.
+- Sesión 7: Reto 3.
+- Sesión 8: Reto 4.
+- Sesión 9: Reto 4.
+- Sesión 10: Juego final.
+
+Cada uno de los cuatro retos irá enfocado en conseguir los objetivos de cada uno de los siguientes cuatro bloques de contenido:
+- Reto 1: Sistema educativo.
+- Reto 2: Organización
+- Reto 3: Aula
+- Reto 4: Papel del profesor en el aula.
+
+Cada uno de estos cuatro retos estarán basados en una metodología activa, donde abordaremos los contenidos de cada bloque grupalmente.
+
+La evaluación de estos trabajos en grupos supondrá un 60% de la nota final, es decir, 6 puntos, con 3 de ellos la Wiki estará aprobada.
+
+Los otros 4 puntos de la nota final, dependerán única y exclusivamente de uno mismo, del trabajo personal. 2 de esos 4 puntos, se evaluarán por la redacción de un Diario de Aprendizaje o por un desarrollo de alguno de los hilos propuestos al final de cada reto.
+
+Es obligatoria la elección de uno de los 
