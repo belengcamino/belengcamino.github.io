@@ -53,3 +53,6 @@ También debemos dar nuestra visión sobre lo acontecido durante la sesión, apo
 Las bases de la metodología serán la gamificación la cual llevaremos a cabo con la ayuda de recursos, tanto analógicos como digitales. Para estos segundos será imprescindible llevar al aula el portátil. Para los recursos analógicos, Lola nos pedirá el día que sea necesario, llevar tijeras y demás útiles.
 
 A las 17.50pm Lola se despedía hasta la semana siguiente porque el martes 1 de noviembre no nos veríamos.
+
+# 3 de noviembre: Covid.
+Hoy el día no empezó de a mejor manera. Después de una larga noche de imsomnio por la fuerte tos y dolores por todo el cuerpo, me dispuse a hacerme una prueba de antigenos. Entonces confirmé lo que sospechaba: covid. Sentí impotencia de t
