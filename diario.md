@@ -54,5 +54,48 @@ Las bases de la metodología serán la gamificación la cual llevaremos a cabo c
 
 A las 17.50pm Lola se despedía hasta la semana siguiente porque el martes 1 de noviembre no nos veríamos.
 
-# 3 de noviembre: Covid.
+# 3 de noviembre: Sinusitis.
 Hoy el día no empezó de a mejor manera. Después de una larga noche de imsomnio por la fuerte tos y dolores por todo el cuerpo, me dispuse a hacerme una prueba de antigenos. Entonces confirmé lo que sospechaba: covid. Sentí impotencia de t
+
+Este capítulo englobará para mi algo más que las 2 horas de la sesión del 3 de noviembre.
+
+Miercoles: llegue fatal despues de clase.
+
+Jueves intente alargar hasta que decidi no ir (correo)
+
+Mi compañera Sandra la mejor, hizo de portavoz y pregunto que ocurria con los rezag(desgraci)ados que no habian podido ir el dia de la formacion de los grupos. me transmitio tranquilidad la que luego reafirmo lola al responderme ese correo.
+
+# objetivos de la sesion
+
+#### Primera parte de la clase
+- Pulgar: sostén, dedo de la evolución. ¿En qué somos buenos?
+- Índice: dedo relacionado con las metas, nuestra visión de
+vida. ¿Cuál es nuestra meta?
+- Corazón: conexo a las emociones. ¿Con qué emoción nos relacionamos?
+- Anular: relativo a nuestras redes. ¿Cuáles con nuestras redes?
+- Meñique: dedo referente a las preocupaciones. ¿En qué te
+consideras perfeccionista?
+
+Adjuntar aquí mi mano
+
+#### Segunda parte de la clase
+Los roles para los equipos son los siguientes:
+Obligatorios:
+- Director
+- Jefe de estudios
+- Secretario
+- Administrador
+- Explorador: vigilando lo que ponen los demas grupos
+- Estrella: lleva la voz cantante del grupo
+
+Roles para rellenar cuando los grupos son de más de 6:
+- Analista
+- Facilitador
+
+Las funciones de cada uno de ellos están en esta web:
+https://www.lindacastaneda.com/es/mushware/rolesenclase/
+
+salvo del director, jefe de estudios y secretario, que lo comentará el
+próximo día.
+
+Queda pendiente elegir el insituto. Yo ya me encontraré con el IES elegido por no tener grupo aún. También voté por el nombre de la cuenta de instagram. Mi preferido es APAsiona2 debido a mi miedo por las normas APA, las cual desconozco completamente
