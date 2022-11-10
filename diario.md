@@ -130,3 +130,4 @@ Leyes:
     - LOE: 2006
     - LOMCE: 2013
     - LOMLOE: 2021
+¿Por qué la LOMCE fue tan controvertida? Después del franquismo, la 1a ley de transicion democratica fue la LOCSE. En el tema del corporativismo era todo muy avanzado: el grupo de profesores tenían autonomía, libertad para decidir. La LOMCE: jerarquía directores y les da mucho poder podéis abrir expedientes disciplinarios a sus compañeros. En la LOE todos se reunían para elegir al director. Por eso la LOMCE fue controvertida.
