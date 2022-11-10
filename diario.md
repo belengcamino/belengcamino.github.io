@@ -108,3 +108,25 @@ Queda pendiente elegir el insituto. Yo ya me encontraré con el IES elegido por 
 - El analista
 Evalúa -con arreglo a una rúbrica básica- el desempeño de cada uno de sus compañeros. Además lidera la reflexión de aprendizaje del grupo. Suele tener algunas pistas de qué reflexión le pedimos, debe responder a cosas como ¿qué se pretendía en la tarea?,¿qué habéis aprendido?¿qué te va a ser útil en el futuro?¿qué es lo más inútil de la tarea?¿lo más divertido?…. Entre otras varias (a las preguntas de estas reflexiones le hemos dado muchas vueltas, especialmente con el profesor Jordi Adell de la UJI con quien solemos compartir calentamientos de cabeza relativos a nuestras clases, porque son seguramente lo que más echamos en falta, la reflexión de los estudiantes).
 - @LolaDaz crear twitter
+- Repaso de los roles:
+    - Administrador:
+        - Repartir las tareas
+        - Iniciativa
+        - Resolver los conflictos
+    - Estrella:
+        - Comunicar que se ha hecho durante el día: actuación al final de la sesión
+        - Involucrarse en el resto de tareas
+    - Explorador/curador:
+        - Se encarga de la materia prima
+        - Encargados de buscar la documentación necesaria
+    - Analista:
+        - Buscamos información concreta dentro de toda la documentación.
+        - Analizo y valoro que va en el material que el proyecto.
+        - Solo selecciona, no lo evalúa.
+
+Líneas de un centro: clases de un mismo curso que existen en un instituto
+Ratio de alumnos por aula: 25 en primaria, 30 en secundaria y 35 en bachillerato
+Leyes:
+    - LOE: 2006
+    - LOMCE: 2013
+    - LOMLOE: 2021
