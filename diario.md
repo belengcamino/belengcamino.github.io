@@ -99,3 +99,12 @@ salvo del director, jefe de estudios y secretario, que lo comentará el
 próximo día.
 
 Queda pendiente elegir el insituto. Yo ya me encontraré con el IES elegido por no tener grupo aún. También voté por el nombre de la cuenta de instagram. Mi preferido es APAsiona2 debido a mi miedo por las normas APA, las cual desconozco completamente
+
+# 10 de noviembre
+- Creación de grupos en la enseñanza.
+- Hemos elegido el IES Doñana en el que nos vamos a basar
+- IES Ligustinus
+- Integración en el grupo de mis compis geniales, analista: rol que quedaó libre
+- El analista
+Evalúa -con arreglo a una rúbrica básica- el desempeño de cada uno de sus compañeros. Además lidera la reflexión de aprendizaje del grupo. Suele tener algunas pistas de qué reflexión le pedimos, debe responder a cosas como ¿qué se pretendía en la tarea?,¿qué habéis aprendido?¿qué te va a ser útil en el futuro?¿qué es lo más inútil de la tarea?¿lo más divertido?…. Entre otras varias (a las preguntas de estas reflexiones le hemos dado muchas vueltas, especialmente con el profesor Jordi Adell de la UJI con quien solemos compartir calentamientos de cabeza relativos a nuestras clases, porque son seguramente lo que más echamos en falta, la reflexión de los estudiantes).
+- @LolaDaz crear twitter
