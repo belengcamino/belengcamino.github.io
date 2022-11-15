@@ -196,15 +196,27 @@ Funciones del consejo escolar (17):
 - Aprobar y evaluar los proyectos y normas (nuestro proyecto emprededor tendrá que aprobarlo el consejo escolar)
 - 
 Funciones del director (15): 4 palabras que definan al director rellenas de las frases del compañero
-- Representar
+- Representar al centro en la Administración educativa: (representa a la admin y controla a los compis o representa a los compis?
 - Dirigir
 - Impulsar
+- Coordinación
 - 
 Funciones del jefe de estudio (10):
--
+- Cuantos profesores faltan
 -
 Funciones del secretario (11):
--
+- 
 -
 
 Las funciones se solapan entren los distintos miembros del equipo directivo
+
+Composición del consejo escolar (organo colegiado)
+- el presidente es el director
+- el secretario elabora el acta de la sesion
+- se plantea un tema conflictivo como la admision de alumnos y se vota, el secretario tiene voz pero no voto.
+
+Estos roles valen segun el proposito del sistema educativo.
+
+Hoy tienen que aparecer en twitter los hagtags del anuncio
+
+En la wiki se pone los pasos que hemos ido siguiendo
