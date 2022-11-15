@@ -186,4 +186,5 @@ Naranja: director
 Rosa: Jefe de estudios
 Verde: secretario
 Escribir una función para cada personaje
-Todo de la fuente de nuestro curador siguiendo la LOMLOE. Elegir más de una por si se repitireran. La idea es hacer un collage con todas las funciones y que al final de la sesión nos sepamos al menos una función de cada
+Todo de la fuente de nuestro curador siguiendo la LOMLOE. Elegir más de una por si se repitireran. La idea es hacer un collage con todas las funciones y que al final de la sesión nos sepamos al menos una función de cada rol.
+Nos adjudicamos cada uno un número: el 3.
