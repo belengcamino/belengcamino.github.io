@@ -179,3 +179,11 @@ P.D: para las redes no olvidar  mencionarme en Twitter @LolaDaz
 
 Creación de wikis para estrellas, curadores y analistas.
 Reto 1 paso 1: está bien estructurada? foto de la wiki? redes? presentacion? web del centro inspirador? pagina web? contexto? diseño de un proyecto emprededor (para ello hay que ampliar el contexto) ubicacion fisico, caracteristicas socioeconomicas. Esos proyectos de innovacion del centro van regidos segun unas leyes. reto 1: oferta emprendedora del ies, algo novedoso que nos haga mejorar.
+
+### 2º juego
+Amarillo: tutor
+Naranja: director
+Rosa: Jefe de estudios
+Verde: secretario
+Escribir una función para cada personaje
+Todo de la fuente de nuestro curador siguiendo la LOMLOE. Elegir más de una por si se repitireran. La idea es hacer un collage con todas las funciones y que al final de la sesión nos sepamos al menos una función de cada
