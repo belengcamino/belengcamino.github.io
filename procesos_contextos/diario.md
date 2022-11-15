@@ -188,3 +188,23 @@ Verde: secretario
 Escribir una función para cada personaje
 Todo de la fuente de nuestro curador siguiendo la LOMLOE. Elegir más de una por si se repitireran. La idea es hacer un collage con todas las funciones y que al final de la sesión nos sepamos al menos una función de cada rol.
 Nos adjudicamos cada uno un número: el 3.
+
+Juego loco
+
+Según la LOMLOE
+Funciones del consejo escolar (17):
+- Aprobar y evaluar los proyectos y normas (nuestro proyecto emprededor tendrá que aprobarlo el consejo escolar)
+- 
+Funciones del director (15): 4 palabras que definan al director rellenas de las frases del compañero
+- Representar
+- Dirigir
+- Impulsar
+- 
+Funciones del jefe de estudio (10):
+-
+-
+Funciones del secretario (11):
+-
+-
+
+Las funciones se solapan entren los distintos miembros del equipo directivo
