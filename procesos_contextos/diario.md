@@ -131,3 +131,51 @@ Leyes:
     - LOMCE: 2013
     - LOMLOE: 2021
 ¿Por qué la LOMCE fue tan controvertida? Después del franquismo, la 1a ley de transicion democratica fue la LOCSE. En el tema del corporativismo era todo muy avanzado: el grupo de profesores tenían autonomía, libertad para decidir. La LOMCE: jerarquía directores y les da mucho poder podéis abrir expedientes disciplinarios a sus compañeros. En la LOE todos se reunían para elegir al director. Por eso la LOMCE fue controvertida.
+
+# 15 de noviembre
+## Anuncio de Lola el día
+
+---------
+Estimados estudiantes, continuamos con el RETO 1.
+
+1º Las estrellas presentarán a sus IES para ello deberán utilizar una herramienta de presentación. ¿Qué información encontraremos?
+
+1-1 La estructura organizativa del IES (organigrama). ¿Podríamos identificar las claves de funcionamiento de nuestro IES? y ¿Cómo es el Sistema de relaciones?  ¿Cómo lo conseguiremos?...
+
+1-2- Para conocer cómo funciona nuestro IES debemos tener la normativa existente. En nuestro caso necesitaremos: 
+
+ LOE (2006). Ley Orgánica 2/2006, de 3 de mayo, de Educación.
+
+ LEA (2007). Ley 17/2007, de 10 de diciembre, de Educación de Andalucía.
+
+ LOMLOE (2020). Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la LOE (2006), de Educación.
+
+ Los curadores deben buscar documentos o material multimedia que ayude a su comprensión. 
+
+1-3- Todos los IES han identificado el organigrama del IES inspirador y lo incluiremos en nuestra wiki para tenerlo como referencia. Además de su marca y aspectos mencionados en el anuncio anterior. No olvidar esto para los administradores. 
+
+
+
+1-4- Conoceremos las funciones del Equipo Directivo. La dinámica utilizada será el “Diseño de un mapa conceptual”.
+
+P.D: para las redes no olvidar  mencionarme en Twitter @LolaDaz 
+
+#estructura IES
+
+#organigrama
+
+#funciones del director
+
+#funciones del secretario
+
+#funciones del jefe de estudios
+
+#cómo funcionamos
+
+
+
+¡¡¡ADELANTE¡¡¡
+--------
+
+Creación de wikis para estrellas, curadores y analistas.
+Reto 1 paso 1: está bien estructurada? foto de la wiki? redes? presentacion? web del centro inspirador? pagina web? contexto? diseño de un proyecto emprededor (para ello hay que ampliar el contexto) ubicacion fisico, caracteristicas socioeconomicas. Esos proyectos de innovacion del centro van regidos segun unas leyes. reto 1: oferta emprendedora del ies, algo novedoso que nos haga mejorar.
