@@ -4,13 +4,14 @@
     }
   }
 :root {
-    --color-yellow: #fce379;
-    --color-lightgray: #b3b7c0;
-    --color-darkblue: #222c46;
-    --color-darkgray: #5e5e61;
+    --color-yellow: rgb(252, 227, 121);
+    --color-lightgray: rgb(179, 183, 192);
+    --color-darkblue: rgb(34, 44, 70);
+    --color-darkgray: rgb(94, 94, 97);
     --color-blue: rgb(106, 156, 218);
-    --color-mediumblue: #3a67c5;
-    --color-brown: #b3a069;
+    --color-mediumblue: rgb(58, 103, 197);
+    --color-brown: rgb(179, 160, 105);
+    --color-logo: #ffd600;
 }
 
   *,
@@ -33,7 +34,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
-    color: #1b1b32;
+    color: var(--color-darkblue);
     margin: 0;
   }
   
@@ -49,10 +50,10 @@
     background: white;
     background-image:
         linear-gradient(
-            rgba(243, 251, 79, 0.353),
-            rgba(255,255,255,0.353)
+            rgba(252, 227, 121, 0.4),
+            rgba(179, 183, 192, 0.4)
         ),
-        url(./IMG-20221110-WA0023.jpg);
+        url(./con_nombre.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -60,8 +61,8 @@
   
   header {
     width: 100%;
-    height: 50px;
-    background-color: #1b1b32;
+    height: 60px;
+    background-color: var(--color-darkblue);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,10 +78,10 @@
   }
   
   h1 {
-    color: #f1be32;
+    color: var(--color-logo);
     font-size: min(5vw, 1.2em);
     text-align: center;
-    margin: 0 0;
+    margin: 0 10%;
   }
   
   nav {
