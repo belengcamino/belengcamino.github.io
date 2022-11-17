@@ -175,62 +175,63 @@ P.D: para las redes no olvidar  mencionarme en Twitter @LolaDaz
 
 
 ¡¡¡ADELANTE¡¡¡
---------
 
+---------
 Creación de wikis para estrellas, curadores y analistas.
 Reto 1 paso 1: está bien estructurada? foto de la wiki? redes? presentacion? web del centro inspirador? pagina web? contexto? diseño de un proyecto emprededor (para ello hay que ampliar el contexto) ubicacion fisico, caracteristicas socioeconomicas. Esos proyectos de innovacion del centro van regidos segun unas leyes. reto 1: oferta emprendedora del ies, algo novedoso que nos haga mejorar.
 
-### 2º juego
+------
 En mitad de la sesión Lola detuvo la dinámica de los grupos para "jugar". Repartió cuatro taquitos de Post-it a los alumnos que nos encontrábamos en primera fila e individualmente, debíamos coger uno de cada color: amarillo, rosa, naranja y verde. Siguiendo la LOMLOE, debíamos escribir en cada Post-it una de las varias funciones que tienen los siguientes miembros del equipo directivo de un centro educativo: secretario, tutor, director, jefe de estudios y por otra parte, el tutor. La relación figura-color se dispuso de la siguiente forma:
 - Amarillo: tutor
 - Naranja: director
 - Rosa: Jefe de estudios
 - Verde: secretario
-Para dinamizar la puesta en común de las funciones recolectadas por cada uno de nosotros, para cada una de las cuatro personalidades, Lola hizo que formaramos un enorme círculo humano rodeando las bancas. La siguiente imagen es una fiel representación de lo que se vivió en aquellos momentos
+
+Para dinamizar la puesta en común de las funciones recolectadas por cada uno de nosotros, para cada una de las cuatro personalidades, Lola hizo que formaramos un enorme círculo humano rodeando las bancas. La siguiente imagen es una fiel representación de lo que se vivió en aquellos momentos:
 
 ![Simpsons corro de la patata](./IMG-20221115-WA0094.jpg)
 
-El objetivo de esta dinámica fue la de recordar al menos una función de cada una de estas funciones dentro del sistema educativo al final de la sesión.
+Empezamos a girar tan rápido como nos permitían los distintos cables de los portátiles que estaban enchufados en la pared del aula.
 
-Escribir una función para cada personaje
-Todo de la fuente de nuestro curador siguiendo la LOMLOE. Elegir más de una por si se repitireran. La idea es hacer un collage con todas las funciones y que al final de la sesión nos sepamos al menos una función de cada rol.
-Nos adjudicamos cada uno un número: el 3.
+A la voz de alto de la profesora Lola, el alumno que se encontrase a la altura de la tercera silla de la primera banca, comenzando por la derecha, debía coger uno de entre las decenas de papelillos que previamiente Lola había recortado y que se encontraba dentro de una funda de plástico de desconocido dueño.
 
-Juego loco
+Cada uno de esos papeles llevaba escrito un número, donde cada uno de ellos se correspondía con uno de nosotros. Yo era el número 3.
 
-Según la LOMLOE
-Funciones del consejo escolar (17):
-- Aprobar y evaluar los proyectos y normas (nuestro proyecto emprededor tendrá que aprobarlo el consejo escolar)
-- 
-Funciones del director (15): 4 palabras que definan al director rellenas de las frases del compañero
-- Representar al centro en la Administración educativa: (representa a la admin y controla a los compis o representa a los compis?
-- Dirigir
-- Impulsar
-- Coordinación
-- 
-Funciones del jefe de estudio (10):
-- Cuantos profesores faltan
--
-Funciones del secretario (11):
-- 
--
+Que casualidad que el primer papel seleccionado fue el que llevaba el número 1, el de Lucas.
 
-Las funciones se solapan entren los distintos miembros del equipo directivo
+Él debía decir entonces una de las funciones de la que era responsable el director de un instituto de enseñanza secundaria y a continuación colocar su Post-it en la pizarra.
 
-Composición del consejo escolar (organo colegiado)
-- el presidente es el director
-- el secretario elabora el acta de la sesion
-- se plantea un tema conflictivo como la admision de alumnos y se vota, el secretario tiene voz pero no voto.
+Así seguimos rotando por la clase hasta que la pizarra tomó el siguiente aspecto
 
-Estos roles valen segun el proposito del sistema educativo.
+![Pizarra llena de Post-it](./IMG-20221116-WA0018.jpg)
 
-Hoy tienen que aparecer en twitter los hagtags del anuncio
+Ya todos en nuestros respectivos asientos fuimos repasando de la mano de nuestro compañero Antonio las distintas funciones según la LOMLOE. Él leyo cada una de las 15 funciones del director, llegando entre todos a la conclusión de que podían resumirse en cuatro funciones fundamentalmente. La más importante de todas ellas es la
 
-En la wiki se pone los pasos que hemos ido siguiendo
+    Representación
+
+En este punto surgió el debate de si un director debía representar a la Administración y en cierto modo, controlar a sus compañeros o en caso contrario, ser el representante de sus compañeros.
+
+También repasamos las 10 funciones del jefe de estudios y las 11 del secretario, concluyendo que las funciones de los distintos miembros del equipo directivo quedan muy solapadas con esta nueva ley.
+
+El objetivo de esta dinámica fue el de asimilar al menos una de las funciones de cada una de estas cuatro notabilidades dentro del sistema educativo.
+
+----------
+Por último, vimos varias características de uno de los órganos colegiados, el consejo escolar. Este órgano se encarga de al rededor unas 17 funciones, donde destacamos la siguiente:
+
+    "Aprobar y evaluar los proyectos y normas"
+
+ Destacamos esta función ya que en la sesión del próximo día tendremos que elaborar un proyector emprendedor el cual tendrá que ser aprobrado por el consejo escolar.
+
+Algunas de las características que cumple el consejo escolar son:
+
+- El presidente del consejo es el director.
+- El secretario elabora el acta de la sesión.
+- El secretario tiene voz pero no voto.
+
+--------
 
 # 17 de noviembre
 ## Anuncio de Lola
-
 Estimados estudiantes, el propósito de esta sesión es diseñar un “Proyecto de innovación” o “Proyecto de Emprendimiento”, existen diferentes opciones, cada IES según sus circunstancias elige el suyo. 
 
 1º El RETO Nº1  se llama: SIENTE- IMAGINA-ACTÚA-EVALUA-COMPARTE
@@ -284,4 +285,42 @@ No olvidamos que el IES tiene documentos, queremos saber como ha sido su trayect
 ¿Qué documentos tienen vuestros IES?
 
 ¡¡¡¡¡ADELANTE!!!
+
+------
+
+ A eso de la una de la tarde recibimos alguna información complementaria:
+
+ -----
+
+
+ Estimados estudiantes, alguna información adicional...
+
+1º En contenidos podremos encontrar algunas ideas para el PASO 2 
+
+2º Recomendable la infografia DISEÑOS DE PROYECTOS ABP.
+
+3º Presentación del 1º hilo de trabajo individual
+
+
+
+3-1- En la sesión de hoy los IES trabajaran con instagram, también. 
+
+3-2- Primera propuesta formativa de instagran conjunto. 
+
+
+
+Nombre apacionados
+
+-Futurosdocentesapasionados
+
+-contraseña: Docen2022!!
+
+En el aula realizo la presentación. 
+
+
+
+
+
+¡¡¡ADELANTE¡¡¡ 
+
 --------------
