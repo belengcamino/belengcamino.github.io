@@ -181,12 +181,17 @@ Creación de wikis para estrellas, curadores y analistas.
 Reto 1 paso 1: está bien estructurada? foto de la wiki? redes? presentacion? web del centro inspirador? pagina web? contexto? diseño de un proyecto emprededor (para ello hay que ampliar el contexto) ubicacion fisico, caracteristicas socioeconomicas. Esos proyectos de innovacion del centro van regidos segun unas leyes. reto 1: oferta emprendedora del ies, algo novedoso que nos haga mejorar.
 
 ### 2º juego
-En mitad de la sesión Lola detuvo a la dinámica de los grupos para "jugar". Repartió cuatro taquitos de Post-it a los alumnos que nos encontrábamos en primera fila e individualmente, debíamos coger uno de cada color: amarillo, rosa, naranja y verde. Siguiendo la LOMLOE, debíamos escribir en cada Post-it una de las varias funciones que tienen los siguientes miembros del equipo directivo de un centro educativo: secretario, tutor, director, jefe de estudios y por otra parte, el tutor. La relación figura-color se dispuso de la siguiente forma:
+En mitad de la sesión Lola detuvo la dinámica de los grupos para "jugar". Repartió cuatro taquitos de Post-it a los alumnos que nos encontrábamos en primera fila e individualmente, debíamos coger uno de cada color: amarillo, rosa, naranja y verde. Siguiendo la LOMLOE, debíamos escribir en cada Post-it una de las varias funciones que tienen los siguientes miembros del equipo directivo de un centro educativo: secretario, tutor, director, jefe de estudios y por otra parte, el tutor. La relación figura-color se dispuso de la siguiente forma:
+- Amarillo: tutor
+- Naranja: director
+- Rosa: Jefe de estudios
+- Verde: secretario
+Para dinamizar la puesta en común de las funciones recolectadas por cada uno de nosotros, para cada una de las cuatro personalidades, Lola hizo que formaramos un enorme círculo humano rodeando las bancas. La siguiente imagen es una fiel representación de lo que se vivió en aquellos momentos
 
-Amarillo: tutor
-Naranja: director
-Rosa: Jefe de estudios
-Verde: secretario
+![Simpsons corro de la patata](./IMG-20221115-WA0094.jpg)
+
+El objetivo de esta dinámica fue la de recordar al menos una función de cada una de estas funciones dentro del sistema educativo al final de la sesión.
+
 Escribir una función para cada personaje
 Todo de la fuente de nuestro curador siguiendo la LOMLOE. Elegir más de una por si se repitireran. La idea es hacer un collage con todas las funciones y que al final de la sesión nos sepamos al menos una función de cada rol.
 Nos adjudicamos cada uno un número: el 3.
