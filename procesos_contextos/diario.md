@@ -181,6 +181,8 @@ Creación de wikis para estrellas, curadores y analistas.
 Reto 1 paso 1: está bien estructurada? foto de la wiki? redes? presentacion? web del centro inspirador? pagina web? contexto? diseño de un proyecto emprededor (para ello hay que ampliar el contexto) ubicacion fisico, caracteristicas socioeconomicas. Esos proyectos de innovacion del centro van regidos segun unas leyes. reto 1: oferta emprendedora del ies, algo novedoso que nos haga mejorar.
 
 ### 2º juego
+En mitad de la sesión Lola detuvo a la dinámica de los grupos para "jugar". Repartió cuatro taquitos de Post-it a los alumnos que nos encontrábamos en primera fila e individualmente, debíamos coger uno de cada color: amarillo, rosa, naranja y verde. Siguiendo la LOMLOE, debíamos escribir en cada Post-it una de las varias funciones que tienen los siguientes miembros del equipo directivo de un centro educativo: secretario, tutor, director, jefe de estudios y por otra parte, el tutor. La relación figura-color se dispuso de la siguiente forma:
+
 Amarillo: tutor
 Naranja: director
 Rosa: Jefe de estudios
@@ -220,3 +222,61 @@ Estos roles valen segun el proposito del sistema educativo.
 Hoy tienen que aparecer en twitter los hagtags del anuncio
 
 En la wiki se pone los pasos que hemos ido siguiendo
+
+# 17 de noviembre
+## Anuncio de Lola
+
+Estimados estudiantes, el propósito de esta sesión es diseñar un “Proyecto de innovación” o “Proyecto de Emprendimiento”, existen diferentes opciones, cada IES según sus circunstancias elige el suyo. 
+
+1º El RETO Nº1  se llama: SIENTE- IMAGINA-ACTÚA-EVALUA-COMPARTE
+
+1-1- ¿Por qué este título? La idea es que el profesorado se sienta agente activo y protagonista del cambio, no solo en los procesos de enseñanza y aprendizaje de sus estudiantes, sino también en la transformación de los entornos o contextos donde se situan los IES. 
+
+1-2- ¿Què necesitamos? Una guía…
+
+AQUÍ  la encontramos…
+
+RETO 1- PASO 2
+
+Nuestro IES como espacio idóneo para el diseño, implementación y evaluación de proyectos emprendedores.
+
+1-1-¿Cómo lo hacemos? Empezamos con los siguientes recursos:
+
+IMPORTANTE: LA GUÍA PARA EL EMPRENDIMIENTO
+
+https://www.todofp.es/ca/dam/jcr:d0206a88-51a3-4d0f-8217-7257a4221da1/guia-del-aula-de-emprendimiento-con-isbn-indice-vinculado-y-marcadores.pdf 
+
+VÍDEO: 
+
+https://www.youtube.com/watch?v=MxX5iVhWtus
+
+En cualquier caso, existen unos pasos (ya hemos andando en nuestro itinerario). ¡AVANZAMOS!
+
+1-Entorno- salimos para analizar. En el interior de la web inspiradora.
+
+2- Escribimos nuestras observaciones. 
+
+3- Organizamos ideas para el mapa conceptual. 
+
+4- Decidimos nuestro foco de atención.
+
+5- Por ejemplo, nuestro RETO es “evitar colillas” //Cómo amar a los animales...
+
+No olvidamos que el IES tiene documentos, queremos saber como ha sido su trayectoria en innovación.
+
+#PROYECTO DE DIRECCIÓN. ...
+
+#PROYECTO EDUCATIVO DE CENTRO. ...
+
+#PROYECTO JORNADA CONTINUA.
+
+#PLAN DE ATENCIÓN A LA DIVERSIDAD.
+
+#PLAN DE ACCIÓN TUTORIAL.
+
+#PLAN DE CONVIVENCIA. ...
+
+¿Qué documentos tienen vuestros IES?
+
+¡¡¡¡¡ADELANTE!!!
+--------------
