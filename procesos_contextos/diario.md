@@ -324,3 +324,23 @@ En el aula realizo la presentación.
 ¡¡¡ADELANTE¡¡¡ 
 
 --------------
+
+1. Hoy acabamos el reto 1.
+Repaso de las funciones de cada uno de los roles.
+Hoy presentan las estrellas, se tendría que haber hecho la pasada sesión.
+Lola ha corregido las presentaciones que aparecen en las wikis de las estrellas.
+Dentro del grupo estrellas, aparece una herramienta que es la wiki, ahí debe aparecer la presentación. El just time es importante
+
+2. Administradores: síntesis en la wiki de los anunciados que ha mandado por correo electrónico. Al final: infografía de ABP (un tipo de metodología activa).
+
+3. Curadores: en los dos anuncios aparecen hagtags obligatorios. Busqueda de material significativo en relación con los hagtags. Wikipedia, Google Scholar, Youtube,... A veces, los hagtags son obligatorios pero también los curadores pueden añadir otros que tengan relación con el tema. También se publica en la wiki del centro. Sitio donde estamos todos: intercambio.
+
+4. Analistas: Muy importante, hacer el borrador de items para la valoracion del reto 1.
+identificacion de la web inspiradora, caracteristicas de la web, del diseño. Hoy los analistas podemos sentarnos juntos. Qué es para mi evaluable, indicadores de evalucación.
+
+# 1ª propuesta de hilo:
+Ofertar en la red información, imágenes, documentos que inspiren a otros docentes. Pueden ir desde temas relacionados con la violencia hasta temas innovadores. Cómo daríamos formación a docentes como nosotros.
+
+Inspiración del tema del proyecto: 
+    ¿Qué diferencian a los seres humanos de los animales?
+La capacidad de visualizar algo que no existe. Algo importante que nos haga mejorar. La escuela tiene una misión: cambiar las cosas que no están bien mediante los proyectos. La gran caja que nos dirige a todos. Hay objetivos necesarios en la agenda 20/30: igualdad de género, erradicar la pobreza... 
