@@ -331,9 +331,13 @@ Mi clase se dividió en dos partes.
 
 ## Primera parte: APAsiona2
 
-Entré en el aula después que Lola ya que ese día venía caminando hasta clase con un amigo y todos sabemos como las buenas compañías paralizan el tiempo. Me asaltó Lucas casi en la entrada para contarme que la profesora estaba encantada con el logo que había creado para la cuenta de Instagram común de la clase. Este compañero mio es artista y me gustaría compartir con su trabajo
+Entré en el aula después que Lola. Ese día venía caminando hasta clase con un amigo y todos sabemos como las buenas compañías paralizan el tiempo. Me asaltó Lucas casi en la puerta para decirme que la profesora estaba encantada con el logo que había creado para la cuenta de Instagram común de la clase. Este compañero mio es artista y me gustaría compartir su trabajo con vostros. Podéis ver el resto de su obra en su perfil de instagram.
 
+https://www.instagram.com/lucas_rguez_q/
 
+![apasionados](images/apasionados.jpg)
+
+Para descargar un poco a nuestra Administradora Loreto de la sobrecarga de funciones, opté yo por desempeñar el papel de Community Manager. Mi tarea consistía entonces en actualizar la imagen de perfil de la cuenta de apasionados y crear un post haciendo referencia a la aportación de mi compañero lucas, esto último tanto en la cuenta de apasionados como en la dos de IES Ligustinus (Instagram y Twitter), para que Lola lo evaluase correctamente. Ella suele acceder a Twitter la misma noche en la que tienen lugar nuestras sesiones para así retuitear y llevar así la cuenta del trabajo por evaluación continua. ¿Tarea fácil verdad? 
 
 
 
