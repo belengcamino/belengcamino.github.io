@@ -189,7 +189,7 @@ En mitad de la sesión Lola detuvo la dinámica de los grupos para "jugar". Repa
 
 Para dinamizar la puesta en común de las funciones recolectadas por cada uno de nosotros, para cada una de las cuatro personalidades, Lola hizo que formaramos un enorme círculo humano rodeando las bancas. La siguiente imagen es una fiel representación de lo que se vivió en aquellos momentos:
 
-![Simpsons corro de la patata](./IMG-20221115-WA0094.jpg)
+![Simpsons corro de la patata](images/simpsons.jpg)
 
 Empezamos a girar tan rápido como nos permitían los distintos cables de los portátiles que estaban enchufados en la pared del aula.
 
@@ -203,7 +203,7 @@ Que casualidad que el primer papel seleccionado fue el que llevaba el número 1,
 
 Así seguimos rotando por la clase hasta que la pizarra tomó el siguiente aspecto
 
-![Pizarra llena de Post-it](./IMG-20221116-WA0018.jpg)
+![Pizarra llena de Post-it](images/post-it.jpg)
 
 Ya todos en nuestros respectivos asientos fuimos repasando de la mano de nuestro compañero Antonio las distintas funciones según la LOMLOE. Él leyo cada una de las 15 funciones del director, llegando entre todos a la conclusión de que podían resumirse en cuatro funciones fundamentalmente. La más importante de todas ellas es la
 
@@ -324,6 +324,32 @@ En el aula realizo la presentación.
 ¡¡¡ADELANTE¡¡¡ 
 
 --------------
+
+Hoy mi misión de llevar a cabo la página web se vio truncada por otras tareas. 
+
+Mi clase se dividió en dos partes.
+
+## Primera parte: APAsiona2
+
+Entré en el aula después que Lola ya que ese día venía caminando hasta clase con un amigo y todos sabemos como las buenas compañías paralizan el tiempo. Me asaltó Lucas casi en la entrada para contarme que la profesora estaba encantada con el logo que había creado para la cuenta de Instagram común de la clase. Este compañero mio es artista y me gustaría compartir con su trabajo
+
+
+
+
+
+Tuve que trabajar grupalmente con los analistas del resto de grupos para llevar a cabo una rúbrica donde recogiesemos los puntos evaluables del reto 1. El grupo de analistas está formado por los siguientes integrantes:
+- Fran, de la especialidad de Música
+- 
+- Esteban, de la especialidad de Matemáticas
+- Ana, también de Matemáticas
+- Yo, otra Matemática
+
+Los matemáticos somos mayoría en este grupo por lo que para la elaboración de la rúbrica optamos por la herramienta de Excel.
+
+![rubrica](images/rubrica.jpeg)
+
+Esta plantilla deberá ser seguida en cada uno de los grupos para poder cerciorarse de si cumplen todos los objetivos del reto 1.
+
 
 1. Hoy acabamos el reto 1.
 Repaso de las funciones de cada uno de los roles.
