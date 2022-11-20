@@ -325,9 +325,21 @@ En el aula realizo la presentación.
 
 --------------
 
-Hoy mi misión de llevar a cabo la página web se vio truncada por otras tareas. 
+Lola comenzó la sesión haciendo un breve repaso al trabajo realizado. Había hecho la correción de la Wiki de las Estrellas, en la cual debía encontrarse la presentación del IES correspondiente. Comentó la importancia del Just-In-Time, base por la que se rige la evaluación continua.
 
-Mi clase se dividió en dos partes.
+A continuación, se enumeraron las funciones de los roles que iban a tener más peso en el transcurso de la clase:
+
+- Administradores. Debían realizar una síntesis en la Wiki de los enunciados del anuncio que ha mandó por correo electrónico a la vez que elaborar la infografía de ABP (un tipo de metodología activa). Nuestra Administradora Loreto se puso manos a la obra y este fue el resultado:
+
+![infografia](images/infografia.jpg)
+
+- Curadores. Búsqueda de material significativo en relación con los hagtags de los anuncios correspondientes a la sesión. Posibles herramientas que pueden utilizarse para esta labor pueden ser: Wikipedia, Google Scholar, Youtube,... Los hagtags son obligatorios pero también los curadores pueden añadir otros que tengan relación con el tema. Este trabajo también debe ser publicado en la wiki del centro.
+
+- Analistas. Elaboración del borrador de items o indicadores de evaluación para la valoracion del Reto 1. Dichos items tendrán que ver con la identificacion de la web inspiradora, caracteristicas de la web, del diseño...
+
+Por tanto, mi misión de llevar a cabo la página web del IES se vio truncada por otras tareas.
+
+Mi clase se dividió en tres partes.
 
 ## Primera parte: APAsiona2
 
@@ -337,16 +349,25 @@ https://www.instagram.com/lucas_rguez_q/
 
 ![apasionados](images/apasionados.jpg)
 
-Para descargar un poco a nuestra Administradora Loreto de la sobrecarga de funciones, opté yo por desempeñar el papel de Community Manager. Mi tarea consistía entonces en actualizar la imagen de perfil de la cuenta de apasionados y crear un post haciendo referencia a la aportación de mi compañero lucas, esto último tanto en la cuenta de apasionados como en la dos de IES Ligustinus (Instagram y Twitter), para que Lola lo evaluase correctamente. Ella suele acceder a Twitter la misma noche en la que tienen lugar nuestras sesiones para así retuitear y llevar así la cuenta del trabajo por evaluación continua. ¿Tarea fácil verdad? 
+Para descargar un poco a nuestra Administradora Loreto de la sobrecarga de funciones, opté yo por desempeñar el papel de Community Manager del IES Ligustinus. Mi tarea consistía entonces en actualizar la imagen de perfil de la cuenta de apasionados y crear un post haciendo referencia a la aportación de mi compañero lucas, esto último tanto en la cuenta de apasionados como en la dos de IES Ligustinus (Instagram y Twitter), para que Lola lo evaluase correctamente. Ella suele acceder a Twitter la misma noche en la que tienen lugar nuestras sesiones para así retuitear y llevar así la cuenta del trabajo por evaluación continua. ¿Tarea fácil verdad? 
 
+Introduje el nombre de usuario y contraseña de Instagram de @futurosdocentesapasionados que Lola nos había mandado por correo y perfecto, conseguimos acceder, colocar las fotos y hacer todo lo descrito en el anterior párrafo con respecto a dicha cuenta. Pero algo no nos terminaba de cuadrar a Lucas y a mi. Lola hizo mención a que la cuenta de Instagram tenía una foto "del revés" que nosotros en ningún momento habíamos visto. Aún así estábamos tranquilos con el trabajo realizado porque los datos de dicha cuenta los habíamos recibido en el correo de la profesora.
 
+Avisamos a la profesora para mencionarle lo anterior y efectivamente, existía otra cuenta de Instagram de usuario @apac_ionados con una foto de perfil de la clase al revés y contraseña desconocida. Conseguimos establecer, no sin esfuerzo, una nueva contraseña. El resto de la primera parte de la sesión, nos dedicamos Lucas y yo a deshacer todos los posts, comentarios, tweets y fotos de perfil y a rehacerlos para esta nueva cuenta de Instagram @apac_ionados la cual podéis visitar en el siguiente enlace
 
-Tuve que trabajar grupalmente con los analistas del resto de grupos para llevar a cabo una rúbrica donde recogiesemos los puntos evaluables del reto 1. El grupo de analistas está formado por los siguientes integrantes:
+https://www.instagram.com/apac_ionados/
+
+## Segunda parte: Analistas
+
+Por primera vez en el Reto 1, tuve que trabajar grupalmente con los analistas del resto de grupos. El grupo de analistas está formado por los siguientes integrantes:
+
 - Fran, de la especialidad de Música
 - 
 - Esteban, de la especialidad de Matemáticas
 - Ana, también de Matemáticas
 - Yo, otra Matemática
+
+El objetivo de ese encuentro era llevar a cabo una rúbrica donde recogiesemos los puntos evaluables del reto 1. 
 
 Los matemáticos somos mayoría en este grupo por lo que para la elaboración de la rúbrica optamos por la herramienta de Excel.
 
@@ -354,23 +375,14 @@ Los matemáticos somos mayoría en este grupo por lo que para la elaboración de
 
 Esta plantilla deberá ser seguida en cada uno de los grupos para poder cerciorarse de si cumplen todos los objetivos del reto 1.
 
+## Tercera parte: Intervención de las estrellas
+Por falta de tiempo, las presentaciones de las estrellas de la sesión anterior se pospusieron hasta hoy. Dedicamos a ello los últimos 20 minutos, en los cuales tuvieron la palabra las estrellas del IES El Limonero y El IES Tiernitos Galvanizados. Sus actuaciones fueron espectaculares, lo hicieron realmente bien. Nuestro turno llegara en la próxima clase del día 22 de noviembre.
 
-1. Hoy acabamos el reto 1.
-Repaso de las funciones de cada uno de los roles.
-Hoy presentan las estrellas, se tendría que haber hecho la pasada sesión.
-Lola ha corregido las presentaciones que aparecen en las wikis de las estrellas.
-Dentro del grupo estrellas, aparece una herramienta que es la wiki, ahí debe aparecer la presentación. El just time es importante
-
-2. Administradores: síntesis en la wiki de los anunciados que ha mandado por correo electrónico. Al final: infografía de ABP (un tipo de metodología activa).
-
-3. Curadores: en los dos anuncios aparecen hagtags obligatorios. Busqueda de material significativo en relación con los hagtags. Wikipedia, Google Scholar, Youtube,... A veces, los hagtags son obligatorios pero también los curadores pueden añadir otros que tengan relación con el tema. También se publica en la wiki del centro. Sitio donde estamos todos: intercambio.
-
-4. Analistas: Muy importante, hacer el borrador de items para la valoracion del reto 1.
-identificacion de la web inspiradora, caracteristicas de la web, del diseño. Hoy los analistas podemos sentarnos juntos. Qué es para mi evaluable, indicadores de evalucación.
+Se da por finalizado el Reto 1.
 
 # 1ª propuesta de hilo:
 Ofertar en la red información, imágenes, documentos que inspiren a otros docentes. Pueden ir desde temas relacionados con la violencia hasta temas innovadores. Cómo daríamos formación a docentes como nosotros.
 
 Inspiración del tema del proyecto: 
     ¿Qué diferencian a los seres humanos de los animales?
-La capacidad de visualizar algo que no existe. Algo importante que nos haga mejorar. La escuela tiene una misión: cambiar las cosas que no están bien mediante los proyectos. La gran caja que nos dirige a todos. Hay objetivos necesarios en la agenda 20/30: igualdad de género, erradicar la pobreza... 
+La capacidad de visualizar algo que no existe. Algo importante que nos haga mejorar. La escuela tiene una misión: cambiar las cosas que no están bien mediante los proyectos. La gran caja que nos dirige a todos. Hay objetivos necesarios en la agenda 20/30: igualdad de género, erradicar la pobreza...
