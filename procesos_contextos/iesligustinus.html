@@ -13,107 +13,39 @@
   </head>
   <body>
     <header>
-      <!----
-      <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
-      --->
       <h1>IES Ligustinus</h1>
       <nav>
         <ul>
-          <li><a href="diario.html" accesskey="i">INFO</a></li> <!--Ejemplo de cómo saltar a otra página-->
+          <li><a href="retos.html" accesskey="i">Retos</a></li> <!--Ejemplo de cómo saltar a otra página-->
           <li><a href="#html-questions" accesskey="h">HTML</a></li>
           <li><a href="#css-questions" accesskey="c">CSS</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
-        <section role="region" aria-labelledby="student-info">
-          <h2 id="student-info">Student Info</h2>
-          <div class="info">
-            <label for="student-name">Name:</label>
-            <input type="text" name="student-name" id="student-name" />
-          </div>
-          <div class="info">
-            <label for="student-email">Email:</label>
-            <input type="email" name="student-email" id="student-email" />
-          </div>
-          <div class="info">
-            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
-            <input type="date" name="birth-date" id="birth-date" />
-          </div>
-        </section>
-        <section role="region" aria-labelledby="html-questions">
-          <h2 id="html-questions">HTML</h2>
-          <div class="question-block">
-            <p>1</p>
-            <fieldset class="question" name="html-question-one">
-              <legend>
-                The legend element represents a caption for the content of its
-                parent fieldset element
-              </legend>
-              <ul class="answers-list">
-                <li>
-                  <label for="q1-a1">
-                    <input type="radio" id="q1-a1" name="q1" value="true" />
-                    True
-                  </label>
-                </li>
-                <li>
-                  <label for="q1-a2">
-                    <input type="radio" id="q1-a2" name="q1" value="false" />
-                    False
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
-          </div>
-          <div class="question-block">
-            <p>2</p>
-            <fieldset class="question" name="html-question-two">
-              <legend>
-                A label element nesting an input element is required to have a
-                for attribute with the same value as the input's id
-              </legend>
-              <ul class="answers-list">
-                <li>
-                  <label for="q2-a1">
-                    <input type="radio" id="q2-a1" name="q2" value="true" />
-                    True
-                  </label>
-                </li>
-                <li>
-                  <label for="q2-a2">
-                    <input type="radio" id="q2-a2" name="q2" value="false" />
-                    False
-                  </label>
-                </li>
-              </ul>
-            </fieldset>
-          </div>
-        </section>
-        <section role="region" aria-labelledby="css-questions">
-          <h2 id="css-questions">CSS</h2>
-          <div class="formrow">
-            <div class="question-block">
-              <label for="customer">Are you a frontend developer?</label>
-            </div>
-            <div class="answer">
-              <select name="customer" id="customer" required>
-                <option value="">Select an option</option>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-              </select>
-            </div>
-            <div class="question-block">
-              <label for="css-questions">Do you have any questions:</label>
-            </div>
-            <div class="answer">
-              <textarea id="css-questions" name="css-questions" rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
-            </div>
-          </div>
-        </section>
-        <button type="submit">Submit</button>
-      </form>
+      <div class="container">
+        <div class="img"><img src="images/con_nombre.jpg" /></div>
+        <h2>¡Bienvenidos/as al IES Ligustinus!</h2>
+        <p>El nombre de nuestro centro hace referencia al punto geográfico en el que se encuentra, donde se localiza una zona de humedales en la desembocadura del Guadalquivir en la que surgió la civilización tartésica. Esta zona recibía el nombre de "lacus ligustinus", que actualmente forma parte del Parque Nacional de Doñana.</p>
+        <p>Nuestro centro goza de una amplia oferta educativa, en la que se incluye:</p>
+          <ul>
+            <li>Educación Secundaria Obligatoria (E.S.O)</li>
+            <li>Bachillerato (Ciencias y Tecnología; Humanidades y Ciencias Sociales; Artes Plásticas y General)</li>
+            <li>Curso de Acceso de Grado Medio</li>
+            <li>Ciclo formativo de Grado Medio</li>
+            <li>Ciclo formativo de Grado Superior</li>
+          </ul>
+        </div>
+        <div class="container">
+        <p>Los valores que rigen el trabajo de nuestro centro son el respeto a la diversidad de nuestro alumnado, así como el derecho a la inclusión del mismo en todos sus ámbitos, basada también en la igualdad y solidaridad que consideramos ha de existir en la sociedad, y todo ello complementado con las ideas de sostenibilidad e innovación en todas las propuestas que se llevan a cabo.</p>
+        <p>Por su parte, los objetivos del centro son:</p>
+        <ul>
+          <li>Concienciar al alumnado sobre la importancia del desarrollo sostenible y su aplicación a la vida diaria.</li>
+          <li>Dotar al alumnado de los conocimientos y habilidades necesarias para su correcto desarrollo.</li>
+          <li>Reforzar la creación de un sistema de valores acorde a la sociedad en que vivimos.</li>
+          <li>Conocer y valorar la cultura desde el ámbito local hasta el internacional</li>
+        </ul>
+      </div>
     </main>
     <footer>
       <address>
