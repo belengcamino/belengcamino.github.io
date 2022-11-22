@@ -102,11 +102,28 @@ h1 {
   font-size: min(5vw, 1.2em);
   text-align: center;
   margin: 0 10%;
+  text-decoration: none;
+}
+
+h1 a {
+  color: var(--color-logo);
+  font-size: min(5vw, 1.2em);
+  text-align: center;
+  margin: 0 10%;
+  text-decoration: none;
+}
+
+h1 > a:hover {
+  color: var(--color-logo);
+  font-size: min(5vw, 1.2em);
+  text-align: center;
+  margin: 0 10%;
+  text-decoration: none;
 }
   
 nav {
-  width: 50%;
-  max-width: 300px;
+  width: 70%;
+  max-width: 500px;
   height: 50px;
 }
   
@@ -125,6 +142,7 @@ nav > ul > li {
   margin: 0 0.2rem;
   padding: 0.2rem;
   display: block;
+  font-family: Verdana, Tahoma;
 }
   
 nav > ul > li:hover {
