@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="IES Ligustinus" />
+    <title>IES Ligustinus</title>
+    <link rel="stylesheet" href="styles-form.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1><a href="iesligustinus.html">IES Ligustinus</a></h1>
+      <nav>
+        <ul>
+            <li><a href="retos.html" accesskey="r">Retos</a></li> <!--Ejemplo de cómo saltar a otra página-->
+            <li><a href="quienes_somos.html" accesskey="q">Quienes somos</a></li>
+            <li><a href="proyecto_emprendedor.html" accesskey="p">Proyecto Emprendedor</a></li>
+            <li><a href="form.html" accesskey="f">Formulario de inscripción</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <!--<div class="img"><img src="images/con_nombre.jpg" /></div>-->
+        <h2>Formulario de inscripción al Curso de Acceso a Grado Medio</h2>
+        <form method="post" action="iesligustinus.html">
+          <section role="region" aria-labelledby="student-info">
+            <h2 id="student-info">Datos del estudiante</h2>
+            <div class="info">
+              <label for="student-name">Nombre:</label>
+              <input type="text" name="student-name" id="student-name" required/>
+            </div>
+            <div class="info">
+              <label for="student-email">Email:</label>
+              <input type="email" name="student-email" id="student-email" required/>
+            </div>
+            <div class="info">
+              <label for="birth-date">Edad:<span class="sr-only">(Date of Birth)</span></label>
+              <input type="date" name="birth-date" id="birth-date" required/>
+            </div>
+          </section>
+          <section role="region" aria-labelledby="css-questions">
+            <h2 id="css-questions">Modalidad</h2>
+            <div class="formrow">
+              <div class="question-block">
+                <label for="customer">Modalidad</label>
+              </div>
+              <div class="answer">
+                <select name="customer" id="customer" required>
+                  <option value="">Select an option</option>
+                  <option value="yes">Online</option>
+                  <option value="no">Presencial</option>
+                </select>
+              </div>
+              <div class="question-block">
+                <label for="css-questions">Comentarios</label>
+              </div>
+              <div class="answer">
+                <textarea id="css-questions" name="css-questions" rows="5" cols="24" placeholder="¿Tienes alguna duda respecto al curso?"></textarea>
+              </div>
+            </div>
+          </section>
+          <button type="submit">Apúntate</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <address>
+        Síguenos en nuestras redes sociales
+        <div class="social-icons">
+            <a href="https://twitter.com/iesligustinus/">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com/iesligustinus">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+      </address>
+    </footer>
+  </body>
+</html>
