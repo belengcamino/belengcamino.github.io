@@ -13,18 +13,7 @@
   
   
   
-  #logo {
-    width: max(100px, 18vw);
-    background-color: #0a0a23;
-    aspect-ratio: 35 / 4;
-    padding: 0.4rem;
-  }
-  
-  h1 {
-    color: #f1be32;
-    font-size: min(5vw, 1.2em);
-    text-align: center;
-  }
+
   
   nav {
     width: 50%;
@@ -75,11 +64,6 @@
     font-family: Verdana, Tahoma;
   }
   
-  h2 {
-    border-bottom: 4px solid #dfdfe2;
-    margin-top: 0px;
-    padding-top: 20px;
-  }
   
   .info {
     padding: 10px 0 0 5px;
@@ -267,24 +251,23 @@ h1 {
   color: var(--color-logo);
   font-size: min(5vw, 1.2em);
   text-align: center;
-  margin: 0 10%;
-  text-decoration: none;
+  padding-left: 10px;
 }
 
 h1 a {
   color: var(--color-logo);
   font-size: min(5vw, 1.2em);
   text-align: center;
-  margin: 0 10%;
   text-decoration: none;
+  padding-left: 10px;
 }
 
 h1 > a:hover {
   color: var(--color-logo);
   font-size: min(5vw, 1.2em);
   text-align: center;
-  margin: 0 10%;
   text-decoration: none;
+  padding-left: 10px;
 }
   
 nav {
@@ -336,8 +319,9 @@ h2 {
 h2 {
   border-bottom: 4px solid var(--color-lightgray);
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding: 20px 10px;
   text-align: center;
+  
 }
 
 img {
