@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>BibRec. Bibliografía Recomendada</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+  <div class="container">
+    <header class="header">
+    <img id="logo" src="logo.png">
+    <h1 id="title" class="text-center">BibRec. Bibliografía Recomendada</h1>
+    </header>
+    <form name="bibrec" id="bibRec">
+        <p>Encontrarás aquí la bibliografía recomendada por el profesor en sus asignaturas</p>
+        <select name="optone" id="centroSel" size="1" aria-label="Selecciona ya" required>
+            <option value="" selected="selected">Selecciona tu centro</option>
+        </select>
+    
+        <select name="opttwo" id="titulacionSel" size="1" required>
+            <option value="" selected="selected">Por favor, selecciona el centro primero</option>
+        </select>
+    
+        <select name="optthree" id="asignaturaSel" size="1" required>
+            <option value="" selected="selected">Por favor, selecciona la titulación primero</option>
+        </select>
+    
+        <button onclick="goSel(asignaturaSel.value)" class="consultar" aria-label="Consultar, o selecciona limpiar para hacer otra elección">Consultar</button> &nbsp; 
+        <button onclick="clearSel();" class="limpiar">Limpiar</button>
+    </form>
+  </div>
+  </body>
+  <script src="bibrec2022Asig.js"></script>
+
+<script>
+function goSel(val){
+    var url_fama='https://fama.us.es/discovery/search?query=any,contains,('+val+')&tab=all_data_not_idus&search_scope=all_data_not_idus&vid=34CBUA_US:VU1&lang=es&offset=0';
+    window.open(url_fama, '_blank');
+}
+
+function clearSel(){
+    titulacionSel.length = 1; // remove all options bar first
+    asignaturaSel.length = 1; // remove all options bar first
+}
+
+window.onload = function () {
+    var centroSel = document.getElementById("centroSel"),
+        titulacionSel = document.getElementById("titulacionSel"),
+        asignaturaSel = document.getElementById("asignaturaSel");
+    for (var centro in asigObject) {
+        centroSel.options[centroSel.options.length] = new Option(centro, centro);
+    }
+    centroSel.onchange = function () {
+        titulacionSel.length = 1; // remove all options bar first
+        asignaturaSel.length = 1; // remove all options bar first
+        if (this.selectedIndex < 1) {
+          titulacionSel.options[0].text = "Por Favor, selecciona el centro primero"
+          asignaturaSel.options[0].text = "Por Favor, selecciona la titulación primero"
+          return; // done   
+        }  
+        titulacionSel.options[0].text = "Por Favor, selecciona la titulación"
+        for (var titulacion in asigObject[this.value]) {
+            titulacionSel.options[titulacionSel.options.length] = new Option(titulacion, titulacion);
+        }
+        if (titulacionSel.options.length==2) {
+          titulacionSel.selectedIndex=1;
+          titulacionSel.onchange();
+        }  
+    }
+
+    centroSel.onchange(); // reset in case page is reloaded
+    titulacionSel.onchange = function () {
+        asignaturaSel.length = 1; // remove all options bar first
+        if (this.selectedIndex < 1) {
+          asignaturaSel.options[0].text = "Por Favor, selecciona la titulación primero"
+          return; // done   
+        }  
+        asignaturaSel.options[0].text = "Por Favor, selecciona la asignatura"
+        
+        var asignaturas = asigObject[centroSel.value][this.value];
+        
+        for (var i = 0; i < asignaturas.length; i++) {
+            // Option (cadena indicativa, value)
+            asignaturaSel.options[asignaturaSel.options.length] = new Option(asignaturas[i]["da"], asignaturas[i]["ca"]);
+        }
+
+        if (asignaturaSel.options.length==2) {
+          asignaturaSel.selectedIndex=1;
+          asignaturaSel.onchange();
+        }  
+        
+    }
+}
+
+</script>
+</html>

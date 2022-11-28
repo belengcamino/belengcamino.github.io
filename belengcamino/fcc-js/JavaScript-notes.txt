@@ -1,0 +1,106 @@
+Comments about my english are allowed
+
+-----MATHS OPERATIONS-----------------------------------------
+Remainder operator % (resto)
+Modulus operator (módulo) it works with negative numbers
+--------------------------------------------------------------
+
+---------------------------------------------------------------
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\r	carriage return
+\t	tab
+\b	word boundary
+\f	form feed "\ (to finish the comment previously opened unintentionally)
+--------------------------------------------------------
+
+---------------------------------------------------------------
+square bracket - corchete
+curly braces - llaves
+-------------------------------------------------------------
+
+-----ARRAY-----------------------------------------------------
+array.shift() - me devuelve el primer elemento de la lista
+y además lo elimina de la misma
+
+array.pop() - me devuelve el último elemento de la lista y
+además lo elimina de la misma
+-------------------------------------------------------------
+
+-----BOOLEANOS----------------------------------------------
+Igualdad: 3=='3' // true
+Negación: 3!='3' // false
+Igualdad estricta: 3==='3' // false
+Negación estricta:  10!== '10' // true
+Over >
+Under <
+And (Conjunción) &&
+Or disjunction (Disyunción) ||
+-----------------------------------------------------------
+
+------------------------------------------------------------------
+Si tienes como argumentos de + un nuḿero y un string
+te convierte el número a string y te lo concatena:
+
+3 + "hola" te devuelve la cadena '3 hola'
+---------------------------------------------------------------------
+
+------OBJECTS----------------------------------------------------
+Para ver si un objeto (diccionario) tiene una propiedad
+object.hasOwnProperty(prop)
+----------------------------------------------------------------------
+
+-----DIFFERENCE BETWEEN LET, VAR and CONST----------------------------------------------------------
+So unlike var, when you use let, a variable 
+with the same name can only be declared once.
+
+En bucles del tipo for es mejor poner let para que solo
+funcione dentro de esa estrucutra.
+
+const has all the awesome features that let has, with 
+the added bonus that variables declared using const are 
+read-only.
+
+Some developers prefer to assign all their variables using 
+const by default, unless they know they will need to reassign 
+the value. Only in that case, they use let.
+
+Object.freeze - to prevent data mutation
+--------------------------------------------------------
+
+------SELF-CLOSING ELEMENTS---------------------------------------------
+Given an empty instance of an element whose content model is not 
+EMPTY (for example, an empty title or paragraph) do not use the minimized 
+form (e.g. use <p> </p> and not <p />
+------------------------------------------------------------------------
+
+-----REGEX--------------------------------------------------------------
+?: the previous element is optional
+^: outside of a character set is used to match patterns only at the
+beginning of a string
+\w: shorthand character class related to the regex [A-Za-z0-9_]
+\W: the opposite of \w ([^A-Za-z0-9_])
+\d: digits ([0-9])
+\D: non digits ([^0-9])
+\s: whitespace
+\S: everything without whitespace
+
+Positive Lookahead (?=...): where ... is the required part and 
+it won't be matched.
+
+Negative Lookahead (?!...); where ... is the pattern you don't want
+to be there. If ... is not present, the rest of the pattern is returned
+
+Ejemplo quantity specifiers: a{3,5}h te busca de 3 a 5 a's seguido de una h
+
+flag g: total ocurrences
+flag i: both upper and lowercase
+
+How to generate a regex with a given variable:
+let reg = new RegEx(var+"$","i")
+(This regew will match patterns ending with var regardless
+the case)
+-------------------------------------------------------------
+
