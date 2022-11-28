@@ -1,4 +1,5 @@
 https://calendly.com/eciria/tutoria/
+
 t1
 - Visión más realista: la adolescencia es un periodo de cambios pero no necesariamente dramáticos. Continuidad del pasado?? A qué se refiere.
 - Otros modelos a parte del modelo deficit y desarrollo positvo: sistemas ecologicos INTERSECCIONALIDAD?
@@ -7,6 +8,6 @@ t1
 t4
 gráfica de la página 15
 
-Tabla de skinner
-conductismo -> extincion
-aprendizaje vicario == teoria socil-cognitiva del aprendizaje ?
+t5
+conductismo -> extincion y refuerzo de conducta incompatible
+aprendizaje vicario == teoria socil-cognitiva del aprendizaje de bandura?
