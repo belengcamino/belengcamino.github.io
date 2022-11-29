@@ -7,8 +7,6 @@ modelo de ...
 Una carilla por pregunta.
 
 # TEMA 1
-erikson y el desarrollo de la identidad. erikson decia que habia un modelo... y otra persona que habia 5 etapas... estara mas completo si hay menciones a las lecturas.
-
 pagina 19: material para padres sobre como relacionarse con los ados. Hay uno que habla sobre la prevencion y otra persona que hay que enfocarlo de forma positiva. Desarrolla el desarrollo del bienestar de alfredo oliva. Transicion en el descurso lo que propone es el modelo del deficit. pero desde los 80, surgen propuestas como la de alfredo oliva. se basa en 5 areas de desarollo individual y social. 
 
 pagina pagina 25: no entra
@@ -22,6 +20,8 @@ Jorgen propone que se amplie una hora (porque ha leido un informe y disminuye lo
 pagina 25: discuten sobre qatar legitimidad de que se realice alli el mundial. uno dice que se interrumpa porque se invalidan los ddhh y el otro que no tiene que ver los trabajadores con el futbol. Modelo del desarrollo moral de Kolgber (caracteristicas del pensamiento posvencional): los ddhh estan por encima que los intereses de la fifa. Recorrido de todas -> más nota.
 
 # TEMA 3
+erikson y el desarrollo de la identidad. erikson decia que habia un modelo... y otra persona que habia 5 etapas... estara mas completo si hay menciones a las lecturas.
+
 pagina 12: notas que fani esta cabizbaja y que las notas han bajado. ¿como esta? se siente la peor alumna porque quiere entrar en medicina y que su destino es oscuro. Que se hace para mejorar su autoestima como docente. Feedback positivo y estoy mas pendiente y si participa le hago feedback. Poner este ejemplo subiria la nota.
 
 # TEMA 4
