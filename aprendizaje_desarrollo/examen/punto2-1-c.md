@@ -9,7 +9,7 @@ tema 2: desarrollo cognitivo durante la adolescencia y sus implicaciones educati
 
 <b>2.1.c) operaciones formales (nuevas formas de razonamiento)</b>
 
-Caso práctico: Jorge le propone a sus padres que se amplie una hora la recogida (porque ha leido un informe y a esa hora disminuyen los accidentes). Describe las operaciones formales de la teoría de Piaget: 
+Caso práctico: Jorge le propone a sus padres que se amplie una hora la recogida (porque ha leido un informe y a esa hora disminuyen los accidentes). Describe las operaciones formales de la teoría de Piaget:
 
 Las operaciones formales dentro de la teoría de Piaget son nuevas capacidades de razonamiento que se desarrollan en una etapa o estadio que comprende desde los 12 años en adelante donde, en términos generales, el individuo es capaz de razonar de manera abstracta.
 
@@ -22,3 +22,10 @@ Engloba una mayor capacidad de razonamiento hipotético-deductivo e inductivo. A
 Es de carácter proposicional y es de naturaleza combinatoria. 
 
 Uso de lenguaje sofisticado que le permite llegar más lejos.
+
+Beef: las etapas no son tan homogéneas o universales como Piaget explica en su modelo, también influyen factores cultares y educativos. Estos factores influyen en la adolesencia precoz. Una tarea que es familiar es más fácil de desarrollar que otra con la que no estamos familiarizados. Se añade una etapa: la postformal, contradicción, incluyen factores sociales, pragmáticos. No todo el mundo llega a alcanzar los estadíos que propone el autor. Hay gente que no llega a la formal o postformal, influye la eduación recibida, el entorno cultural.
+
+Naturaleza combinatoria: por lo del ejercicio de las prendas de ropa. Hallar una solución desde un punto de vista abstracto
+
+Carácter proposicional: cuando somos más pequeños pensamos en la realidad concreta y tangible. Cuando se desarrolla el pensamiento formal, se hace más uso del lenguaje y permite más flexibilidad, abstracción,... No se ciñe la realidad al presente inmediato. Elegir lo más lógico de entre varias opciones.
+

@@ -110,6 +110,9 @@ main {
   grid-template-columns: 1fr 94rem 1fr;
 } In this case, your parent element is the main element. Set the content to have a three-column layout by adding a grid-template-columns property with a value of 1fr 94rem 1fr. This will create three columns where the middle column is 94rem wide, and the first and last columns are both 1 fraction of the remaining space in the grid container.
 
+# GRID GENERATOR 
+https://angrytools.com/css-grid/
+
 ### minmax
 Use the minmax function to make your columns responsive on any device. The minmax function takes two arguments, the first being the minimum value and the second being the maximum. These values could be a length, percentage, fr, or even a keyword like max-content.
 

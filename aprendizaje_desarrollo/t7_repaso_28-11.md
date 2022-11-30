@@ -32,7 +32,3 @@ pagina 10: mas compleja. te invitan al programa de transcion primaria-eso, trata
 
 # TEMA 6
 - pagina 17: desmotivacion de los alumnos. son los mas desgraciados, tontos, desastres, les va a ir fatal. Diferencia entre los patrones atribucionales. lo que podemos hacer para mejorar su vision es Weiner. Hay tres dimensiones (lugar de control,...) cuanto mas digamos mejor.
-
-- vigotski
-- ausbel y novak
-- bandura  
