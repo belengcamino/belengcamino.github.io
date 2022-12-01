@@ -451,4 +451,20 @@ Proyectos del centro conocer qu es un proyecto de innovación. Conocer qué es u
 No son de obligado cumplimiento pero muy importantes para Lola
 \# inclusión
 DUA diseñar para que todos y todas avancemos de manera simultanea. Rueda del DUA. Inclusión y diversidad. Diversidad (NEE, ) Cualquier tipo de persona con necesidad cognitiva, auditiva, motora,... Nadie del sist educativo se puede hacer cargo. La escuela es para todo en 2022, y ahora todos estamos dentro del aula. Reto 3 DUA pero no entra dentro de los contenido.
-Otro reto TDE transformación digital educativa. Los buenos profesores ahora mismo. El texto y la palabra no son los únicos métodos de evaluación. 3 elementos clave de la LOMLOE respecto a las leyes anteriores. 
+Otro reto TDE transformación digital educativa. Los buenos profesores ahora mismo. El texto y la palabra no son los únicos métodos de evaluación. 3 elementos clave de la LOMLOE respecto a las leyes anteriores.
+
+# 1 de diciembre
+
+Estimados estudiantes, esta es nuestra última sesión formativa. El propósito es la evaluación final (presencial) del itinerario formativo seguido. Para conseguir este propósito realizaremos las siguientes actividades analógicas (necesitaremos  papel, lápices y colores).
+
+ 
+
+1º Volveremos a "REDISEÑAR" en nuestra “Mano del Talento” que dibujamos el primer día. 
+
+2º Revisaremos el método TPACK utilizado. 
+
+3º Diseñaremos la síntesis de nuestros RETOS. Visual Thinking. Se pueden utilizar plantillas o app que nos ayuden en el proceso.
+
+ 
+
+¡¡Final de la aventura¡¡ ¡¡¡MUCHA SUERTE¡¡¡
