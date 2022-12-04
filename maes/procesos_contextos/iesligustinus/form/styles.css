@@ -242,7 +242,7 @@ body::before {
           rgba(252, 227, 121, 0.4),
           rgba(179, 183, 192, 0.4)
       ),
-      url(images/con_nombre.jpg);
+      url(../images/con_nombre.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
