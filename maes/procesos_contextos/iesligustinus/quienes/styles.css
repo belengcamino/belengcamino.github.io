@@ -202,8 +202,9 @@ h2 {
 h2 {
   border-bottom: 4px solid var(--color-lightgray);
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: center;
+  padding-top: 10px;
 }
 
 img {
@@ -213,6 +214,9 @@ img {
 .img {
   width:20%;
   margin: 0 auto;
+}
+.pa {
+  width:90%;
 }
 
 p {
