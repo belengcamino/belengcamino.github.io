@@ -1,0 +1,4 @@
+body
+	height 100vh
+	width 100vw
+	background transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), yellow, green) no-repeat 0 0
