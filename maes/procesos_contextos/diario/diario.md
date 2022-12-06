@@ -215,6 +215,24 @@ También repasamos las 10 funciones del jefe de estudios y las 11 del secretario
 
 El objetivo de esta dinámica fue el de asimilar al menos una de las funciones de cada una de estas cuatro notabilidades dentro del sistema educativo.
 
+Otras de dichas funciones aparecen recogidas en el siguiente esquema
+
+Director:
+- Representar: al centro y a la Administración educativa. Hacerle llegar a esta los planteamientos, aspiraciones y necesidades.
+- Coordinar: Dirigir y coordinar todas las actividades del centro, sin perjuicio de las competencias atribuidas al Claustro del profesorado y al Consejo Escolar.
+- Favorecer la convivencia: garantiar la mediación en la resolución de los conflictos e imponer las medidas correctores que correspondan a los alumnos/as
+- Colaborar: Impulsar la colaboración con las familias, instituciones y con organismos que faciliten la relación del centro con el entorno.
+- Contratar: contrataciones de obras, servicios y suministros, autorizar los gastos, ordenar los pagos y visar las certificaciones y documentos oficiales del centro.
+- Proponer: A la Administración educativa el nombramiento y cese de los miembros del equipo directivo, previa información al Claustro del profesorado y al Consejo Escolar del centro.
+- Dirigir: Elegir la dirección pedagógica, promover la innovación educativa e impulsar planes para la consecución de los fines del proyecto educativo del centro.
+- Promover: Experimientaciones, innovaciones pedagógicas, programas educaticos, planes de trabajo, formas de organización, normas de convivencia, ampliación del calendario escolar o del horario lectivo de áreas o materias.
+- Velar: Garantizar el cumplimiento de las leyes d
+y demás disposiciones vigentes.
+- Impulsar: las evaluaciones internas del centro y colaborar en las evaluaciones externas y en la evaluación del profesorado.
+- Fomentar: la cualificación y formación del equipo docente, así como la investigación y la innovación educativa en el centro.
+- Gobernar: ejercer la jefatura de todo el personal adscrito al centro.
+- Presidir: Convocar y presidir los actos académicos y las sesiones del Consejo Escolar y del Claustro del profesorado del centro y ejecutar los acuerdos adoptados.
+- Diseñar: La planificación y organización docente del centro, recogida en la programación general anual.
 ----------
 Por último, vimos varias características de uno de los órganos colegiados, el consejo escolar. Este órgano se encarga de al rededor unas 17 funciones, donde destacamos la siguiente:
 
@@ -227,6 +245,8 @@ Algunas de las características que cumple el consejo escolar son:
 - El presidente del consejo es el director.
 - El secretario elabora el acta de la sesión.
 - El secretario tiene voz pero no voto.
+
+El esquema siguiente recoge 
 
 --------
 
