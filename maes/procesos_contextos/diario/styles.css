@@ -196,3 +196,18 @@ hr {
     font-size: 4.5rem;
   }
 }
+
+.estructuracion {
+  text-align: right;
+}
+
+.retos {
+  text-align: center;
+}
+
+.long {
+  display: grid;
+  grid-template-columns: 3fr 0fr;
+  column-gap: 3rem;
+  margin-bottom: 3rem;
+}
