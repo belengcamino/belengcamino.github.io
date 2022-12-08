@@ -31,8 +31,6 @@ Cada uno de los cuatro retos irá enfocado en conseguir los objetivos de cada un
 - Reto 3: Aula
 - Reto 4: Papel del profesor en el aula.
 
-Cada uno de estos cuatro retos estarán basados en una metodología activa, donde abordaremos los contenidos de cada bloque grupalmente.
-
 ### Evaluación
 La evaluación de estos trabajos en grupos supondrá un 60% de la nota final, es decir, 6 puntos, con 3 de ellos la Wiki estará aprobada.
 
@@ -50,6 +48,8 @@ En él debemos introducir si se han alcanzado y de que manera los objectivos mar
 También debemos dar nuestra visión sobre lo acontecido durante la sesión, apoyándonos en recursos audiovisuales, como fotos que podamos tomar durante el día.
 
 ### Metodología
+Cada uno de estos cuatro retos estarán basados en una metodología activa, donde abordaremos los contenidos de cada bloque grupalmente.
+
 Las bases de la metodología serán la gamificación la cual llevaremos a cabo con la ayuda de recursos, tanto analógicos como digitales. Para estos segundos será imprescindible llevar al aula el portátil. Para los recursos analógicos, Lola nos pedirá el día que sea necesario, llevar tijeras y demás útiles.
 
 A las 17.50pm Lola se despedía hasta la semana siguiente porque el martes 1 de noviembre no nos veríamos.

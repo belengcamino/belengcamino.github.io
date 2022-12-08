@@ -13,6 +13,8 @@
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/71c7588d10.js" crossorigin="anonymous"></script>
+    <script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
   </head>
   <body>
     <main>
@@ -53,7 +55,13 @@
           </a>
         </div>
       </section>
-      <section class="text">
+      <section class="heading center">
+        <header class="hero">
+        <h2 class="hero-subtitle">Sesión Formativa - 27/10</h2>
+        <p class="hero-subtitle">Presentación</p>
+      </header>
+      </section>
+      <section class="text" id="uno">
         <p class="first-paragraph">
           Mi segundo día de clase comenzaba a las 4 de la tarde con la asignatura de Procesos y Contextos Educativos. Yo llegaba un par de minutos tarde, aún sin haberme acostumbrado al laberinto en el que me había visto inmersa el día anterior: el Centro Internacional de Posgrado o la Escuela Internacional de Posgrado. Nombres distintos pero, ¿una misma realidad? Espero resolver este misterio antes de que termine el Máster.
         </p>
@@ -89,68 +97,68 @@
         </p>
       </section>
       <section class="text text-with-images">
-        <article class="estructuracion">
+        <article class="right">
           <h3 class="list-title">Estructuración</h3>
           <p>El curso constará de 10 sesiones de 2 horas organizadas como sigue</p>
           <ul class="lists">
             <li>
-              <h4 class="list-subtitle">Sesión 1 - 27/10</h4>
+              <a href="#uno"><h4 class="list-subtitle">Sesión Formativa - 27/10</h4></a>
               <p>
                 Presentación
               </p>
             </li>
             <li>
-              <h4 class="list-subtitle">Sesión 2 - 3/11</h4>
+              <a href="#dos"><h4 class="list-subtitle" src="dos">Sesión Formativa - 3/11</h4></a>
               <p>
-                Reto 1
+                Afilando Herramientas
               </p>
             </li>
             <li>
-              <h4 class="list-subtitle">Sesión 3 - 8/11</h4>
+              <h4 class="list-subtitle">Sesión Formativa - 8/11</h4>
               <p>
-                Reto 1
+                Congreso de Violencia de Género
+              </p> 
+            </li>
+            <li>
+              <a href="#tres"><h4 class="list-subtitle" src="tres">Sesión Formativa - 10/11</h4></a>
+              <p>
+                Reto 1 - Paso 1
               </p>
             </li>
             <li>
-              <h4 class="list-subtitle">Sesión 4 - 10/11</h4>
+              <a href="#cuatro"><h4 class="list-subtitle" src="cuatro">Sesión Formativa - 15/11</h4></a>
               <p>
-                Reto 2
+                Reto 1 - Paso 1
               </p>
             </li>
             <li>
-              <h4 class="list-subtitle">Sesión 5 - 15/11</h4>
+              <a href="#cinco"><h4 class="list-subtitle" src="cinco">Sesión Formativa - 17/11</h4></a>
               <p>
-                Reto 2
+                Reto 1 - Paso 2
               </p>
             </li>
             <li>
-              <h4 class="list-subtitle">Sesión 6 - 17/11</h4>
+              <a href="#seis"><h4 class="list-subtitle" src="seis">Sesión Formativa - 22/11</h4></a>
               <p>
-                Reto 3
+                Reto 2 - El Aula
               </p>
             </li>
             <li>
-              <h4 class="list-subtitle">Sesión 7 - 22/11</h4>
+              <a href="#siete"><h4 class="list-subtitle" src="siete">Sesión Formativa - 24/11</h4></a>
               <p>
-                Reto 3
+                Reto 2 - Dream Exchange Battle
               </p>
             </li>
             <li>
-              <h4 class="list-subtitle">Sesión 8 - 24/11</h4>
+              <h4 class="list-subtitle">Sesión Formativa - 29/11</h4>
               <p>
-                Reto 4
+                Propuesta Dirección MAES (IES Cartima)
               </p>
             </li>
             <li>
-              <h4 class="list-subtitle">Sesión 9 - 29/11</h4>
+              <a href="#ocho"><h4 class="list-subtitle" src="ocho">Sesión Formativa - 1/12</h4></a>
               <p>
-                Reto 4
-              </p>
-            </li>
-            <li>
-              <h4 class="list-subtitle">Sesión 10 - 1/12</h4>
-              <p>
-                Juego final
+                Evaluación final
               </p>
             </li>
           </ul>
@@ -199,32 +207,75 @@
         </aside>
       </section>
       <section class="text long">
-        <article class="retos">
+        <article class="center">
           <h3 class="list-title">Retos</h3>
           <p>Cada uno de los cuatro retos irá enfocado en conseguir los objetivos de cada uno de los siguientes cuatro bloques de contenido:</p>
           <ul class="lists">
             <li>
               <h4 class="list-subtitle">Reto 1</h4>
+              <p>SIENTE - IMAGINA - ACTÚA - EVOLÚA (EVALUA Y EVOLUCIONA) - COMPARTE</p>
+              <blockquote>
+                <hr />
+                <p class="quote">
+                Los IES como espacio idóneo para el diseño, implementación y evaluación de proyectos emprendedores
+                </p>
+                <hr />
+              </blockquote>
+              <p>Los <span class="list-subtitle">proyectos emprendedores</span> son estrategias para poder enfrentarnos a los 
+                retos de las nuevas sociedades post-Covid. Dichas herramientas hará que el alumnado tenga en su mano 
+                la capacidad  para ser autónomo, responsable y enfrentarse al futuro.
+              </p>  
               <p>
-                Sistema educativo
+                Los IES están trabajando en la búsqueda de un mundo mejor. En ese sentido, incorpora dentro de su planificación 
+                los Objetivos de Desarrollo Sostenible (ODS).
               </p>
             </li>
             <li>
               <h4 class="list-subtitle">Reto 2</h4>
               <p>
-                Organización
+                EL AULA
               </p>
-            </li>
-            <li>
-              <h4 class="list-subtitle">Reto 3</h4>
               <p>
-                Aula
+                La inercia de la metodología tradicional dificulta la tarea de la comprensión. Pero con la LOMLOE nos dirigimos 
+                hacía un nuevo curriculum donde la programación ha cambiado (situaciones de aprendizaje) y la evaluación se ha
+                convertido en uno de los elementos de los diseños instructivos fundamentales para el desempeño docente.
+              </p>  
+              <blockquote>
+                <hr />
+                <p class="quote ">
+                  CUBO DE PENSAR - UNIDAD DIDÁCTICA <i class="fas fa-dice-d6"></i>
+                </p>
+                <hr />
+              </blockquote>
+              <p>
+                En este resto continuaremos con la metodología activa para ir de la 
+                <span class="list-subtitle">norma al aula</span> a través del Cubo de Pensar. Este reto además combinará
+                recursos analógicos y digitales, necesarios para la confección del cubo de seis caras. 
+                Además se trataría de diseñar una Unidad Didáctica, con la temática elegida para desarrollar el 
+                Proyecto de Emprendimiento. 
+                Finalmente, llevaremos a cabo una dinámica gamificada para desarrollar nuestro pensamiento crítico.
               </p>
-            </li>
-            <li>
-              <h4 class="list-subtitle">Reto 4</h4>
+              <blockquote>
+                <hr />
+                <p class="quote">
+                DREAM EXCHANGE BATTLE <i class="fas fa-swords"></i>
+                </p>
+                <hr />
+              </blockquote>
               <p>
-                Papel del profesor en el aula
+                Puesta en común de nuestras propuestas para desarrollar la iniciativa y la autonomía. 
+                Vamos a utilizar la aplicación Excel “Dream Exchange Battle”. Tendremos que elegir conjuntamente a
+                nuestro capitán. Una vez tengamos el nombre del equipo, del capitán, el correo y el color del equipo
+                en la aplicación, pulsaremos en el botón “Nuevo Equipo”. En caso de error pulsar ELIMINAR.
+                Todo lo anterior corresponde a la HOJA 1 del Excel, La batalla se lleva a cabo en la HOJA 2. 
+                Cada vez que se produzca un desafío, el capitán del equipo retador deberá rellenar los datos del
+                mismo tras su realización y pulsar el botón RETAR. En caso de error pulsar ELIMINAR.
+              </p>
+            </li>            
+            <li>
+              <h4 class="list-subtitle">Reto Final</h4>
+              <p>
+                El profesorado comprometido
               </p>
             </li>
           </ul>
@@ -264,6 +315,190 @@
         <p>
           Con el devenir de las sesiones, las calificaciones, que no la evauación, variaron un poco. Solo el diario tendría una puntuación máxima de dos puntos. Para optar al 10, los dos puntos restantes podrían obtenerse a partir de la elaboración de uno o más "hilos" de los citados anteriormente.
         </p>
+      </section>
+      <section class="text dual">
+        <article>
+          <h3 class="list-title center">Diario de Aprendizaje</h3>
+          <p class="first-paragraph">En él debemos introducir si se han alcanzado y de qué manera los objetivos marcados en las distintas sesiones.</p>
+          <p>También debemos dar nuestra visión sobre lo acontecido durante la sesión, apoyándonos en recursos audiovisuales, como fotos que podamos tomar durante el día.</p>
+          
+          El objetivo de esta tarea PERSONAL es describir el máximo de evidencias (fotos, capturas de pantalla, vídeos, podcast, etc...)
+          que confirmen nuestra calificación final. Tendremos que desarrollar un itinerario formativo, con sus dificultades y éxitos que conste de:
+          <ul class="lists">
+            <li>
+              <h4 class="list-subtitle">Presencialidad</h4>
+              <p>Sesiones de trabajo o su desarrollo aunque no se haya asistido</p>
+            </li>
+            <li>
+              <h4 class="list-subtitle">Implicación en la wiki de trabajo</h4>
+              <p>Roles desempeñados, con la descripción de sus funciones 
+                y evidencias comentadas</p>
+            </li>
+            <li>
+              <h4 class="list-subtitle">Autoevaluación y coevaluación</h4>
+              <p>Calificación final, dejando claros los aprendizajes obtenidos</p>
+            </li>
+          </ul>
+          <p>Lo importante son los aprendizajes adquiridos. Estos se describien con las actuaciones que hemos llevado en el aula y el impacto o la relación que puedan tener en vuestro desarrollo como futuros docentes.</p>
+          </article>
+        <article>
+          <h3 class="list-title center">Hilos</h3>
+          He realizado "HILOS" o tareas extras que no eran obligatorias en la disciplina. 
+        </article>
+      </section>
+      <section class="text long">
+        <article>
+          <h3 class="list-title center">
+          Metodología
+          </h3>
+          <p>
+            Cada uno de estos cuatro retos estarán basados en una <span class="list-subtitle">metodología activa</span>, donde abordaremos los contenidos de cada bloque <span class="list-subtitle">grupalmente.</span>
+            Las bases de la metodología serán la <span class="list-subtitle">gamificación</span> la cual llevaremos a cabo con la ayuda de recursos, tanto analógicos como digitales. Para estos segundos será imprescindible llevar al aula el portátil. Para los recursos analógicos, Lola nos pedirá el día que sea necesario, llevar tijeras y demás útiles.
+          </p>
+          <blockquote>
+            <hr />
+            <p class="quote">
+              La idea es conseguir el máximo de  interés y comprensión de la disciplina a través de la adquisición de los siguiente aprendizajes deseados, desarrollo de competencia digital, práctica ética, aprendizaje comprometido, co-aprendizaje, cooperación, sintesís de aprendizaje y aplicación de situaciones de aprendizaje.
+            </p>
+            <hr />
+          </blockquote>
+          <p>
+            A las 17.50pm Lola se despedía hasta la semana siguiente porque el martes 1 de noviembre no nos veríamos.
+          </p>
+      </article>
+      </section>
+      <section class="heading center">
+        <header class="hero">
+        <h2 class="hero-subtitle">Sesión Formativa - 3/11</h2>
+        <p class="hero-subtitle">Afilando herramientas</p>
+      </header>
+      </section>
+      <section class="text text-with-images" id="dos">
+        
+        <article class="left">
+          <p class="first-paragraph">
+            Hoy el día no empezó de la mejor manera. Me encuentro muy mal desde ayer noche que salí de clases. Llevo desde entonces con tos muy fuerte, dolor que pecho y espalda, y dolor corporal general propios de una gripe.
+              
+            El pasado jueves decidí sin pensarlo seguir la asignatura de forma presencial y no quería por nada del mundo faltar hoy o cualquier otro día, pero me duele todo y la fiebre me incapacita a levantarme de la cama.
+            
+            No me gustaría dejar la opción presencial, ya que creo que es la que se adecúa mejor a mis intereses. Además, me sentía muy motivada con la elaboración del Diario de Aprendizaje y no me gustaría perder ese trabajo ya empezado.
+            
+            Entonces decidí escribirle a Lola para ver si era posible meterme en algún grupo. No quiero perjudicar a ninguno de mis futuros compañeros pero tampoco quiero contagiarles nada.
+            
+          </p>
+        </article>
+        <aside>
+          <div class="container">
+            <img src="../images/glasses-solid.svg" alt="Avatar">
+            <p>Buenas tardes Lola, soy Belén del Rocío García Camino, alumna del grupo 7 de la asignatura de Procesos y Contextos Educativos, a la que le pidió la semana pasada un folio para hacer la pelota de las presentaciones.
+
+              He intentado retrasar lo máximo posible el envío de este correo pero no he podido más. Me encuentro muy mal desde ayer noche que salí de clases. Llevo desde entonces con tos muy fuerte, dolor que pecho y espalda, y dolor corporal general propios de una gripe.
+              
+              El pasado jueves decidí sin pensarlo seguir la asignatura de forma presencial y no quería por nada del mundo faltar hoy o cualquier otro día, pero me duele todo y soy incapaz de levantarme de la cama.
+              
+              No me gustaría dejar la opción presencial, ya que creo que es la que se adecúa mejor a mis intereses. Además, me sentía muy motivada con la elaboración del Diario de Aprendizaje y no me gustaría perder ese trabajo ya empezado.
+              
+              Lola, ¿sería posible que se me asigne un grupo? Aún no asistiendo a la clase de hoy. No quiero perjudicar a ninguno de mis futuros compañeros pero tampoco quiero contagiarles nada.
+              
+              Perdone que le envié este correo con dos horas de antelación del inicio de clase, he intentado apurar hasta el final por ver si me encontraba algo mejor.
+              
+              Puedo en todo caso justificar mi falta, por si fuera necesario.
+              
+              Gracias de antemano Lola, un saludo.
+              Belén.</p>
+            <span class="time-right">11:00</span>
+          </div>
+          
+          <div class="container darker">
+            <img src="../images/person-chalkboard-solid.svg" alt="Avatar" class="right">
+            <p>Buenas noches Belén, no te preocupes. Te encontramos grupo. 
+
+              Saludo cordiales.</p>
+            <span class="time-left">11:01</span>
+          </div>
+          
+          <div class="container">
+            <img src="../images/glasses-solid.svg" alt="Avatar">
+            <p>Buenos días Lola.
+
+              Le escribo porque no supero el primer punto de la Sesión Informativa del 8 de noviembre, siguiendo su anuncio de la enseñanza virtual.
+              
+              Como le comenté, me fue imposible asistir a la sesión donde se formaron los grupos, aunque sí que pude hablar con un par de compañeros a los que no les importaría que me incorporara con ellos.
+              
+              ¿Sería esto posible?
+              
+              Gracias de antemano, un saludo.</p>
+            <span class="time-right">11:02</span>
+          </div>
+          
+          <div class="container darker">
+            <img src="../images/person-chalkboard-solid.svg" alt="Avatar" class="right">
+            <p>Buenas noches,  en principio no tengo ningún problema con tu propuesta. En cualquier caso, mañana revisaré todo.  
+
+              Saludos cordiales.</p>
+            <span class="time-left">11:05</span>
+          </div>
+        </aside>
+      </section>
+      <section class="text">
+        <p class="first-paragraph">
+          Mi compañera Sandra, hizó de portavoz y preguntó que ocurría con los rezag(desgraci)ados que no habían podido ir el dia de la formación de los grupos. Me transmitio tranquilidad, la que luego reafirmó Lola al responderme ese correo.
+        </p>
+        <p> </p>
+      </section>
+      <section class="heading center">
+        <header class="hero">
+        <h2 class="hero-subtitle">Sesión Formativa - 10/11</h2>
+        <p class="hero-subtitle">Reto 1 - Paso 1</p>
+      </header>
+      </section>      
+      <section class ="text text-with-images" id="tres">
+
+      </section>
+      <section class="heading center">
+        <header class="hero">
+        <h2 class="hero-subtitle">Sesión Formativa - 15/11</h2>
+        <p class="hero-subtitle">Reto 1 - Paso 1</p>
+      </header>
+      </section>
+      <section class ="text text-with-images" id="cuatro">
+
+      </section>
+      <section class="heading center">
+        <header class="hero">
+        <h2 class="hero-subtitle">Sesión Formativa - 17/11</h2>
+        <p class="hero-subtitle">Reto 1 - Paso 2</p>
+      </header>
+      </section>
+      <section class ="text text-with-images" id="cinco">
+
+      </section>
+      <section class="heading center">
+        <header class="hero">
+        <h2 class="hero-subtitle">Sesión Formativa - 22/11</h2>
+        <p class="hero-subtitle">Reto 2 - El Aula</p>
+      </header>
+      </section>
+      <section class ="text text-with-images" id="seis">
+
+      </section>
+      <section class="heading center">
+        <header class="hero">
+        <h2 class="hero-subtitle">Sesión Formativa - 24/11</h2>
+        <p class="hero-subtitle">Reto 2 - Dream Exchange Battle</p>
+      </header>
+      </section>
+      <section class ="text text-with-images" id="siete">
+
+      </section>
+      <section class="heading center">
+        <header class="hero">
+        <h2 class="hero-subtitle">Sesión Formativa - 1/12</h2>
+        <p class="hero-subtitle">Evaluación Final</p>
+      </header>
+      </section>
+      <section class ="text text-with-images" id="ocho">
+
       </section>
     </main>
   </body>

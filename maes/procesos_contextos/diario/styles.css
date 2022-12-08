@@ -1,6 +1,9 @@
 :root {
   --color-blue: #00beef;
   --color-orange: orangered;
+  --color-dark-blue: rgb(20, 30, 40);
+  --color-light: linen;
+  --color-alpha-gray: rgba(120, 120, 120, 0.6);
 }
 
 *,
@@ -17,8 +20,8 @@ html {
 
 body {
   font-family: 'Baskervville', serif;
-  color: linen;
-  background-color: rgb(20, 30, 40);
+  color: var(--color-light);
+  background-color: var(--color-dark-blue);
 }
 
 h1 {
@@ -31,7 +34,7 @@ h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: linen;
+  color: var(--color-light);
 }
 
 main {
@@ -47,7 +50,7 @@ img {
 
 hr {
   margin: 1.5rem 0;
-  border: 1px solid rgba(120, 120, 120, 0.6);
+  border: 1px solid var(--color-alpha-gray);
 }
 
 .heading {
@@ -63,6 +66,7 @@ hr {
   letter-spacing: 0.6px;
   column-width: 25rem;
   text-align: justify;
+  margin-bottom: 3rem
 }
 
 .hero {
@@ -87,12 +91,8 @@ hr {
   font-family: "Raleway", sans-serif;
 }
 
-.author-name a:hover {
-  background-color: #306203;
-}
-
 .publish-date {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-alpha-gray);
 }
 
 .social-icons {
@@ -197,12 +197,16 @@ hr {
   }
 }
 
-.estructuracion {
+.right {
   text-align: right;
 }
 
-.retos {
+.center {
   text-align: center;
+}
+
+.left {
+  text-align: left;
 }
 
 .long {
@@ -211,3 +215,66 @@ hr {
   column-gap: 3rem;
   margin-bottom: 3rem;
 }
+
+.dual {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  column-gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+/*CHAT*/
+/* Chat containers */
+.container {
+  border: 2px solid var(--color-alpha-gray);
+  background-color: var(--color-light);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  color: var(--color-dark-blue);
+  font-weight: bold;
+  font-size: small;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: var(--color-alpha-gray);
+  background-color: var(--color-blue);
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  font-weight: normal;
+  font-size: x-small;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  font-weight: normal;
+  font-size: x-small;
+}
+/*END CHAT*/
