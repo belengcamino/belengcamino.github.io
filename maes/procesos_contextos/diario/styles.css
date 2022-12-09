@@ -4,6 +4,7 @@
   --color-dark-blue: rgb(20, 30, 40);
   --color-light: linen;
   --color-alpha-gray: rgba(120, 120, 120, 0.6);
+  --color-alpha-blue: rgba(0, 190, 239,0.4);
 }
 
 *,
@@ -225,7 +226,7 @@ hr {
 
 /*CHAT*/
 /* Chat containers */
-.container {
+.container-email {
   border: 2px solid var(--color-alpha-gray);
   background-color: var(--color-light);
   border-radius: 5px;
@@ -243,25 +244,25 @@ hr {
 }
 
 /* Clear floats */
-.container::after {
+.container-email::after {
   content: "";
   clear: both;
   display: table;
 }
 
 /* Style images */
-.container img {
-  float: left;
+.container-email img {
+  float: right;
   max-width: 60px;
   width: 100%;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
-/* Style the right image */
-.container img.right {
-  float: right;
-  margin-left: 20px;
-  margin-right:0;
+/* Style the left image */
+.container-email img.left {
+  float: left;
+  margin-right: 20px;
+  margin-left:0;
 }
 
 /* Style time text */
@@ -278,3 +279,15 @@ hr {
   font-size: x-small;
 }
 /*END CHAT*/
+
+.container {
+  width:100%;
+  padding-left: 30px;
+  background-color: var(--color-alpha-blue);
+  border-radius: 90% 10% 90% 10% / 10% 90% 10% 90% ;
+}
+
+.container i {
+  color: var(--color-blue);
+
+}
