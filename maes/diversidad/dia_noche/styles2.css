@@ -16,7 +16,7 @@
   body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    background-color:#bbeeff ;
   }
   
   .background-buildings, .foreground-buildings {
@@ -305,7 +305,7 @@ main {
   color:#000;
   z-index: 999;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size:100%;
   height: 100%;
 }
 
@@ -318,17 +318,18 @@ main {
   grid-template-columns: 1fr 1fr;
   
   gap: 0px;
-  height: 50%;
+  height: 60%;
   position: relative;
-  
+  width: 80%;
+  margin: 0 auto;
 }
 
 .item-0 {
-  padding: 50px;
+  padding: 5%;
 }
 
 .item-1 {
-  padding: 50px
+  padding: 5%
 }
 
 h1 {
@@ -353,33 +354,34 @@ h1, h2 {
 p {
   background-color:rgba(255,207,51,0.7);
   border-radius: 10px;
-  padding: 30px;
+  padding: 5%;
 }
 
 main > p {
   border: solid 2px #000;
   width:80%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+  padding: 2%;
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 1100px) {
     :root {
-      --building-color1: #000;
-      --building-color2: #000;
-      --building-color3: #000;
-      --building-color4: #000;
-      --window-color1: #777;
-      --window-color2: #777;
-      --window-color3: #777;
-      --window-color4: #777;
+      --building-color1: rgb(227, 107, 213);
+      --building-color2: rgb(237, 141, 31);
+      --building-color3: rgb(193, 9, 89);
+      --building-color4: rgb(244, 189, 25);
+      --window-color1: rgb(255, 255, 0);
+      --window-color2: rgb(31, 173, 233);
+      --window-color3: rgb(13, 84, 183);
+      --window-color4: rgb(227, 178, 42);
     }
     .sky {
       background: radial-gradient(
           closest-corner circle at 15% 15%,
-          #ccc,
-          #ccc 20%,
-          #445 21%,
-          #223 100%
+          rgb(238, 219, 6),
+          rgb(238, 219, 6) 20%,
+          rgb(240, 121, 10) 21%,
+          rgb(244, 93, 6) 100%
         );
     }
     h1, h2, p {
@@ -388,7 +390,64 @@ main > p {
     main {
       color:#ccc;
     }
+    .angry-grid {
+      height: 65%;
+    }
+    body {
+      background-color:#223;
+    }
   }
+
+@media (max-width:800px){
+  .angry-grid {
+    height: 75%;
+  } 
+}
+
+@media (max-width:700px){
+  .angry-grid {
+    height: 80%;
+  }
+  :root {
+    --building-color1: #000;
+    --building-color2: #000;
+    --building-color3: #000;
+    --building-color4: #000;
+    --window-color1: #777;
+    --window-color2: #777;
+    --window-color3: #777;
+    --window-color4: #777;
+  }
+  .sky {
+    background: radial-gradient(
+        closest-corner circle at 15% 15%,
+        #ccc,
+        #ccc 20%,
+        #445 21%,
+        #223 100%
+      );
+  }
+  h1, h2, p {
+      background-color: rgb(68, 68, 85,0.7);
+  }
+  main {
+    color:#ccc;
+  }
+  body {
+    background-color:#223;
+  }
+}
+
+@media (max-width:630px){
+  .angry-grid {
+    height: 85%;
+  } 
+}
+@media (max-width:600px){
+  .angry-grid {
+    height: 100%;
+  } 
+}
 
 .bf {
   font-weight:bold;
