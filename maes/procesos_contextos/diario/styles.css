@@ -287,7 +287,17 @@ hr {
   border-radius: 90% 10% 90% 10% / 10% 90% 10% 90% ;
 }
 
+.container h3 {
+  font-size: 40px;
+  padding-bottom: 5%;
+}
+
 .container i {
   color: var(--color-blue);
+  font-size: 30px;
+}
 
+.container p {
+  padding-bottom: 5%;
+  font-size: 30px;
 }

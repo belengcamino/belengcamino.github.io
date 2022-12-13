@@ -9,38 +9,6 @@ anuncios, contenido, wikis, tweets
 presentacion (en contenidos)
 # anuncios, contenido y gmail
 
-## 27 oct
-hecho
-
-## 3 nov
-Estimados estudiantes en la sesión de trabajo  de hoy pretendemos conseguir los siguientes objetivos:
- 
-1º- Presentación-Dinámica- Organización-la mano del talento.
-2º- Configuración de los grupos de trabajo.
-3º- Creación de las wikis.
-4º- Eligiendo un IES. 
-4º-Comenzamos con las redes. 
- 
- 
-http://iespablodeolavide.com/
-IES Los Neveros (Huétor Vega, Granada)
-http://iesdonana.org/
- 
-http://artefactosdigitales.com
-http:iesmiguelcatalan.org/
-IES Ben-Al-Jatib (Málaga)
- 
-http://iesmontesorientales.es/
- 
-IES Casas Viejas Benalup (Cádiz)
- 
-IES Cartima (Cártama, Málaga)
- 
-IES Santo Domingo El Ejido (Almería)
-
-
-
-P.D: Subir una foto a vuestro perfil de la 
 
 
 --------------------
