@@ -10,7 +10,7 @@ presentacion (en contenidos)
 # anuncios, contenido y gmail
 
 
-
+# 3 nov
 --------------------
 objetivos de la sesion
 1º Diseñar nuestra wiki en la Enseñanza Virtual.  ¿Qué necesitamos?
@@ -27,85 +27,21 @@ objetivos de la sesion
 
 
 ¡¡¡¡ADELANTE¡¡¡¡
+
 -----------------------
 
+## 10 nov
 
-
-
-
-
-## 8 nov
-Estimados estudiantes, lo objetivos de la sesión formativa de hoy son:
-
-
-
-1º Confirmar que hemos superado el proceso de PRESENTACIÓN. ¿Qué quiere decir esto? Pues que todos los estudiantes (48) están ubicados en un grupo de trabajo. FASE 1 
-
-
-
-2º Terminar de “Afilar las herramientas”. ¿Qué falta?
-
-2-1-Haber decidido el nombre de la cuenta de Instagram-grupal. 
-
-2-2-Tener seleccionada la web de mi IES inspirador.
-
-2-3- Configuración de los grupos en la EV. Deben quedar…
-
-TODA LA INFORMACIÓN CON IMAGENES SE ENCUENTRA EN EL DOCUMENTODE CONTENIDO-RETO 1
-
-
-El diseño de nuestra wiki con nuestro propio IES. La primera página es nuestra presentación donde damos respuesta a una serie de interrogantes:
-
-   1.1. ¿Por qué se denomina mi IES “Marismas (por ejemplo)…” cada grupo ha buscado el origen de su nombre y ha realizado su propia propuesta. 
-
-   1-2. Analizar la web del IES elegido.
-
- 
 
 1-3- NUESTRA MARCA. (ya lo hemos analizado en la sesión formativa anterior: marca eres tú y tu esencia, tú y tu saber hacer, tú experiencia, tu mundo de relaciones, tu capacidad...LOGO
-
-             -Encontrar su estructura organizativa: organigrama del IES
-
-             - Diseñar organigrama.
-
-
-
-1-4- IR AL RETO 1...
 
 
 
 Nos vemos...¡¡¡ADELANTE¡¡¡
 SE TRASPASA AL DÍA 10.
-## 10 nov
-Estimados estudiantes, este anuncio es para avisar de mi falta de asistencia el martes dia 08/11/2022. Ese día estoy en un Congreso de Violencia de Género. Os doy todas las explicaciones el jueves 10/11/2022.
+
 
 ## 15 nov
-Estimados estudiantes, continuamos con el RETO 1. 
-
-
-
-1º Las estrellas presentarán a sus IES para ello deberán utilizar una herramienta de presentación. ¿Qué información encontraremos?
-
-1-1 La estructura organizativa del IES (organigrama). ¿Podríamos identificar las claves de funcionamiento de nuestro IES? y ¿Cómo es el Sistema de relaciones?  ¿Cómo lo conseguiremos?...
-
-1-2- Para conocer cómo funciona nuestro IES debemos tener la normativa existente. En nuestro caso necesitaremos: 
-
- LOE (2006). Ley Orgánica 2/2006, de 3 de mayo, de Educación.
-
- LEA (2007). Ley 17/2007, de 10 de diciembre, de Educación de Andalucía.
-
- LOMLOE (2020). Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la LOE (2006), de Educación.
-
- Los curadores deben buscar documentos o material multimedia que ayude a su comprensión. 
-
-1-3- Todos los IES han identificado el organigrama del IES inspirador y lo incluiremos en nuestra wiki para tenerlo como referencia. Además de su marca y aspectos mencionados en el anuncio anterior. No olvidar esto para los administradores. 
-
-
-
-1-4- Conoceremos las funciones del Equipo Directivo. La dinámica utilizada será el “Diseño de un mapa conceptual”.
-
-P.D: para las redes no olvidar  mencionarme en Twitter @LolaDaz 
-
 #estructura IES
 
 #organigrama
@@ -118,80 +54,8 @@ P.D: para las redes no olvidar  mencionarme en Twitter @LolaDaz
 
 #cómo funcionamos
 
+
 ## 17 nov
-Estimados estudiantes, el propósito de esta sesión es diseñar un “Proyecto de innovación” o “Proyecto de Emprendimiento”, existen diferentes opciones, cada IES según sus circunstancias elige el suyo. 
-
-
-
-1º El RETO Nº1  se llama: SIENTE- IMAGINA-ACTÚA-EVALUA-COMPARTE
-
-
-
-1-1- ¿Por qué este título? La idea es que el profesorado se sienta agente activo y protagonista del cambio, no solo en los procesos de enseñanza y aprendizaje de sus estudiantes, sino también en la transformación de los entornos o contextos donde se situan los IES. 
-
-1-2- ¿Què necesitamos? Una guía…
-
-
-
-AQUÍ  la encontramos…
-
-
-
-RETO 1- PASO 2
-
- 
-
-Nuestro IES como espacio idóneo para el diseño, implementación y evaluación de proyectos emprendedores.
-
- 
-
-1-1-¿Cómo lo hacemos? Empezamos con los siguientes recursos:
-
-IMPORTANTE: LA GUÍA PARA EL EMPRENDIMIENTO
-
- 
-
-https://www.todofp.es/ca/dam/jcr:d0206a88-51a3-4d0f-8217-7257a4221da1/guia-del-aula-de-emprendimiento-con-isbn-indice-vinculado-y-marcadores.pdf
-
- 
-
- 
-
- 
-
-VÍDEO:
-
- 
-
-https://www.youtube.com/watch?v=MxX5iVhWtus
-
- 
-
- 
-
-
-
-
-En cualquier caso, existen unos pasos (ya hemos andando en nuestro itinerario). ¡AVANZAMOS¡
-
-
-
-1-Entorno- salimos para analizar. En el interior de la web inspiradora.
-
-2- Escribimos nuestras observaciones. 
-
-3- Organizamos ideas para el mapa conceptual. 
-
-4- Decidimos nuestro foco de atención.
-
-5- Por ejemplo, nuestro RETO es “evitar colillas” //Cómo amar a los animales...
-
-
-
-
-No olvidamos que el IES tiene documentos, queremos saber como ha sido su trayectoria en innovación. 
-
-
 
 
 #PROYECTO DE DIRECCIÓN. ...
@@ -207,41 +71,6 @@ No olvidamos que el IES tiene documentos, queremos saber como ha sido su trayect
 #PLAN DE CONVIVENCIA. ...
 
 
-
-¿Qué documentos tienen vuestros IES?
-
-
-Estimados estudiantes, alguna información adicional...
-
-
-
-1º En contenidos podremos encontrar algunas ideas para el PASO 2 
-
-2º Recomendable la infografia DISEÑOS DE PROYECTOS ABP.
-
-3º Presentación del 1º hilo de trabajo individual
-
-
-
-3-1- En la sesión de hoy los IES trabajaran con instagram, también. 
-
-3-2- Primera propuesta formativa de instagran conjunto. 
-
-
-
-Nombre apacionados
-
--Futurosdocentesapasionados
-
--contraseña: Docen2022!!
-
-En el aula realizo la presentación. 
-
-
-
-
-
-¡¡¡ADELANTE¡¡¡
 ## 22 nov
 Estimados estudiantes, comenzamos el RETO 2, denominado el "El AULA". El propósito de este reto es continuar con las ideas planteadas en el Proyecto Emprendedor que hemos diseñado en el RETO 1.  Cuando diseñábamos el proyecto, una idea importante era el perfil del docente siglo XXI, como agente de cambio. Debemos ser conscientes que en los IES existe una estructura (que hemos podido trabajar mediante el diseño de nuestro propio IES), que se establecen una serie de relaciones y que se encuentra en un contexto determinado que hace de nuestro IES, un lugar singular y único.
 

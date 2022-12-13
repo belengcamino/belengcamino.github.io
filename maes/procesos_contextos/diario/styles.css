@@ -183,7 +183,7 @@ hr {
     font-size: 1.8rem;
   }
   
-  .social-icons {
+  .social-icons, .ligustinus {
     font-size: 2rem;
   }
 
@@ -300,4 +300,23 @@ hr {
 .container p {
   padding-bottom: 5%;
   font-size: 30px;
+}
+
+.ligustinus {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bf {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a .list-subtitle{
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a .list-subtitle:hover{
+  color:var(--color-alpha-blue);
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
