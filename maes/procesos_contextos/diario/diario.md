@@ -14,27 +14,15 @@ Nuestro IES como espacio idóneo para el diseño, implementación y evaluación 
 RETO 2 EN EL AULA
 Estimados estudiantes, continuamos nuestro itinerario formativo de la disciplina “Procesos y Contextos”. A veces resulta complicado “comprender” que estamos haciendo y, eso se debe a la inercia de la metodología tradicional, que hemos vivido. Ahora bien, como sabéis soís profesores del siglo XXI,  y es muy importante hacernos la siguiente pregunta: ¿Qué significa educar en el siglo XXI? A lo largo de la historìa educativa de nuestro país hemos sufrido muchas leyes educativas y reformas. En estos momentos, con la LOMLOE nos dirigimos hacía un nuevo curriculum, donde las metodologias activas son fundamentales, donde la programación o diseño ha cambiado (situaciones de aprendizaje, este el quebradero de cabeza de los docentes en este momento) y, fundamental uno de los elementos de los diseños instructivos que varía y es fundamental para vuestro futuro desempeño como buenos profesionales es la evaluación.
 
-El propósito del RETO 2  es ir de la norma al aula. ¿Cómo lo haremos? Pues seguiremos la metodología activa propuesta y jugaremos. El juego planteado se denomina el “Cubo de Pensar”.
-
-CUBO DE PENSAR-UNIDAD DIDÁCTICA. Este material lo podéis encontrar en la presentación y el documento word que se adjuntan en el contenido RETO 2.
-
-¿Qué necesitamos para esta sesión? Cartulina, rotuladores, pegamento y unas tijeras.
-
-Instrucciones: 
-
-1º Esta actividad quedará reflejada en una página de nuestra wiki-IES, denominada RETO 2.
-2º La actividad se realiza en clase-grupo. En esta sesión se trataría de diseñar una Unidad Didáctica, con la temática elegida para desarrollar nuestro Proyecto de Emprendimiento.
-3º En la siguiente sesión “jugaremos” y obstendremos puntos de forma individual. 
 
 
-¡¡¡¡ADELANTE¡¡¡
+
 
 -----------
 
-RETO 1: Sólo está enunciado. No está hecho. Pero sí al menos hay que tener un proyecto. El reto 2 va a desarrollar una parte del proyecto, lo que según la LOMLOE se denomina una situación de aprendizaje. El cubo debería quedar hecho antes de la medianoche para que Lola pueda retuitearlo. Lo más importante es que aparezcan los verbos en cada una de las caras. Los otros puntos pueden aparecer por su código QR. El cubo lo tenemos que traer el próximo día para que juguemos donde nos tocará por sorteo rsponder a una de las preguntas de los verbos del cubo. No solo hacer desde el punto de vista analógico, sino aprender situaciones de aprendizaje, además de la taxonomía de Bloom.
+El cubo debería quedar hecho antes de la medianoche para que Lola pueda retuitearlo. Lo más importante es que aparezcan los verbos en cada una de las caras. Los otros puntos pueden aparecer por su código QR. El cubo lo tenemos que traer el próximo día para que juguemos donde nos tocará por sorteo rsponder a una de las preguntas de los verbos del cubo. No solo hacer desde el punto de vista analógico, sino aprender situaciones de aprendizaje, además de la taxonomía de Bloom.
 Administradora: reto 2 de la norma al aula (en una nueva página de la wiki)
-Curadores: #Situaciones de aprendizaje
-           #TaxonomiaBloom
+Curadores: #
 Todo escrito en APA  7ª edición
 Analista: redes #situaciones de aprendizaje, elegir una teniendo en cuenta que todos tendremos que participar de manera interdisciplinar. Diseñéis un paisaje de aprendizaje donde todos daremos solución a un problema de manera interdisciplinar. Todo ligado a la motivación del estudiante. Las soluciones vienen dadas por cada una de las disciplinas. De manera individual tenemos que darle una respuesta. Un hilo para poder lograr el 10 en la asignatura sino lo máximo es un 8.
 

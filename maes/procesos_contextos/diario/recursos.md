@@ -72,31 +72,12 @@ SE TRASPASA AL DÍA 10.
 
 
 ## 22 nov
-Estimados estudiantes, comenzamos el RETO 2, denominado el "El AULA". El propósito de este reto es continuar con las ideas planteadas en el Proyecto Emprendedor que hemos diseñado en el RETO 1.  Cuando diseñábamos el proyecto, una idea importante era el perfil del docente siglo XXI, como agente de cambio. Debemos ser conscientes que en los IES existe una estructura (que hemos podido trabajar mediante el diseño de nuestro propio IES), que se establecen una serie de relaciones y que se encuentra en un contexto determinado que hace de nuestro IES, un lugar singular y único.
 
-Ahora bien, cómo se desarrolla el proyecto en el centro. En estos últimos años, antes de la aprobación de la LOMOLE, la comunidad educativa se había vista afectada por los cambios sociales, si a esto añadimos que la educación debe ser clave en la transformación social, pues nos encontramos con aulas que buscan nuevos escenarios educativos, por tanto, vamos a ir añadiendo “notas de color” a nuestras aulas. Queremos que nuestras aulas sean creativas, emprendedoras, inteligentes e inclusivas.
-
- 
-
-CUBO DE PENSAR-UNIDAD DIDÁCTICA. Este material lo podéis encontrar en la presentación y el documento word que se adjuntan en el contenido RETO 2. 
-
- 
-
-¿Qué necesitamos para esta sesión? Cartulina, rotuladores, pegamento y unas tijeras.
+#Situaciones de aprendizaje
+           #TaxonomiaBloom
 
 
 
-Instrucciones: 
-
-
-
-1º Esta actividad quedará reflejada en una página de nuestra wiki-IES, denominada RETO 2.
-
-2º La actividad se realiza en clase-grupo. En esta sesión se trataría de diseñar una Unidad Didáctica, con la temática elegida para desarrollar nuestro Proyecto de Emprendimiento.
-
-3º En la siguiente sesión “jugaremos” y obstendremos puntos de forma individual. 
-
-¡¡¡ADELANTE¡¡¡
 ## 24 nov
 Estimados estudiantes, vamos llegando al final de nuestro camino. Tal y como acordamos, en la sesión formativa de mañana “jugamos”.
 
