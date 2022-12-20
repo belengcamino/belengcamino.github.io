@@ -1,0 +1,171 @@
+% !TEX encoding = UTF-8 Unicode
+%-----------------------------------------------------------------
+% Curso : Edición de textos científicos con LaTeX
+%-----------------------------------------------------------------
+% Fichero de trabajo para GRAFICOS
+%-----------------------------------------------------------------
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+%
+\usepackage{graphicx}
+%
+\usepackage{epstopdf} %El paquete \texttt{epstopdf} sirve para convertir, de forma automática, imágenes en formato PostScript (\texttt{.eps}), que no son admitidas por el procesador \texttt{pdflatex}, al formato PDF, que sí se puede incluir.
+
+
+
+
+\setlength{\parindent}{0pt}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    COMIENZO DEL CUERPO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+
+
+
+%-----------------------------------------------------------------
+% Sección
+%-----------------------------------------------------------------
+\section{Gráficos externos}
+
+
+
+
+
+%-----------------------------------------------------------------
+% Subsección
+%-----------------------------------------------------------------
+\subsection{El paquete \texttt{graphicx}}
+
+
+
+
+
+Para incluir gráficos externos dentro de un documento \LaTeX{} hay que usar el paquete \texttt{graphicx}.
+
+
+
+
+
+%-----------------------------------------------------------------
+%  Incluir la figura lion4.pdf en línea con el texto 
+%  a tamaño natural
+%-----------------------------------------------------------------
+
+La caja que contiene la figura \includegraphics{lion4.pdf}
+ se alinea con el texto.
+
+
+
+
+
+\bigskip
+Incluir la figura lion4.pdf de anchura 2cm en un entorno \texttt{center}.
+%-----------------------------------------------------------------
+%  Incluir debajo la figura lion4.pdf centrada en una línea y
+%  y escalada a 2cm de ancho
+%-----------------------------------------------------------------
+
+\begin{center}
+\includegraphics[width=2cm]{lion4.pdf}
+\end{center}
+
+
+
+
+
+Incluir la figura lion4.pdf de anchura 2cm rellenando de espacio a la izquierda.
+%-----------------------------------------------------------------
+%  Incluir debajo la figura lion4.pdf ajustada a la derecha y
+%  escalada a 2cm de ancho
+%-----------------------------------------------------------------
+
+\begin{flushright}
+\includegraphics[width=2cm]{lion4.pdf}
+\end{flushright}
+
+
+
+\bigskip
+La opción \texttt{draft = true} deja el hueco que ocuparía la figura,
+pero no la inserta.
+%--------------------------------------------------------------------
+%  Incluir debajo la figura lion4.pdf centrada en una línea, con
+%  ancho de 2cm y usando la opción draft = true.
+%
+%  Hacer pruebas fijando la anchura y la altura (height) por separado
+%--------------------------------------------------------------------
+
+
+
+\begin{center}
+La caja ocupada\includegraphics[width=2cm,draft = true]{lion4.pdf}por la imagen
+\end{center}
+
+
+
+\bigskip
+Si la figura que se quiere insertar no cabe en lo que queda de página, será desplazada a la siguiente y se dejará el hueco. 
+%--------------------------------------------------------------------
+%  Incluir aquí la figura lion4.pdf en tamaño muy grande
+%  (ancho de 6cm)
+%--------------------------------------------------------------------
+
+\begin{center}
+\includegraphics[width=6cm,draft = false]{lion4.pdf}
+\end{center}
+
+
+
+
+
+%-----------------------------------------------------------------
+% Subsección
+%-----------------------------------------------------------------
+\subsection{El paquete \texttt{epstopdf}}
+
+
+
+
+
+El paquete \texttt{epstopdf} sirve para convertir, de forma automática, imágenes en formato PostScript (\texttt{.eps}), que no son admitidas por el procesador \texttt{pdflatex}, al formato PDF, que sí se puede incluir.
+
+
+
+
+
+\bigskip
+La imagen de debajo se ha insertado desde el fichero PostScript \texttt{florMath.eps}.
+El paquete \texttt{epstopdf} se encarga de convertirla a PDF, guardar el resultado en un fichero de nombre  \texttt{florMath-eps-converted-to.pdf} e incrustar éste en el documento. 
+%-----------------------------------------------------------------
+%  Incluir debajo la imagen florMath.eps en un entorno center,
+%  con un ancho de 5cm 
+%-----------------------------------------------------------------
+
+\begin{center}
+
+\includegraphics[width=5cm,draft = false]{florMath.eps}
+\end{center}
+
+
+\bigskip
+Aliquam eu faucibus libero. Nunc convallis varius nibh. Vestibulum mauris metus, volutpat et turpis in, congue vulputate urna. Quisque rutrum et leo maximus lobortis. Curabitur malesuada orci quis enim interdum commodo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In at metus id leo gravida viverra. Ut sem justo, suscipit pulvinar finibus ut, consequat sed nulla. Nam ut vestibulum enim, a sagittis lectus. Maecenas finibus, arcu eget aliquam dignissim, lorem nisl sollicitudin tellus, ac rhoncus nulla diam et ante. Pellentesque nec scelerisque lorem. Nullam consectetur ex tortor, et faucibus elit eleifend sit amet. Nam eget finibus massa. Maecenas ac consequat nulla. Quisque nec purus sit amet mi faucibus sodales cursus at lacus. Nam convallis in purus vitae elementum.
+
+
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+

@@ -1,0 +1,418 @@
+% !TEX encoding = UTF-8 Unicode
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  LaTeX: Composición de textos científicos con el ordenador
+%              Curso de Extensión Universitaria 
+%
+%  Contenido: 
+%         espacios
+%         alineación  del texto
+%         listas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+
+
+%-----------------------------------------------------------------
+%  Definición de datos para componer el título 
+%-----------------------------------------------------------------
+\title{Trabajo de Fin de Grado}
+\author{Belén del Rocío García Camino}
+\date{UNIVERSIDAD DE SEVILLA} %SI NO PONGO NADA, POR DEFECTO PONE LA FECHA
+
+%-----------------------------------------------------------------
+%   Cuerpo del documento
+%-----------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%-------------------------------------------------------------
+% Aquí va el resumen (entorno abstract)
+%-------------------------------------------------------------
+\begin{abstract}
+Este documento se usará para aprender y practicar diversos espacios en el texto, entornos que permiten obtener un formato distinto del estándar y varios tipos de listas. 
+También se verán las referencias cruzadas y notas a pie de página. 
+\end{abstract}
+%-----------------------------------------------------------------
+%   Capítulo
+%-----------------------------------------------------------------
+\chapter{Espacios en el texto}\label{cap.espacios}
+
+\section {Probando}
+
+texto
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Centrar el texto}\label{sec.centrar}
+\centerline{UNIVERSIDAD DE SEVILLA}
+
+%-----------------------------------------------------------------
+%  Utilizar los párrafos siguientes para experimentar con las 
+%  órdenes que producen nuevos párrafos, nuevas líneas y 
+%  nuevas páginas
+%-----------------------------------------------------------------
+
+
+Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.
+
+Aunque no posee actualmente fuentes para justificar sus hipótesis, el profesor de filología clásica Richard McClintock asegura que su uso se remonta a los impresores de comienzos del siglo XVI. El texto en sí no tiene sentido, aunque no es completamente aleatorio, sino que deriva de un texto de Cicerón en lengua latina, a cuyas palabras se les han eliminado sílabas o letras. El significado del mismo no tiene importancia, ya que solo es una demostración o prueba. 
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet hendrerit justo. Nunc ornare tellus eget est hendrerit, ac semper diam pharetra. Sed malesuada rutrum erat, a varius nisl molestie sit amet. Proin a laoreet nulla. Praesent ut placerat libero. Suspendisse sit amet justo id quam condimentum dapibus eu eu dui. Donec tristique felis ut mauris ultricies suscipit. Vestibulum eleifend eleifend odio, quis vulputate ligula varius a.
+
+Nunc sed turpis justo. Vivamus eget dolor felis. Nullam vel diam ultricies, pretium leo vel, cursus nisl. Aenean consequat malesuada arcu, ac pulvinar neque volutpat quis. Ut dignissim ultrices semper. Morbi ultricies tincidunt pretium. Duis ac neque bibendum, pellentesque eros nec, rhoncus est. Quisque ac purus eu mi aliquam elementum viverra ac leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut viverra lectus et orci tempus, volutpat congue mi sollicitudin. Sed vulputate condimentum tempus. Praesent id tincidunt augue, at posuere mauris. Cras at massa at magna cursus adipiscing. Donec mi purus, ullamcorper ac risus eu, ornare accumsan felis. Mauris nulla arcu, congue quis risus quis, molestie tincidunt leo. Praesent commodo ut sapien vitae tempor.
+
+Donec lacinia ante sed magna tristique aliquam. Nunc mollis ut sapien ac posuere. Nam auctor tortor massa, quis facilisis sem mattis eu. Curabitur eu lectus risus. Phasellus blandit neque mauris, vitae pulvinar urna laoreet non. Vivamus viverra felis odio, nec vulputate sem dapibus ut. Etiam semper felis eu nisl scelerisque condimentum. Proin dapibus sapien vel imperdiet tempor. Vivamus vitae tempor mauris, sed consectetur orci. Nam ullamcorper sit amet ante dictum suscipit. Proin a felis sit amet eros accumsan cursus vel vel dolor. Nunc posuere erat at eleifend posuere. Pellentesque pharetra viverra tincidunt.
+
+Cras faucibus dictum turpis eget aliquet. Donec posuere mi augue, id mollis sem accumsan eu. Aenean pharetra, dui eget varius vestibulum, elit enim tempus ipsum, eu rutrum odio turpis vitae est. Sed porta metus sed metus venenatis, at congue nisl mollis. Mauris quis lobortis libero. Donec convallis dui massa, nec euismod ipsum tincidunt eu. Donec ac nisi laoreet, fermentum turpis ullamcorper, placerat ante. Nulla facilisi. Sed suscipit sit amet erat a feugiat. Donec volutpat lacus at lacus sollicitudin lacinia. Maecenas feugiat quis dolor nec pharetra. Nam mollis libero nec dui commodo feugiat.
+
+
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+Espacios
+
+
+%-----------------------------------------------------------------
+%  Utilizar los párrafos siguientes para experimentar 
+%  con las órdenes que introducen espacios verticales, 
+%  horizontales y elásticos
+%-----------------------------------------------------------------
+
+
+Praesent ac enim id risus iaculis iaculis. Pellentesque euismod non dui facilisis placerat. Pellentesque ut euismod quam.
+
+\vskip 5cm 
+
+
+Nullam \hspace{2cm} ullamcorper \quad diam sapien, vel aliquam lorem placerat eget. In metus erat, rhoncus ac mauris ac, gravida fermentum felis. Donec ipsum lorem, luctus at hendrerit in, adipiscing eget magna. Suspendisse condimentum nisl nec felis pretium, ut dictum quam viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+\bigskip
+\noindent
+izquierda \hfill derecha
+
+\noindent
+izquierda \hfill  centro \hfill derecha
+
+\bigskip
+
+Nam a metus et elit varius faucibus. In non iaculis odio, rutrum varius odio. Vivamus dictum eros scelerisque, tempor tortor volutpat, cursus nunc.Proin tempor in diam ut porttitor. Praesent id lobortis velit. Donec blandit varius vulputate. Pellentesque a nunc est. Sed eget purus eget erat varius vestibulum sit amet iaculis eros. Suspendisse luctus consequat diam, ut dignissim risus aliquet non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum neque turpis, condimentum lobortis felis pretium in. Maecenas enim nibh, pulvinar in tellus vehicula, commodo congue lectus. Cras interdum mauris orci, id adipiscing lacus tempus in.
+
+Vestibulum mauris nulla, viverra sit amet interdum id, egestas nec lectus. Vestibulum sed metus interdum, fermentum erat at, lacinia lorem. Maecenas vel lectus interdum, scelerisque arcu sit amet, fringilla augue. Curabitur ornare ornare metus, non lobortis risus bibendum consectetur. Sed vitae augue accumsan, interdum dui id, gravida felis. Nullam id ante elit. Duis tortor ipsum, pharetra sit amet semper eu, euismod vel sapien. Nam ultricies eleifend massa, in faucibus mauris tincidunt vitae. Proin faucibus tincidunt hendrerit. Vivamus vitae sem vitae sapien feugiat mattis id ac magna. Duis et massa condimentum, tempus velit sed, commodo lacus. Sed rhoncus sem in purus porttitor, nec tristique sapien commodo. Aenean aliquet felis sed malesuada tristique. Proin et pharetra massa.
+
+
+%-----------------------------------------------------------------
+%   Capítulo: alineación del texto
+%-----------------------------------------------------------------
+\chapter{Alineación del texto}\label{cap.ali}
+
+
+
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Centrar el texto}
+
+
+
+%---------------------------------------------------------------
+% entorno: center
+%---------------------------------------------------------------
+\begin{center}
+Te escribo desde un puerto.  \\
+La mar salvaje llora.       \\ 
+Salvaje, y triste, y solo, te escribo abandonado.\\  
+Las olas funerales redoblan el vacío.    \\
+Los megáfonos llaman a través de la niebla.   \\
+La pálida corola de la lluvia me envuelve.      \\
+Te escribo desolado.     \\
+Gabriel Celaya. A Pablo Neruda. 
+\end{center}
+
+Fin del entorno 
+%--------------------- fin -----------------------------------
+
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Alinear el texto a la derecha o izquierda}
+
+%---------------------------------------------------------------
+% entorno: flushright
+%---------------------------------------------------------------
+\begin{flushright}
+Andando, andando. \\
+Que quiero oír cada grano \\
+de la arena que voy pisando. \\
+
+Andando. \\
+Dejad atrás los caballos, \\
+que yo quiero llegar tardando \\
+(andando, andando)  \\
+dar mi alma a cada grano \\
+de la tierra que voy rozando.\\
+\end{flushright}
+%--------------------- fin -----------------------------------
+
+
+%---------------------------------------------------------------
+% entorno: flushleft
+%---------------------------------------------------------------
+\begin{flushleft}
+Andando, andando. \\
+Que quiero oír cada grano \\
+de la arena que voy pisando. \\
+
+Andando. \\
+Dejad atrás los caballos, \\
+que yo quiero llegar tardando \\
+(andando, andando)  \\
+dar mi alma a cada grano \\
+de la tierra que voy rozando.\\
+
+Andando, andando. \\
+¡Que quiero ver el fiel llanto\\
+del camino que voy dejando!\\
+
+Juan Ramón Jiménez. Andando.\\
+\end{flushleft}
+%--------------------- fin -----------------------------------
+
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Citas textuales y versos}
+
+
+El contenido de la cita va en primer lugar entrecomillado 
+y al final entre paréntesis el autor o autores, el año y la página. 
+Ejemplo:
+
+%---------------------------------------------------------------
+% entorno: quote
+%---------------------------------------------------------------
+\begin{quote}
+``La incorporación de la mujer al mercado del trabajo
+es la acción explicativa más importante en la configuración 
+modal de la familia chilena''
+(Muñoz, Reyes, Covarrubias y Osorio, 1991, p. 29).
+\end{quote}
+%--------------------- fin -----------------------------------
+
+
+%---------------------------------------------------------------
+% entorno: quotation
+%---------------------------------------------------------------
+\begin{quotation}
+``La incorporación de la mujer al mercado del trabajo \dots{}
+es la acción explicativa más importante en la configuración 
+modal de la familia chilena''
+(Muñoz, Reyes, Covarrubias y Osorio, 1991, p. 29).
+\end{quotation}
+%--------------------- fin -----------------------------------
+
+Texto de después \dots
+
+
+
+%---------------------------------------------------------------
+% entorno: verse
+%---------------------------------------------------------------
+\begin{verse}
+\textbf{Nana de la cigüeña}
+\footnote{Rafael Alberti. Marinero en tierra.}
+
+Que no me digan a mí\\
+que el canto de la cigüeña\\
+no es bueno para dormir.\\[5mm]
+Si la cigüeña canta\\
+arriba en el campanario,\\
+que no me digan a mí\\
+que no es del cielo su canto.
+\end{verse}
+
+
+%-----------------------------------------------------------------
+%   Capítulo: Listas
+%-----------------------------------------------------------------
+\chapter{Listas}
+
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Listas numeradas}
+
+%---------------------------------
+% entorno: enumerate
+%---------------------------------
+\begin{enumerate}
+\item Harvard University
+\item University of California, Berkeley
+%
+\item Princeton University
+
+\item California Institute of Technology
+
+\item Massachusetts Institute of Technology (MIT)
+
+\item University of Cambridge
+
+\item Stanford University
+
+\item Swiss Federal Institute of Technology Zurich
+
+\item The University of Tokyo
+
+\item University of California, Los Angeles
+\end{enumerate}
+%--------------------- fin -----------------------------------
+% EJEMPLO CON SUBLISTAS
+\bigskip
+
+\begin{enumerate}
+\item Harvard University
+\item University of California, Berkeley
+
+  \begin{enumerate}
+
+
+  \item Princeton University
+\begin{enumerate}
+  \item California Institute of Technology
+
+  \item Massachusetts Institute of Technology (MIT)
+ \end{enumerate}
+  \end{enumerate} 
+
+\item University of Cambridge
+
+\item Stanford University
+
+\item Swiss Federal Institute of Technology Zurich
+
+\item The University of Tokyo
+
+\item University of California, Los Angeles
+\end{enumerate}
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Listas no numeradas}
+
+%---------------------------------
+% entorno: itemize
+%---------------------------------
+\begin{itemize}
+\item Jabón de lavar
+
+\item Blanqueador
+\begin{itemize}
+\item Limpiador de muebles
+
+\item Jabón lavaplatos
+\end{itemize}
+\end{itemize}
+%--------------------- fin -----------------------------------
+% COMBINAR LISTA CON SÍMBOLOS Y NÚMEROS
+\begin{enumerate}
+\item Jabón de lavar
+
+\item Blanqueador
+\begin{itemize}
+\item Limpiador de muebles
+
+\item Jabón lavaplatos
+\end{itemize}
+\end{enumerate}
+
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Listas descriptivas}
+
+
+%---------------------------------------------------------------
+% entorno: description
+%---------------------------------------------------------------
+\begin{description}
+\item[En Peligro de Extinción]
+Categoría reservada para aquellas especies, subespecies o poblaciones de fauna o flora cuya supervivencia es poco probable si los factores causales de su actual situación siguen actuando.
+
+\item[Vulnerables]
+Categoría destinada a aquellos taxones que corran el riesgo de pasar a la categoría anterior en un futuro inmediato si los factores adversos que actúan sobre ellas o sus hábitats no son corregidos.
+
+\item[Raras]
+Categoría en la que se incluirán las especies o subespecies cuyas poblaciones son de pequeño tamaño, localizándose en áreas geográficas pequeñas o dispersas en una superficie más amplia, y que actualmente no se encuentren en peligro de extinción ni sean vulnerables.
+
+\item[De interés Especial]
+Categoría en la que se podrán incluir los taxones que, sin estar contempladas en ninguna de las categorías precedentes, sean merecedoras de una atención particular en función de su valor científico, ecológico, cultural o por su singularidad.
+\end{description}
+%--------------------- fin -----------------------------------
+
+
+
+%-----------------------------------------------------------------
+%   Capítulo:  
+%-----------------------------------------------------------------
+\chapter{Referencias cruzadas y notas a pie de página}
+
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Referencias cruzadas} 
+
+
+\LaTeX{} puede gestionar cómodamente no solo la numeración de las distintas secciones y objetos de un documento, también ofrece las herramientas para hacer referencias a los mismos, mediante uso de etiquetas. 
+
+
+\medskip
+
+%-----------------------------------------------------------------
+% Hacer referencia a la Sección 1.1 del Capítulo 1
+
+En la Sección \ref{sec.centrar} del Capítulo \ref{cap.espacios} hemos visto  \dots{}
+
+\medskip
+
+%-----------------------------------------------------------------
+% Hacer referencia al Capítulo 2 y la página donde comienza
+
+En el Capítulo~\ref{cap.ali} de la página~\pageref{cap.ali}
+
+
+
+%-----------------------------------------------------------------
+%   Sección
+%-----------------------------------------------------------------
+\section{Notas a pie de página} 
+
+%--------------------------------------------------
+% Escribir varias notas a pie de página
+
+Proin neque lorem\footnote {Primera nota}, luctus quis consequat in, euismod in lorem. In a erat dolor. Duis blandit, sem a finibus elementum, nunc orci mollis ante, at commodo magna neque vel libero. Phasellus euismod elementum odio at mattis. Nulla fringilla nibh et sem consectetur, vel placerat lacus sodales\footnote{Segunda nota}. Curabitur id mi at quam pulvinar aliquet ultricies eu sem. Sed turpis sapien, interdum bibendum ex eu, suscipit lacinia ligula. Sed et eros eu odio lacinia aliquet. Nulla dui enim, cursus non tincidunt a, porta sed diam. Quisque dictum ipsum vitae lorem imperdiet interdum. Pellentesque finibus sapien ac orci mollis maximus. Phasellus lectus nibh, efficitur ut feugiat sed, facilisis eu velit. Donec quis egestas nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nulla enim, imperdiet a eleifend sed, pellentesque finibus arcu. Maecenas in ligula volutpat quam vehicula mollis.
+
+\bigskip
+
+\% \qquad nombre\_apellidos@gmail.com
+
+\end{document}
+%-----------------------------------------------------------------
+%   Fin del cuerpo del documento
+%-----------------------------------------------------------------
+
+

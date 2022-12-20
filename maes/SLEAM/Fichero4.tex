@@ -1,0 +1,1030 @@
+
+% !TEX encoding = UTF-8 Unicode
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  
+%    LaTeX: Composición de textos científicos con el ordenador
+%              Curso de Extensión Universitaria 
+%                                
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+
+
+%-----------------------------------------------------------------
+%  paquetes necesarios para escribir matemáticas 
+%
+\usepackage{amsmath, amssymb, dsfont}
+\usepackage{mathtools}
+
+
+%-----------------------------------------------------------------
+%  algunas longitudes y contadores
+%
+\setlength{\parindent}{0pt}
+\setcounter{chapter}{3}
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+%  para que salga "Tema" en vez del "Capítulo"
+%
+\addto\captionsspanish{\def\chaptername{Tema}}
+
+
+
+
+
+%-----------------------------------------------------------------
+%  AQUÍ COMIENZA EL CUERPO
+%-----------------------------------------------------------------
+
+\begin{document}
+
+
+
+
+
+%-----------------------------------------------------------------
+% Capítulo
+%-----------------------------------------------------------------
+\chapter{Escribiendo matemáticas (II)}
+
+
+
+
+
+%------------------------------------------------------------------------------
+% sección
+%------------------------------------------------------------------------------
+\section{Expresiones alineadas}
+
+
+
+
+Para construir estructuras con elementos alineados en filas y columnas, \LaTeX{} dispone del entorno \texttt{array}, que funciona en \textbf{modo matemático}:
+
+\begin{verbatim}
+  \begin{array}{Formato Columnas}
+    Columna1 &  Columna2 & Columna3 \\
+    Columna1 &  Columna2 & Columna3 \\
+    ...
+  \end{array}
+\end{verbatim}
+
+donde:
+\begin{description}
+%
+\item[\fbox{\texttt{\&}}\,\,]
+sirve para separar las columnas.
+%
+\item[\fbox{\texttt{\textbackslash \textbackslash}}\,\,]
+sirve para iniciar una nueva fila.
+Todas las filas, salvo la última, acaban con este comando. 
+También se puede usar {\verb=\cr=} o {\verb=\\[espacio]=} en su lugar.
+%
+\item[\fbox{\texttt{Formato Columnas}}\,\,]
+sirve para especificar el número de columnas y la alineación horizontal que corresponde a cada columna, mediante los códigos siguientes:
+%
+  \begin{description}
+  \item[\fbox{\texttt{l}}\,\,] indica que los elementos de la columna van alineados a la izquierda.
+  \item[\fbox{\texttt{r}}\,\,] indica que los elementos de la columna van alineados a la derecha.
+  \item[\fbox{\texttt{c}}\,\,] indica que los elementos de la columna van centrados.
+  \end{description}
+%
+\end{description}
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Tres columnas centradas
+
+\begin{equation*}
+\begin{array}{ccc}
+3 & -2 & x_1 \\
+\sqrt{x^3} & z & 1 \\
+g(x) & 3 & 9
+\end{array}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Cuatro columnas con distintas alineaciones
+
+\begin{equation*}
+\begin{array}{crlc}
+a+b+c&uv&x-y&15\\
+a+b&u+v&z&125\\
+a&14u-12w&xyz&2002
+\end{array}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%=============================================================================
+\textbf{Ejemplo} Un array dentro de otro
+
+\begin{equation*}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% sección
+%------------------------------------------------------------------------------
+\subsection{Matrices}
+
+
+
+
+
+El entorno \texttt{array} sirve para escribir matrices, añadiendo delimitadores a medida delante y detrás.
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo}
+
+\begin{equation*}
+\left[
+\begin{array}{cccc}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{array}
+\right]
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Se puede añadir espacio extra entre filas
+
+\begin{equation*}
+\left(
+\begin{array}{ccc}
+1 & 2 & 3 \\[2pt]
+\frac{1}{2} & 4 & 6 \\
+7 & 8 & 9
+\end{array}
+\right)
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}}  Hacer el Ejercicio 3.31 de los Apuntes.
+
+\begin{equation*}
+p_\lambda(A)=\det(A-\lambda I)= \left|
+\begin{array}{ccc}
+x-\lambda & 1 & 0 \\
+0 & x-\lambda & 1 \\
+0 & 0 & x-\lambda \\
+\end{array}
+\right|
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}}  Hacer el Ejercicio 3.32 de los Apuntes.
+\begin{equation}
+B = (x_1,\cdots,x_n)\left[
+\begin{array}{ccc}
+a_{11} & \cdots & a_{1n} \\
+\vdots & \ddots & \vdots \\
+a_{n1} & \cdots & a_{nn}
+\end{array}
+\right]\left(
+\begin{array}{c}
+y_1 \\
+\vdots \\
+y_n
+\end{array}
+\right)
+\end{equation}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+El paquete \texttt{amsmath} dispone de entornos específicos para escribir, con facilidad, matrices con diversos delimitadores. La ventaja es que no hay que especificar el número de columnas ni su alineación, que siempre es al centro.
+%
+\begin{verbatim}
+\begin{matrix}
+ Columna1 &  Columna2 . . . \\
+ Columna1 &  Columna2 . . . \\
+ ...
+\end{matrix}
+\end{verbatim}
+%
+Los entornos disponibles son:
+%
+\begin{verbatim}
+\begin{pmatrix} ......  \end{pmatrix}     % con paréntesis redondeados
+\begin{bmatrix} ......  \end{bmatrix}     % con corchetes rectos
+\begin{vmatrix} ......  \end{vmatrix}     % con barras verticales simples
+\begin{Bmatrix} ......  \end{Bmatrix}     % con llaves
+\begin{Vmatrix} ......  \end{Vmatrix}     % con barras veeticales dobles
+\end{verbatim}
+%
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo}
+
+\begin{equation*}
+\begin{pmatrix}
+1 & 222 \\ 4 & 4
+\end{pmatrix}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo}
+
+\begin{equation*}
+\begin{vmatrix}
+1 & 222 \\ 4 & 4
+\end{vmatrix}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+El paquete \texttt{mathtools} permite usar unas variantes de estos entornos en los cuales se puede elegir la alineación de las columnas (todas iguales):
+\begin{verbatim}
+\begin{pmatrix*}[l] ......  \end{pmatrix*}
+\begin{pmatrix*}[r] ......  \end{pmatrix*}
+etc.
+\end{verbatim}
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo}
+
+\begin{equation*}
+\begin{pmatrix*}[r]
+1 & 222 \\ 4 & 4
+\end{pmatrix*}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsección
+%------------------------------------------------------------------------------
+\subsection{Fórmulas en más de una línea}
+
+
+
+
+
+Cuando está en modo matemático en \emph{display}, \LaTeX{} no corta nunca la línea.
+Normalmente se usan entornos específicos para dividir y alinear las ecuaciones largas como se desee.
+
+
+
+
+
+\bigskip
+El entorno \texttt{array} permite construir cualquier estructura que se desee.
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Una función definida por partes
+
+\begin{equation*}
+g(x)=\left\{
+\begin{array}{ll}
+\dfrac{1}{x} & \text{si }x\neq0 \\[10pt]
+0            & \text{si }x=0
+\end{array}
+\right.
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Otra función definida por partes
+
+\begin{equation*}
+\left.
+\begin{array}{lr}
+e^{-1/x} & \text{si }x>2 \\
+x^5 & \text{si }0<x\leq2
+\end{array}
+\right\}=h(x)
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}} Hacer el Ejercicio 3.37 de los Apuntes.
+
+\begin{equation*}
+\left\{
+\begin{array}{l}
+\text{Hallar }u\in V\text{ tal que } \\
+a(u,v)=\langle l,v \rangle \quad \forall v \in V
+\end{array}
+\right.\\
+\begin{array}{rll}
+x & \text{si } &x\geq0 \\
+-x & \text{para }&x<0 
+\end{array}
+\end{equation*}
+\bigskip
+
+
+\centerline{Así sí:}
+\begin{equation*}
+\begin{array}{ll}
+&
+\left\{ \begin{array}{l}
+\text{Hallar }u\in V\text{ tal que } \\
+a(u,v)=\langle l,v \rangle \quad \forall v \in V
+\end{array} \right. 
+\\[3ex]
+|x|= &
+
+\left\{
+\begin{array}{rll}
+x & \text{si } &x\geq0 \\
+-x & \text{para }&x<0 
+\end{array}
+\right.
+
+\end{array}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsubsección
+%------------------------------------------------------------------------------
+\subsubsection{Entorno \texttt{gather*}}
+
+
+
+
+
+Crea una cascada de ecuaciones centradas. Introduce por si mismo el modo matemático.
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Varias ecuaciones centradas
+
+\begin{gather*}
+a+b+c+d=e+f\\
+1+2=9-6\\
+x-y=t+v+w+z
+\end{gather*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsubsección
+%------------------------------------------------------------------------------
+\subsubsection{Entorno \texttt{multline*}}
+
+
+
+
+
+El entorno \texttt{multline*} permite expandir una fórmula en varias líneas, de modo que la primera línea se ajusta al margen izquierdo, la última al margen derecho y las intermedias son centradas. También lleva implícito el modo matemático.
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Igualdades evidentes
+
+\begin{multline*}
+a+b+c+d\\
+= a+b+c+d\\
+= a+b+c+d\\
+= a+b+c+d\\
+= a+b+c+d
+\end{multline*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsubsección
+%------------------------------------------------------------------------------
+\subsubsection{Entorno \texttt{align}}
+
+
+
+
+
+El entorno \texttt{align} sirve para escribir una cascada de fórmulas alineadas en vertical respecto de determinados puntos de las mismas y numeradas individualmente.
+Los puntos a alinear se marcan con \texttt{\&} y la alineación horizontal es la que se indica. La versión con asterisco \texttt{align*} no numera las ecuaciones.
+Usar \texttt{\textbackslash{}nonumber} para evitar la numeración de alguna ellas.
+%
+\begin{verbatim}
+  \begin{align}
+     Derecha &= Izquierda & Derecha &= Izquierda ... \\
+     Derecha &= Izquierda & Derecha &= Izquierda ... \\
+     ...
+  \end{align}
+\end{verbatim}
+%
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Ecuaciones sin numerar
+
+\begin{align*}
+x+y+z & =0     &       x  & > 0\\
+1     & =x-y-z & \sqrt{x} & < 3  \\
+-x+z  & =3
+\end{align*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Ecuaciones numeradas
+
+\begin{align}
+x+y+z & =0     &       x  & > 0\\
+1     & =x-y-z & \sqrt{x} & < 3 \nonumber \\
+-x+z  & =3
+\end{align}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsubsección
+%------------------------------------------------------------------------------
+\subsubsection{Entorno \texttt{subequations}}
+
+
+
+
+
+Permite escribir varias ecuaciones (cada una con su entorno matemático) con numeración subordinada.
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Dos \texttt{equation} con numeración subordinada.
+
+\begin{subequations}\label{subeq}
+\begin{equation}\label{subeq.a}
+f(x)=x^2+2x-1
+\end{equation}
+\begin{equation}\label{subeq.b}
+f(x)=x^2+2x-1
+\end{equation}
+\begin{equation}\label{subeq.c}
+f(x)=x^2+2x-1
+\end{equation}
+\end{subequations}
+Las funciones \eqref{subeq} son continuas. Además \eqref{subeq.a} es un polinomio.
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsubsección
+%------------------------------------------------------------------------------
+\subsubsection{Entorno \texttt{split}}
+
+
+
+
+
+Este entorno funciona como \texttt{align}, pero con solo dos columnas y un único punto de alineación vertical. Además, no induce el modo matemático, por lo que debe estar incluído en un entorno \texttt{equation} o similar. 
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Una cadena de igualdades/desigualdades con una sola referencia.
+
+\begin{equation}
+\begin{split}
+|x_0-a|& = |x_0-a+x_1-x_1|\\
+        & \leq |x_1-a|+|x_0-x_1|\\
+        & \leq 2M
+\end{split}
+\end{equation}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsubsección
+%------------------------------------------------------------------------------
+\subsubsection{Entorno \texttt{aligned}}
+
+
+
+Funciona como \texttt{align}, pero tiene que estar incluido en un entorno matemático, lo que permite combinarlo con otros elementos.
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo}
+
+\begin{equation*}
+\left.
+\begin{aligned}
+B'& = -\partial\times E, \\
+E'& = \phantom{-} \partial \times B - 4\pi j,
+\end{aligned}
+\right\}
+\quad \quad \text{Ecs. de Maxwell}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsubsección
+%------------------------------------------------------------------------------
+\subsubsection{Entorno \texttt{cases}}
+
+
+
+
+
+Sirve para escribir un conjunto de ecuaciones abrazadas por una llave, con dos columnas alineadas verticalmente en un punto y ambas columnas  a la izquierda. 
+Tiene que ir incluída en un entorno matemático.
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo}
+
+\begin{equation}
+f(x)=
+\begin{cases}
+0   & \text{si } x<0\\
+x^2 & \text{si } 0 \leq x \leq 1 \\
+2   & \text{si } x>2.
+\end{cases}
+\end{equation}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}} Hacer el Ejercicio 3.49 de los Apuntes 
+(\texttt{cases})
+
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}} Hacer el Ejercicio 3.50 de los Apuntes 
+(\texttt{split} y \texttt{cases})
+
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}} Hacer el Ejercicio 4.51 de los Apuntes
+(\texttt{subequations} y \texttt{align})
+
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% sección
+%------------------------------------------------------------------------------
+\section{Cosas encima y debajo de otras cosas}
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsección
+%------------------------------------------------------------------------------
+\subsection{Líneas arriba y abajo}
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Uso de \texttt{\textbackslash{}overline}
+
+\begin{equation*}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Uso de \texttt{\textbackslash{}underline}
+
+\begin{equation*}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}} Hacer el Ejercicio 3.53 de los Apuntes.
+
+
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsección
+%------------------------------------------------------------------------------
+\subsection{Llaves arriba y abajo}
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Uso de \texttt{\textbackslash{}overbrace}
+
+\begin{equation*}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}} Hacer el Ejercicio 3.55 de los Apuntes.
+
+
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% subsección
+%------------------------------------------------------------------------------
+\subsection{Una cosa encima de otra}
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo}
+
+\begin{equation*}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\fbox{\textbf{Ejercicio}} Hacer el Ejercicio 3.57 de los Apuntes.
+
+
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% sección
+%------------------------------------------------------------------------------
+\section{Definición de comandos}
+
+
+
+
+
+%
+\begin{verbatim}
+  \newcommand{\nombrecomando}{definicion} 
+\end{verbatim}
+%
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Un comando que hace una integral en modo \emph{display}
+
+%\newcommand{\dint}{\displaystyle\int}
+
+%La integral $\dint_{\Omega} f(x) \,dx$ está bien definida
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%
+\begin{verbatim}
+  \newcommand{\nombrecomando}[Num_Argum]{definicion} 
+\end{verbatim}
+%
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Un comando para escribir la derivada parcial
+
+%\newcommand{\parcial}[2]{\dfrac{\partial #1}{\partial #2}}
+
+%\begin{equation*}
+%\parcial{f}{x}
+%\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%------------------------------------------------------------------------------
+% sección
+%------------------------------------------------------------------------------
+\section{Letras en modo matemático}
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Letras de <<pizarra>> \texttt{mathbb}
+
+\begin{equation*}
+\mathbb{A \ B \ C \ D}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Letras de <<pizarra>> \texttt{mathds}
+
+\begin{equation*}
+\mathds{N \ Z \ Q \ R \ C}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Letras caligráficas
+
+\begin{equation*}
+\mathcal{C \ D \ F}
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+\bigskip
+%=============================================================================
+\textbf{Ejemplo} Letras roman en modo matemático
+
+\begin{equation*}
+\mathrm{traza}(x)
+\end{equation*}
+
+%=============================================================================
+\bigskip
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+

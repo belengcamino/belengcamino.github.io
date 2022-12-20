@@ -1,0 +1,257 @@
+% !TEX encoding = UTF-8 Unicode
+%-----------------------------------------------------------------
+% Curso : Edición de textos científicos con LaTeX
+%-----------------------------------------------------------------
+% Fichero de trabajo para COLORES
+%-----------------------------------------------------------------
+\documentclass[11pt,twoside]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+%
+\usepackage{amsmath, amssymb, dsfont}
+%-----------------------------------------------------------------
+%  Paquete que permite usar el color
+% 
+\usepackage[dvipsnames,usenames]{color}
+%
+
+
+%-----------------------------------------------------------------
+%  Definición de algunos colores
+%
+%  Definir el color MiRojo en coordenadas rgb :
+%  91% red;  10% green;  15% blue
+\definecolor{MiRojo}{rgb}{0.91,0.1,0.15}
+%  Definir el color RojoUS en coordenadas RGB :
+%  157, 34, 53
+\definecolor{RojoUs}{RGB}{157, 34, 53}
+
+
+%  Definir el color Amarillo del sistema named :
+%  Goldenrod
+
+%-----------------------------------------------------------------
+
+
+
+
+%-----------------------------------------------------------------
+% Título del documento
+%-----------------------------------------------------------------
+\title{Uso de colores en \LaTeX}
+\author{Curso de Extensión Universitaria\thanks{Universidad de Sevilla}}
+\date{}
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    COMIENZO DEL CUERPO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+
+
+
+
+
+\begin{abstract}
+Se trata de un fichero de trabajo para practicar los colores en \LaTeX. El texto del documento es un texto cualquiera. 
+
+\bigskip
+
+{\Huge ENLACE POR SI NO SABES ALGÚN COLOR }\\[10pt]{\Large https://www.w3schools.com/colors/colors\_picker.asp}
+\end{abstract}
+
+
+
+
+
+\tableofcontents
+
+
+
+
+
+%-----------------------------------------------------------------
+%  Sección
+%-----------------------------------------------------------------
+\section{Introducción}
+
+
+
+Los alimentos sometidos a ingeniería genética o alimentos transgénicos son aquellos que fueron producidos a partir de un organismo modificado
+%-----------------------------------------------------------------
+%  Escribir una parte del texto en color rojo
+%-----------------------------------------------------------------
+\textcolor{Red}{genéticamente mediante ingeniería genética.} 
+Dicho de otra forma, es aquel alimento obtenido de un organismo al cual le han incorporado genes de otro para producir una característica deseada.
+%-----------------------------------------------------------------
+%  Escribir una parte del texto en color
+%  ProcessBlue de la paleta named
+%-----------------------------------------------------------------
+\textcolor{ProcessBlue}{En la actualidad tienen mayor presencia} alimentos procedentes de plantas transgénicas como el maíz, la cebada o la soja.
+
+
+
+
+
+\bigskip
+Se pueden usar los comandos de color, también, dentro de un entorno matemático, ya sea afectando solo a algún elemento de la fórmula, como aquí debajo, o a toda la fórmula, como en el ejemplo siguiente.
+%-----------------------------------------------------------------
+%  Escribir la función f(x) en color azul (blue)
+%  usando \textcolor
+%-----------------------------------------------------------------
+
+\begin{equation*}
+\int_0^\pi {\color{blue}f(x)} \, dx
+\end{equation*}
+
+
+%-----------------------------------------------------------------
+%  Escribir toda la fórmula en color azul (blue)
+%  usando la declaración \color
+%  Observar que, como se usa la declaración \color dentro de
+%  un entorno, su efecto se extiende solo al su contenido
+%-----------------------------------------------------------------
+ 
+\begin{equation*}
+\color{blue}
+\int_0^\pi f(x) \, dx
+\end{equation*}
+
+
+
+
+
+\bigskip
+Si se aplica una declaración de color a una tabla (\texttt{tabular}), afectará también a las rayas de la tabla.
+%-----------------------------------------------------------------
+%  Escribir en color Blue de la paleta Named 
+%  toda la tabla siguiente
+%-----------------------------------------------------------------
+\begin{center}
+\color{Blue}
+\begin{tabular}{|l|c|c|}
+
+\hline
+     &  Transgénicos (\%)  & No transgénicos (\%)  \\
+\hline\hline
+Maíz  &    58  &   42 \\
+\hline
+Cebada &   33   &  67   \\
+\hline
+Soja   &  66   & 44 \\
+\hline
+\multicolumn{3}{l}{\footnotesize Datos completamente inventados}
+\end{tabular}
+\end{center}
+
+
+
+
+
+\bigskip
+La ingeniería genética o tecnología del
+%-----------------------------------------------------------------
+%  Resaltar en color yellow las palabras "ADN recombinante"
+%  usando \colorbox
+%-----------------------------------------------------------------
+\colorbox{yellow}{ADN recombinante}
+es la ciencia que manipula secuencias de ADN ---que normalmente codifican genes--- de forma directa, posibilitando su extracción de un taxón biológico dado y su inclusión en otro, así como la modificación o eliminación de estos genes. En esto se diferencia de la mejora clásica, que es la ciencia que introduce fragmentos de ADN (conteniendo como en el caso anterior genes) de forma indirecta,
+%-----------------------------------------------------------------
+%  Resaltar con un marco RojoUS y fondo verde 
+%  las tres palabras siguientes: 
+%  "mediante cruzamientos dirigidos" 
+%  usando el comando \fcolorbox
+%-----------------------------------------------------------------
+\fcolorbox{RojoUs}{green}{mediante cruzamientos dirigidos}.
+
+
+
+
+
+\bigskip
+La primera estrategia, la de la ingeniería genética, se circunscribe en la disciplina denominada biotecnología vegetal. Cabe destacar que la inserción de grupos de genes mediante obtención de híbridos ---incluso de especies distintas--- y otros procesos pueden realizarse mediante técnicas de biotecnología vegetal que no son consideradas ingeniería genética, como puede ser la fusión de protoplastos.
+
+
+
+
+
+\bigskip
+%-----------------------------------------------------------------
+%  Resaltar con un marco RojoUS la palabra "mejora", 
+%  usando el comando \fcolorbox
+%-----------------------------------------------------------------
+ La \fcolorbox{RojoUs}{white}{mejora} de las especies que serán usadas como alimento ha sido un motivo común en la historia de la Humanidad. Entre el 12000 y 4000 a. de C. ya se realizaba una mejora por selección artificial de plantas. Tras el descubrimiento de la reproducción sexual en vegetales, se realizó el primer cruzamiento intergenérico (es decir, entre especies de géneros distintos) en 1876. En 1909 se efectuó la primera fusión de protoplastos, y en 1927 se obtuvieron mutantes de mayor productividad mediante irradiación con rayos X de semillas. Finalmente, en 1983 se produjo la primera planta transgénica y en 1994 se aprobó la comercialización del primer alimento modificado genéticamente.
+
+
+
+
+
+\bigskip
+%-----------------------------------------------------------------
+% Resaltar con un marco la fórmula que sigue  
+% usando el comando \boxed
+%-----------------------------------------------------------------
+\begin{equation*}
+\boxed{
+\int_0^\pi \textcolor{RojoUs}{f(x)} \, dx}
+\end{equation*}
+
+
+
+
+
+\bigskip
+En el año 2007, los cultivos de transgénicos se extienden en 114,3 millones de hectáreas de 23 países, de los cuales 12 son países en vías de desarrollo.
+En el año 2006 en Estados Unidos el 89\% de plantaciones de soja lo eran de variedades transgénicas, así como el 83\% del algodón y el 61\% del maíz.
+
+
+
+
+%-----------------------------------------------------------------
+% Sección
+%-----------------------------------------------------------------
+\section{Beneficios}
+
+
+
+Los caracteres introducidos mediante ingeniería genética en especies destinadas a la producción de alimentos buscan el incremento de la productividad (por ejemplo, mediante una resistencia mejorada a las plagas) así como la introducción de características de calidad nuevas. Debido al mayor desarrollo de la manipulación genética en especies vegetales, todos los alimentos transgénicos corresponden a derivados de plantas. Por ejemplo, un carácter empleado con frecuencia es la resistencia a herbicidas, puesto que de este modo es posible emplearlos afectando sólo a la flora ajena al cultivo. Cabe destacar que el empleo de variedades modificadas y resistentes a herbicidas ha disminuido la contaminación debido a estos productos en acuíferos y suelo, si bien es cierto que no se requeriría el uso de estos herbicidas tan nocivos por su alto contenido en glifosato (GLY) y amonio glifosinado (GLU) si no se plantaran estas variedades, diseñadas exclusivamente para resistir a dichos compuestos.
+
+
+Las plagas de insectos son uno de los elementos más devastadores en agricultura.
+Por esta razón, la introducción de genes que provocan el desarrollo de resistentes a uno o varios órdenes de insectos ha sido un elemento común a muchas de las variedades patentadas. Las ventajas de este método suponen un menor uso de insecticidas en los campos sembrados con estas variedades, lo que redunda en un menor impacto en el ecosistema que alberga al cultivo y por la salud de los trabajadores que manipulan los fitosanitarios.
+
+
+
+
+
+%-----------------------------------------------------------------
+% Sección
+%-----------------------------------------------------------------
+\section{Polémica}
+
+
+
+
+
+En varios países del mundo han surgido grupos opuestos a los organismos genéticamente modificados, formados principalmente por ecologistas, asociaciones de derechos del consumidor, algunos científicos y políticos, los cuales exigen el etiquetaje de estos, por sus preocupaciones sobre seguridad alimentaria, impactos ambientales, cambios culturales y dependencias económicas. Llaman a evitar este tipo de alimentos, cuya producción involucraría daños a la salud, ambientales, económicos, sociales y problemas legales y éticos por concepto de patentes.
+De este modo, surge la polémica derivada entre sopesar las ventajas e inconvenientes del proceso. Es decir: el impacto beneficioso en cuanto a economía, estado medioambiental del ecosistema aledaño al cultivo y en la salud del agricultor ha sido descrito, pero las dudas respecto a la posible aparición de alergias, cambios en el perfil nutricional, dilución del acervo genético y difusión de resistencias a antibióticos también.
+
+
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

@@ -1,0 +1,172 @@
+% !TEX encoding = UTF-8 Unicode
+%-----------------------------------------------------
+% Curso : Edición de textos científicos con ordenador
+%-----------------------------------------------------
+% EJERCICIO 2
+%-----------------------------------------------------
+\documentclass[a4paper,twocolumn]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+
+
+
+
+%-----------------------------------------------------
+%  AQUÍ COMIENZA EL CUERPO
+%-----------------------------------------------------
+
+\begin{document}
+
+
+%---------------------------------------------------
+% Entorno titlepage
+%--------------------------------------------------
+% Crea una página de título del documento usando el entorno titlepage
+
+\begin{titlepage}
+\bfseries
+
+Centro de formación permanente \hfill Universidad de Sevilla
+
+\vfill
+
+\begin{center}
+
+CURSO DE EXTENSIÓN UNIVERSITARIA \\[1cm]
+
+{\Huge Curso de \LaTeX} \\[1cm]
+
+
+{\large Ejercicio 2}
+
+\end{center}
+
+\vfill
+
+\begin{flushright}
+
+{\mdseries \texttt{https://www.cfp.us.es}}
+
+\end{flushright}
+
+\end{titlepage}
+
+%-----------------------------------------------------
+% Capítulo
+%-----------------------------------------------------
+\chapter*{Ejercicio de la segunda clase}
+
+%----------------------------------------------------
+% Sección
+%-----------------------------------------------------
+\section*{A dos columnas}
+
+
+Los comandos con asterisco no numeran la unidad y no introducen nada en el índice. 
+
+Un documento con dos columnas se puede crear añadiendo la opción \texttt{twocolumn} en la declaración de clase del documento (ver la página~8 de los apuntes). Esta opción se aplica a \textbf{todo} el documento. 
+
+Si se necesita más flexibilidad en el diseño de las columnas o se quiere crear un documento con varias columnas, el paquete \texttt{multicol} --no se verá en este ejercicio-- proporciona un conjunto de comandos para ello. 
+
+
+En la sección siguiente se explica un entorno adecuado para reproducir código de programación en un texto.
+%----------------------------------------------------
+% Sección
+%-----------------------------------------------------
+\section*{Código de programación}
+
+
+El \textbf{entorno} \texttt{verbatim} permite componer varias líneas de texto no formateado, en tipo de letra mecanográfica\footnote{Para recordar cómo se crean las notas al pie de página, consulta la Sección~2.8 de los apuntes del curso}. Su uso más habitual es para reproducir código fuente de algún lenguaje de programación, como aparece en el texto que sigue: 
+%
+\begin{verbatim}
+for Iter = 1:20
+  x0 = x;
+  x  = fun(x);
+  err = abs(x-x0)/abs(x0);
+  if ( err < 1.e-9 )
+     return
+  end
+end
+\end{verbatim}
+
+
+
+
+%----------------------------------------------------
+% Sección
+%-----------------------------------------------------
+\section*{Listas}
+
+
+Para crear varios tipos de listas existen los siguientes \textit{entornos}:
+
+{\ttfamily
+\begin{itemize}
+\item enumerate
+\begin{itemize}
+\item itemize
+\begin{itemize}
+\item description
+\end{itemize}
+\end{itemize}
+\end{itemize}
+}
+
+Esta lista está hecha en el entorno \texttt{itemize} de varios niveles. 
+
+Los símbolos que aparecen en las etiquetas de cada item, dependen del paquete de idioma que está declarado en el documento. Normalmente no hay que cambiarlos, puesto que se corresponden con las reglas tipográficas del idioma en cuestión. No obstante, si se desean cambiar, la explicación de cómo hacerlo aparece en la página 276 del libro de
+\textsc{B. Cascales y otros}, \textit{El libro de \LaTeX{}},  Ed. Prentice Hall, Madrid (2003)\footnote{Si  se compone a dos columnas, los pies de página son pies de columna}.
+
+
+
+%----------------------------------------------------
+% Sección
+%-----------------------------------------------------
+\section*{Alinear el texto a un lado}
+
+\begin{flushright}
+\noindent
+En la sección anterior de este ejercicio \\
+aparecen varios entornos \\
+\texttt{itemize} anidados.
+\end{flushright}
+
+\begin{flushleft}
+\noindent
+El párrafo anterior está ajustado \\
+a la derecha. Este párrafo \\
+está ajustado a la izquierda. \\
+Observa que no hay sangrado. 
+\end{flushleft}
+
+
+%----------------------------------------------------
+% Sección
+%----------------------------------------------------
+\section*{Caracteres reservados}
+
+
+\LaTeX{} usa algunos caracteres como comandos o delimitadores. Para que estos caracteres sean interpretados como parte del texto,  es preciso usar comandos especiales. 
+
+
+Consulta la Sección~2.10 de los apuntes del curso para escribir en el texto los siguientes caracteres: 
+
+\centerline{\{ \} \& \~{} \% \$ \_}
+
+
+
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-----------------------------------------------------
+%  FIN DEL DOCUMENTO
+%-----------------------------------------------------
+% Observación: Todo lo que aparezca DESPUÉS de \end{document} será
+% ignorado por el compilador, esto puede tener sus ventajas
+% ya que permite dejar texto dentro del fichero para ser usado
+% en otra ocasión.
+%-----------------------------------------------------
+
+

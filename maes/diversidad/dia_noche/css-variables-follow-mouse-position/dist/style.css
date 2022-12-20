@@ -1,29 +1,5 @@
-:root {
-  --building-color1: #aa80ff;
-  --building-color2: #66cc99;
-  --building-color3: #cc6699;
-  --building-color4: #538cc6;
-  --window-color1: #bb99ff;
-  --window-color2: #8cd9b3;
-  --window-color3: #d98cb3;
-  --window-color4: #8cb3d9;
-}
-@media (max-width: 1000px) {
-  :root {
-    --building-color1: #000;
-    --building-color2: #000;
-    --building-color3: #000;
-    --building-color4: #000;
-    --window-color1: #777;
-    --window-color2: #777;
-    --window-color3: #777;
-    --window-color4: #777;
-  }
-}
-
 body {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #ff0, #008000);
+  background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #ff0, #008000) no-repeat 0 0;
 }
-

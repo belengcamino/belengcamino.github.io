@@ -1,0 +1,434 @@
+% !TEX encoding = UTF-8 Unicode
+%----------------------------------------------------------------------
+% Curso : Edición de textos científicos con LaTeX
+%----------------------------------------------------------------------
+% Fichero de trabajo para ENTORNOS FLOTANTES
+%----------------------------------------------------------------------
+\documentclass[11pt,twoside]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+%
+\usepackage{graphicx}
+\usepackage{wrapfig} %%para colocar imágenes rodeadas de texto
+%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Como cambiar los nombres de los entornos flotantes
+%  comandos a usar con [spanish]{babel}
+%
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Como cambiar los nombres de los entornos flotantes
+%  comandos a usar sin [spanish]{babel}
+%
+%\renewcommand{\tablename}{Tabla}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%
+\begin{document}
+
+
+
+
+%----------------------------------------------------------------------
+\section{Introducción}
+
+Los alimentos sometidos a ingeniería genética o alimentos transgénicos son aquellos que fueron producidos a partir de un organismo modificado genéticamente mediante ingeniería genética. Dicho de otra forma, es aquel alimento obtenido de un organismo al cual le han incorporado genes de otro para producir una característica deseada. En la actualidad tienen mayor presencia alimentos procedentes de plantas transgénicas como el maíz, la cebada o la soja.
+
+
+La ingeniería genética o tecnología del ADN recombinante es la ciencia que manipula secuencias de ADN ---que normalmente codifican genes--- de forma directa, posibilitando su extracción de un taxón biológico dado y su inclusión en otro, así como la modificación o eliminación de estos genes. En esto se diferencia de la mejora clásica, que es la ciencia que introduce fragmentos de ADN (conteniendo como en el caso anterior genes) de forma indirecta, mediante cruzamientos dirigidos.
+
+
+
+
+
+%----------------------------------------------------------------------
+%  Incluir imagen mapamundo
+%
+%  Leyenda: Áreas con cultivos de GMO ---Genetically Modified Organism--- en el año 2005. Los cinco países marcados en color naranja produjeron más del 95\% de GMO
+%  Etiqueta: fig.mapamundo
+%----------------------------------------------------------------------
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=10cm]{images/mapamundo.pdf}
+\end{center}
+\caption{Áreas con cultivos de GMO ---Genetically Modified Organism--- en el año 2005. Los cinco países marcados en color naranja produjeron más del 95\% de GMO}\label{fig.mapamundo}
+\end{figure}
+
+
+La primera estrategia, la de la ingeniería genética, se circunscribe en la disciplina denominada biotecnología vegetal. Cabe destacar que la inserción de grupos de genes mediante obtención de híbridos ---incluso de especies distintas--- y otros procesos pueden realizarse mediante técnicas de biotecnología vegetal que no son consideradas ingeniería genética, como puede ser la fusión de protoplastos.
+
+
+La mejora de las especies que serán usadas como alimento ha sido un motivo común en la historia de la Humanidad.
+ Entre el 12000 y 4000 a. de C. ya se realizaba una mejora por selección artificial de plantas. Tras el descubrimiento de la reproducción sexual en vegetales, se realizó el primer cruzamiento intergenérico (es decir, entre especies de géneros distintos) en 1876. 
+ 
+ 
+ 
+ 
+%----------------------------------------------------------------------
+%  Incluir imagen ciruela
+%
+%  Leyenda : Ciruela transgénica
+%  Etiqueta: fig.ciruela
+%----------------------------------------------------------------------
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=6cm]{images/ciruela.pdf}
+\end{center}
+\caption{Ciruela transgénica}\label{fig.ciruela}
+\end{figure}
+
+
+
+En 1909 se efectuó la primera fusión de protoplastos, y en 1927 se obtuvieron mutantes de mayor productividad mediante irradiación con rayos X de semillas.
+Finalmente, en 1983 se produjo la primera planta transgénica y en 1994 se aprobó la comercialización del primer alimento modificado genéticamente.
+
+En el año 2007, los cultivos de transgénicos se extienden en 114,3 millones de hectáreas de 23 países, de los cuales 12 son países en vías de desarrollo.
+ En el año 2006 en Estados Unidos el 89\% de plantaciones de soja lo eran de variedades transgénicas, así como el 83\% del algodón y el 61\% del maíz. 
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------
+\section{Beneficios}\label{seccion.beneficios}
+
+
+Los caracteres introducidos mediante ingeniería genética en especies destinadas a la producción de alimentos buscan el incremento de la productividad (por ejemplo, mediante una resistencia mejorada a las plagas) así como la introducción de características de calidad nuevas.
+
+Debido al mayor desarrollo de la manipulación genética en especies vegetales, todos los alimentos transgénicos corresponden a derivados de plantas. Por ejemplo, un carácter empleado con frecuencia es la resistencia a herbicidas, puesto que de este modo es posible emplearlos afectando sólo a la flora ajena al cultivo. Cabe destacar que el empleo de variedades modificadas y resistentes a herbicidas ha disminuido la contaminación debido a estos productos en acuíferos y suelo, bien es cierto que no se requeriría el uso de estos herbicidas tan nocivos por su alto contenido en glifosato (GLY) y amonio glifosinado (GLU) si no se plantaran estas variedades, diseñadas exclusivamente para resistir a dichos compuestos.
+
+
+
+
+Las plagas de insectos son uno de los elementos más devastadores en agricultura. Por esta razón, la introducción de genes que provocan el desarrollo de resistentes a uno o varios órdenes de insectos ha sido un elemento común a muchas de las variedades patentadas. Las ventajas de este método suponen un menor uso de insecticidas en los campos sembrados con estas variedades, lo que redunda en un menor impacto en el ecosistema que alberga al cultivo y por la salud de los trabajadores que manipulan los fitosanitarios.
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------
+\section{Polémica}\label{seccion.polemica}
+
+
+%----------------------------------------------------------------------
+%  Incluir imagen protestas
+%
+%  Leyenda : Protesta de organizaciones agrarias españolas en contra de los transgénicos en la agricultura ecológica (Puerta del Sol de Madrid, 30 de agosto de 2008).
+%  Etiqueta: fig.protestas
+%----------------------------------------------------------------------
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=6cm]{images/protesta.jpg}
+\end{center}
+\caption{ Protesta de organizaciones agrarias españolas en contra de los transgénicos en la agricultura ecológica (Puerta del Sol de Madrid, 30 de agosto de 2008).}\label{fig.protestas}
+\end{figure}
+
+
+
+En varios países del mundo han surgido grupos opuestos a los organismos genéticamente modificados, formados principalmente por ecologistas, asociaciones de derechos del consumidor, algunos científicos y políticos, los cuales exigen el etiquetaje de estos, por sus preocupaciones sobre seguridad alimentaria, impactos ambientales, cambios culturales y dependencias económicas. 
+Llaman a evitar este tipo de alimentos, cuya producción involucraría daños a la salud, ambientales, económicos, sociales y problemas legales y éticos por concepto de patentes.
+De este modo, surge la polémica derivada entre sopesar las ventajas e inconvenientes del proceso. Es decir: el impacto beneficioso en cuanto a economía, estado medioambiental del ecosistema aledaño al cultivo y en la salud del agricultor ha sido descrito, pero las dudas respecto a la posible aparición de alergias, cambios en el perfil nutricional, dilución del acervo genético y difusión de resistencias a antibióticos también.
+
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------
+\subsection{Transferencia horizontal}
+
+
+%----------------------------------------------------------------------
+%  Incluir imagen tabaco con una leyenda mas estrecha
+%
+%  Leyenda : Planta de tabaco transgénica expresando la luciferasa de la luciérnaga \textit{Photinus pyralis}, enzima que permite la emisión de fluorescencia.
+%  Etiqueta: fig.tabaco
+%----------------------------------------------------------------------
+
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=6cm]{images/tabaco.jpg}
+\end{center}
+\caption{Planta de tabaco transgénica expresando la luciferasa de la luciérnaga \textit{Photinus pyralis}, enzima que permite la emisión de fluorescencia.}\label{fig.tabaco}
+\end{figure}
+
+
+
+
+Se ha postulado el papel de los alimentos transgénicos en la difusión de la resistencia a antibióticos, pues la inserción de ADN foráneo en las variedades transgénicas puede hacerse (y en la mayoría de los casos se hace) mediante la inserción de marcadores de resistencia a antibióticos.
+No obstante, se han desarrollado alternativas para no emplear este tipo de genes o para eliminarlos de forma limpia de la variedad final y, desde 1998, la FDA exige que la industria genere este tipo de plantas sin marcadores en el producto final.
+La preocupación por tanto es la posible transferencia horizontal de estos genes de resistencia a otras especies, como bacterias de la microbiota del suelo (rizosfera) o de la microbiota intestinal de mamíferos (como los humanos). Teóricamente, este proceso podría llevarse a cabo por transducción, conjugación y transformación, si bien esta última (mediada por ADN libre en el medio) parece el fenómeno más probable. Se ha postulado, por tanto, que el empleo de transgénicos podría dar lugar a la aparición de resistencias a bacterias patógenas de relevancia clínica.
+
+
+
+
+%----------------------------------------------------------------------
+%  Colocar la tabla siguiente en un entorno flotante
+%
+%  Leyenda: Datos sobre la producción transgénica en el año 1500
+%  Etiqueta: tabla.transg
+%----------------------------------------------------------------------
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+     &  Transgénicos (\%)  & No transgénicos (\%)  \\
+\hline\hline
+Maíz  &    58  &   42 \\
+\hline
+Cebada &   33   &  67   \\
+\hline
+Soja   &  66   & 44 \\
+\hline
+\multicolumn{3}{l}{\footnotesize Datos completamente inventados}
+\end{tabular}
+\end{center}
+\caption{Datos sobre la producción transgénica en el año 1500}\label{tabla.transg}
+\end{table}
+
+
+
+Sin embargo, existen multitud de elementos que limitan la transferencia de ADN del producto transgénico a otros organismos. El simple procesado de los alimentos durante previo al consumo degrada el ADN.
+Además, en el caso particular de la transferencia de marcadores de resistencia a antibióticos, las bacterias del medio ambiente poseen enzimas de restricción que degradan el ADN que podría transformarlas (este es un mecanismo que emplean para mantener su estabilidad genética).
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------
+%  Colocar la tabla siguiente en un entorno flotante
+%
+%  Leyenda: Declaraciones tras las elecciones
+%  Etiqueta: tabla.blablabla
+%----------------------------------------------------------------------
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|l@{ dijo: }p{4cm}|}
+\hline
+Remigio  &  bla bla bla bla bla bla bla bla bla bla  \\
+\hline
+Paulina  &  bla bla bla bla bla bla bla bla bla bla  \\
+\hline
+Macarena &  bla bla bla bla bla bla bla bla bla bla  \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Declaraciones tras las elecciones}\label{tabla.blablabla}
+\end{table}
+
+
+
+
+Más aún, en el caso de que el ADN pudiera introducirse sin haber sido degradado en los pasos de procesado de alimentos y durante la propia digestión, debería recombinarse de forma definitiva en su propio material genético, lo que, para un fragmento lineal de ADN procedente de una planta requiriría una homología de secuencia muy alta, o bien la formación de un replicón independiente. 
+No obstante, se ha citado la penetración de ADN intacto en el torrente sanguíneo de ratones que habían ingerido un tipo de ADN denominado M13 ADN que puede estar en las construcciones de transgénicas, e incluso su paso a través de la barrera placentaria a la descendencia.
+En cuanto a la degradación gastrointestinal, se ha demostrado que el gen epsps de soja transgénica sigue intacto en el intestino. Por tanto, puesto que se ha determinado la presencia de algunos tipos de ADN transgénico en el intestino de mamíferos, debe tenerse en cuenta la posibilidad de una integración en el genoma de la microbiota intestinal (es decir, de las bacterias que se encuentran en el intestino de forma natural sin ser patógenas), si bien este evento requeriría de la existencia de una secuencia muy parecida en el propio ADN de las bacterias expuestas al ADN foráneo.
+
+
+
+
+
+
+%----------------------------------------------------------------------
+\subsection{Ingestión de ``ADN foráneo''}
+
+
+%----------------------------------------------------------------------
+%  Entorno wrapfigure: para colocar imágenes rodeadas de texto
+%  Necesita el paquete:
+%   \usepackage{wrapfig}
+%
+%   \begin{wrapfigure}[NumLineas]{Posicion}[DistMargen]{Tamaño}
+%   \includegraphics[Opciones]{Grafico}
+%   \caption{LeyendaFigura}
+%   \label{Etiqueta}
+%   \end{wrapfigure}
+%
+%  Argumentos:
+%  NUmlineas   (opcional) numero de lineas que se contraerán para 
+%              incluir el Grafico
+%  Posicion    para indicar la posición del gráfico; 
+%              Mayuscula: donde decida LaTeX
+%              minuscula: donde se indique (si se puede)
+%              r, R     : derecha del texto
+%              l, L     : izquierda del texto
+%              i, I     : margen interior (documento a 2 caras)
+%              o, O     : margen exterior (documento a dos caras)
+%  DistMargen  (opcional) distancia que el Grafico puede meterse 
+%              en el margen
+%  Tamaño      ancho que se deja para el Grafico; 
+%              si se pone 0, se tomará el real
+%
+%----------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------
+%  Incluir imagen plantulas a un lado rodeada de texto
+%  Probar con distintos parámetros
+%----------------------------------------------------------------------
+
+
+
+
+\begin{wrapfigure}[19]{r}{5cm}
+\begin{center}
+\includegraphics[width=3.5cm]{images/plantulas.jpeg}
+\end{center}
+\caption{La transformación de plántulas de cultivo in vitro suele realizarse con un cultivo de Agrobacterium tumefaciens en placas Petri con un medio de cultivo suplementado con antibióticos.}
+\label{fig.plantula}
+\end{wrapfigure}
+
+
+Un aspecto que origina polémica es el empleo de ADN de una especie distinta a la del organismo transgénico; por ejemplo, que en maíz se incorpore un gen propio de una bacteria del suelo, y que este maíz esté destinado al consumo humano. No obstante, la incorporación de ADN de organismos bacterianos e incluso de virus sucede de forma constante en cualquier proceso de alimentación. De hecho, los procesos de preparación de alimento suelen fragmentar las moléculas de ADN de tal forma que el producto ingerido carece ya de secuencias codificantes (es decir, con genes completos capaces de codificar información.
+Más aún, debido a que el ADN ingerido es desde un punto de vista químico igual ya provenga de una especie u otra, la especie del que proviene no tiene ninguna influencia.
+
+
+
+Esta preocupación se ha extendido en cuanto a los marcadores de resistencia a antibióticos que se cita en la sección anterior pero también respecto a la secuencia promotora de la transcripción que se sitúa en buena parte de las construcciones de ADN que se introducen en las plantas de interés alimentario, denominado promotor 35S y que procede del cauliflower mosaic virus (virus del mosaico de la coliflor). Puesto que este promotor produce expresión constitutiva (es decir, continua y en toda la planta) en varias especies, se sugirió su posible transferencia horizontal entre especies, así como su recombinación en plantas e incluso en virus, postulándose un posible papel en la generación de nuevas cepas virales.
+No obstante, el propio genoma humano contiene en su secuencia multitud de repeticiones de ADN que proceden de retrovirus (un tipo de virus) y que, por definición, es ADN foráneo sin que haya resultado fatal en la evolución de la especie; estas repeticiones se calculan en unas 98.000 o, según otras fuentes, en 400.000.
+Dado que, además, estas secuencias no tienen por qué ser adaptativas, es común que posean una tasa de mutación alta y que, en el transcurso de las generaciones, pierdan su función. Finalmente, puesto que el virus del mosaico de la coliflor está presente en el 10\% de nabos y coliflores no transgénicos, el ser humano ha consumido su promotor desde hace años sin efectos deletéreos.
+
+
+
+
+
+
+
+%----------------------------------------------------------------------
+\section{Mini-páginas}
+
+El entorno \texttt{minipage} permite construir <<una caja grande>> como si fuera una página en si misma. Esta <<caja>> se alinea con el texto a su alrededor como si fuera una letra muy grande.
+
+
+\medskip
+
+%----------------------------------------------------------------------
+%   Entorno minipage: 
+% \begin{minipage}[Posicion]{Ancho} 
+%   Texto 
+% \end{minipage}
+% 
+% Argumentos: 
+%     Posicion para indicar la posición de la minipágina 
+%     t, b, c (por defecto) 
+%----------------------------------------------------------------------
+
+%----------------------------------------------------------------------
+%   Entorno minipage: una mini-página sola al comienzo de una línea
+%   Descomentar las líneas siguientes.
+%----------------------------------------------------------------------
+ \begin{minipage}[c]{7cm}
+Se ha discutido el posible efecto como alérgenos de los derivados de alimentos transformados genéticamente; incluso, se ha sugerido su toxicidad. El concepto subyacente en ambos casos difiere: en el primero, una sustancia inocua podría dar lugar a la aparición de reacciones alérgicas en algunos individuos susceptibles, mientras que en el segundo su efecto deletéreo sería generalizado. 
+\end{minipage} 
+%%----------------------------------------------------------------------
+
+\bigskip
+%----------------------------------------------------------------------
+%   Entorno minipage: probar distintas alineaciones (t, b)
+%   Descomentar las líneas siguientes.
+%----------------------------------------------------------------------
+Línea actual  \begin{minipage}[t]{7cm}
+Se ha discutido el posible efecto como alérgenos de los derivados de alimentos transformados genéticamente; incluso, se ha sugerido su toxicidad. El concepto subyacente en ambos casos difiere: en el primero, una sustancia inocua podría dar lugar a la aparición de reacciones alérgicas en algunos individuos susceptibles, mientras que en el segundo su efecto deletéreo sería generalizado. 
+\end{minipage} 
+Línea actual
+%%----------------------------------------------------------------------
+
+\bigskip 
+
+Dos minipáginas en la misma línea:
+
+\bigskip 
+%----------------------------------------------------------------------
+%   Entorno minipage: dos minipáginas en la misma línea
+%   Probar con distintos parámetros de alineación:  t,  m,  b 
+%   Descomentar las líneas siguientes.
+%%----------------------------------------------------------------------
+Texto \begin{minipage}[t]{5cm}
+Se ha discutido el posible efecto como alérgenos de los derivados de alimentos transformados genéticamente; incluso, se ha sugerido su toxicidad. El concepto subyacente en ambos casos difiere: en el primero, una sustancia inocua podría dar lugar a la aparición de reacciones alérgicas en algunos individuos susceptibles, mientras que en el segundo su efecto deletéreo sería generalizado. 
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{5cm}
+En él se indicaba que el intestino de ratas alimentadas con patatas genéticamente modificadas (expreando una aglutinina de Galanthus nivalis, que es una lectina) resultaba dañado severamente.
+No obstante, este estudio fue severamente criticado por varios investigadores por fallos en el diseño experimental y en el manejo de los datos.\end{minipage} 
+%----------------------------------------------------------------------
+
+
+\bigskip\bigskip\bigskip
+
+
+%----------------------------------------------------------------------
+%   Entorno minipage: una minipágina con texto y otra al lado con una imagen
+%   Probar con distintos parámetros de alineación:  t,  m, b
+%   Descomentar las líneas siguientes.
+%----------------------------------------------------------------------
+Texto \begin{minipage}[t]{5cm}
+Se ha discutido el posible efecto como alérgenos de los derivados de alimentos transformados genéticamente; incluso, se ha sugerido su toxicidad. El concepto subyacente en ambos casos difiere: en el primero, una sustancia inocua podría dar lugar a la aparición de reacciones alérgicas en algunos individuos susceptibles, mientras que en el segundo su efecto deletéreo sería generalizado. 
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{5cm}
+\setlength{\fboxsep}{0pt}
+\centering
+\vspace*{0pt}
+\fbox{\includegraphics[width=5cm]{images/tangente}}
+\end{minipage}
+%%----------------------------------------------------------------------
+%
+
+
+\bigskip
+Se ha discutido el posible efecto como alérgenos de los derivados de alimentos transformados genéticamente; incluso, se ha sugerido su toxicidad. El concepto subyacente en ambos casos difiere: en el primero, una sustancia inocua podría dar lugar a la aparición de reacciones alérgicas en algunos individuos susceptibles, mientras que en el segundo su efecto deletéreo sería generalizado. Un estudio de gran repercusión al respecto fue publicado por Exwen y Pustzai en 1999. 
+
+
+
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+

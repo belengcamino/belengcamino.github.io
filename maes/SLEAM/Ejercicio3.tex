@@ -1,0 +1,42 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, dsfont}
+
+\setcounter{chapter}{2}
+\setcounter{page}{3}
+
+\begin{document}
+\chapter{Practicando fórmulas matemáticas}
+\section{Texto corriente dentro del modo matemático}
+En algunas ocasiones se necesita escribir un texto corriente dentro del modo matemático resaltado(en fórmulas centradas en un línea). Si se escribe texto sin más dentro del modo matemático, éste se escribe en letra cursiva y los espacios son ignorados. Para que esto no ocurra, hay que indicarlo expresamente. La forma más adecuada de hacerlo consiste en usar el comando \textbackslash\texttt{text} (disponible con el paquete \texttt{amsmath}).
+
+No tiene mucho sentido utilizar dicho comando cuando se escribe en modo matemático en línea. Por ejemplo, no se debe usar para escribir: se dice que $\lim_{x\to a^{-}}f(x)=A$ si 
+$\forall \varepsilon > 0$ existe 
+$\delta > 0$ tal que si 
+$x \in (a-delta,a)$, entonces 
+$|f(x)-A|<\varepsilon$.
+
+En cambio, es apropiado para escribir texto en una fórmula centrada en una línea:
+%
+\begin{equation}
+\iint_{Q}\rho^2|\varphi|^2\,dx\,dt \leq \iint_{\omega}\rho^2|\varphi_{t}-\Delta\varphi|^2\,dx\,dt \quad \text{para }  \varphi \in C^2(Q). 
+\end{equation}
+
+
+\section{Practicando algunas fórmulas}
+
+\begin{equation*}
+\lim_{x \to \infty}\dfrac{\sqrt{x^4+1}+x^2}{\sqrt[3]{x+1}+2x}=
+%
+\lim_{x \to \infty}\dfrac{\dfrac{\sqrt{x^4+1}}{x^2}+\dfrac{x^2}{x^2}}{\dfrac{\sqrt[3]{x+1}}{x^2}+\dfrac{2x}{x^2}} =
+%
+\lim_{x \to \infty}\dfrac{\sqrt{1+\dfrac{1}{x^4}}+1}{\sqrt[3]{\dfrac{1}{x^5}+\dfrac{1}{x^6}}+\dfrac{2}{x}} =
+\infty
+\end{equation*}
+
+\begin{equation*}
+I=\int_{a}^{b}f(x)\,dx=F(x)\bigg]_{a}^{b}=F(b)-F(a)
+\end{equation*}
+
+\end{document}

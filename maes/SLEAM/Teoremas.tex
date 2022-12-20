@@ -1,0 +1,236 @@
+% !TEX encoding = UTF-8 Unicode
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  
+%    LaTeX: Composición de textos científicos con el ordenador
+%              Curso de Extensión Universitaria 
+%                                
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+
+
+%-----------------------------------------------------------------
+%  paquete para cambiar el aspecto de los entornos tipo teorema
+%
+\usepackage{theorem}
+
+
+%-----------------------------------------------------------------
+%  paquetes necesarios para escribir matemáticas 
+%
+\usepackage{amsmath, amssymb, dsfont}
+
+
+
+%-----------------------------------------------------------------
+%  algunas longitudes y contadores
+%
+\setlength{\parindent}{0pt}
+\setcounter{chapter}{2}
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+%  entornos tipo teorema
+%
+{\theoremstyle{break}\theorembodyfont{\slshape}\newtheorem{definicion}{Definición}[chapter]}
+
+{\theorembodyfont{\rmfamily}
+\newtheorem{Teorema}[definicion]{Teorema}}
+
+\newtheorem{Ejemplo}{Ejemplo}
+\newtheorem{Ejercicio}[Ejemplo]{Ejercicio}
+
+{\theoremstyle{margin}
+\newtheorem{Proyecto}[Ejemplo]{Proyecto}}
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+%  para que salga "Tema" en vez del "Capítulo"
+%
+\addto\captionsspanish{\def\chaptername{Tema}}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  AQUÍ COMIENZA EL CUERPO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+
+
+
+%-----------------------------------------------------------------
+% Capítulo
+%-----------------------------------------------------------------
+\chapter{Escribiendo teoremas}
+
+
+
+
+
+Según Wikipedia, un \textbf{teorema} es una proposición que afirma una verdad demostrable. 
+En matemáticas, es toda proposición que partiendo de un supuesto (hipótesis), afirma una verdad (tesis) no evidente por sí misma.
+
+Un teorema es una fórmula bien formada que puede ser demostrada dentro de un sistema formal, partiendo de axiomas u otros teoremas. Demostrar teoremas es un asunto central en la lógica matemática. 
+Los teoremas también pueden ser expresados en lenguaje natural formalizado.
+
+Un teorema generalmente posee un número de premisas que deben ser enumeradas o aclaradas de antemano. Luego existe una conclusión, una afirmación lógica o matemática, la cual es verdadera bajo las condiciones dadas. El contenido informativo del teorema es la relación que existe entre las hipótesis y la tesis o conclusión.
+
+Se llama corolario a una afirmación lógica que sea consecuencia inmediata de un teorema, pudiendo ser demostrada usando las propiedades del teorema previamente demostrado.
+
+
+
+Las afirmaciones menos importantes se denominan:
+
+\begin{description}
+%
+\item[Lema] 
+es una afirmación que forma parte de un teorema más amplio. El \emph{lema de Gauss} y el \emph{lema de Zorn}, por ejemplo, son considerados demasiado importantes \emph{per se} para algunos autores, por lo cual consideran que la denominación lema no es adecuada.
+
+%
+\item[Corolario] 
+es una afirmación que sigue inmediatamente a un teorema. Una proposición A es un corolario de una proposición o teorema B si A puede ser deducida sencillamente de B.
+
+%
+\item[Proposición] 
+es una afirmación o resultado no asociado a ningún teorema en particular.
+
+
+%
+\end{description}
+
+
+Una afirmación matemática que se cree verdadera pero no ha sido demostrada se denomina \textbf{conjetura} o \textbf{hipótesis}. 
+Por ejemplo: la \emph{conjetura de Goldbach} o la \emph{hipótesis de Riemann}.
+
+
+
+
+
+%-----------------------------------------------------------------
+% sección
+%-----------------------------------------------------------------
+\section{Sección que no sirve para nada}
+
+
+Esta es una sección de relleno.
+
+
+
+
+
+
+
+
+
+%-----------------------------------------------------------------
+% sección
+%-----------------------------------------------------------------
+\section{Algunas definiciones y teoremas}
+
+
+
+
+\begin{definicion}
+Aliquam eget lectus a augue malesuada laoreet. Sed eros nulla, tincidunt quis volutpat venenatis, tincidunt ut urna. Nulla facilisi. Cras placerat sem in mi eleifend semper. 
+\end{definicion}
+
+
+
+
+
+\begin{definicion}
+Nunc auctor convallis neque id vestibulum. Donec porttitor non lectus quis vulputate. Quisque dictum in lacus ut convallis. Curabitur nulla turpis, ultricies sed lorem vel, iaculis lobortis quam. Suspendisse et ultrices ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum et ante viverra, gravida dui eget, pellentesque nulla.
+\end{definicion}
+
+
+
+
+\begin{Teorema}
+Cras sit amet aliquam turpis, a convallis orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce tristique ligula quis erat luctus, vel volutpat urna viverra. Praesent facilisis tempus purus, sit amet feugiat orci luctus id.
+\end{Teorema}
+
+
+
+
+
+%-----------------------------------------------------------------
+% sección
+%-----------------------------------------------------------------
+\section{Entornos tipo teorema}\label{sec_teoremas}
+
+
+
+
+\begin{Teorema}
+In aliquet egestas elit, et rutrum est facilisis ut. Integer tempor faucibus dolor, in malesuada quam ultrices vel. Maecenas faucibus arcu sit amet velit eleifend dignissim. Nunc nunc augue, fermentum non ultrices sed, ultricies sit amet dui. 
+\end{Teorema}
+
+
+
+
+
+\begin{definicion}
+Aliquam eget lectus a augue malesuada laoreet. Sed eros nulla, tincidunt quis volutpat venenatis, tincidunt ut urna. Nulla facilisi. Cras placerat sem in mi eleifend semper. 
+\end{definicion}
+
+
+
+
+\begin{Ejemplo}[de aplicación inmediata]
+Fusce euismod pharetra sollicitudin. Nullam vitae odio ac turpis ornare feugiat at at mauris. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sit amet velit non elit lobortis porttitor. 
+\end{Ejemplo}
+
+
+
+
+\begin{Ejercicio}
+Praesent sodales condimentum arcu sit amet porta. Donec vehicula mi vitae dolor tempus ut venenatis lectus aliquet. Nam quis consectetur mi. Proin dapibus lacus in tellus elementum auctor. 
+\end{Ejercicio}
+
+
+
+
+\begin{Proyecto}
+Integer lacinia orci nec orci tincidunt sit amet porta libero tincidunt. Vivamus at libero risus, pretium mollis nibh. Morbi vel fermentum ante. Ut faucibus ullamcorper leo sit amet luctus. Ut sit amet tellus eros. Nulla facilisi. 
+\end{Proyecto}
+
+
+
+
+\begin{Ejercicio}
+Aliquam lobortis odio lacus, sit amet ultrices metus. Praesent cursus blandit magna porta mollis. Mauris luctus augue sed erat faucibus commodo. Mauris aliquam dapibus turpis ac elementum.
+\end{Ejercicio}
+
+
+
+
+\begin{Proyecto}[para valientes]
+Integer lacinia orci nec orci tincidunt sit amet porta libero tincidunt. Vivamus at libero risus, pretium mollis nibh. Morbi vel fermentum ante. Ut faucibus ullamcorper leo sit amet luctus. Ut sit amet tellus eros. Nulla facilisi. 
+\end{Proyecto}
+
+
+
+
+\begin{Teorema}
+Maecenas in leo lacus. In ante massa, accumsan nec viverra a, porttitor eget nulla. Curabitur vel mauris eu lacus pharetra pharetra. Ut in mauris dolor, nec egestas sem. Donec convallis dapibus tempor. 
+
+\end{Teorema}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+

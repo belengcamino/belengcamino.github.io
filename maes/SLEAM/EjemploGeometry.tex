@@ -1,0 +1,173 @@
+% !TEX encoding = UTF-8 Unicode
+%----------------------------------------------------------------------
+% Curso : Edición de textos científicos con LaTeX
+%----------------------------------------------------------------------
+% Fichero de trabajo para GEOMETRY
+%----------------------------------------------------------------------
+\documentclass[11pt, a4paper]{report}
+%
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,dsfont}
+\usepackage{graphicx}
+%
+\pagestyle{headings}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Algunas de las opciones básicas del paquete geometry.
+%
+%  Consultar en la documentación una descripción detallada
+%----------------------------------------------------------------------
+%  Algunas de las más básicas son:
+%  width  = textwidth	anchura del texto
+%  height = textheight  altura del texto
+%  margin				los márgenes
+%  tmargin				margen superior (filo papel - top del cuerpo)
+%  bmargin				margen inferior (bottom del cuerpo - filo papel)
+%  lmargin, rmargin     márgenes izquierdo y derecho
+%  inner, outer         márgenes interior y exterior en caso twoside
+%  twoside				composición a doble página
+%  twocolumn			composición a dos columnas
+%  showframe            enmarca las distintas partes de la página
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%----------------------------------------------------------------------
+%   Ejemplos de uso del paquete geometry
+%   Editar y descomentar sólo una linea cada vez
+%----------------------------------------------------------------------
+\usepackage{geometry}
+%\usepackage[showframe]{geometry}
+%\usepackage[margin = 4cm, showframe]{geometry}
+%\usepackage[lmargin = 5cm]{geometry}
+%\usepackage[lmargin = 5cm, rmargin = 5cm]{geometry}
+%\usepackage[rmargin = 5cm, width = 8cm]{geometry}
+%\usepackage[tmargin = 6cm, headsep = 3cm]{geometry}
+%\usepackage[width = 8cm, marginparwidth = 5cm]{geometry}
+%\usepackage[layout = a5paper]{geometry}
+%\usepackage[screen]{geometry}
+%----------------------------------------------------------------------
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+\tableofcontents
+
+
+%----------------------------------------------------------------------
+\chapter{Maquetación de las páginas}
+
+
+
+
+La determinación de las medidas de las distintas partes de la página usando los comandos nativos de LaTeX puede resultar muy tediosa, ya que hay que manejar muchos parámetros y con muchas interdependencias entre ellas.
+
+
+\begin{center}
+\includegraphics[width = \textwidth]{layout}
+\end{center}
+
+
+%----------------------------------------------------------------------
+\section{El paquete geometry}
+
+
+El paquete \texttt{geometry} ofrece una forma fácil de fijar las medidas de la página, determinando alguna de las medidas que aparecen en la figura anterior, de forma que las demás se recalculan ade forma automática.
+
+Además, permite elegir entre una enorme cantidad de tamaños estándar de papel, de uso en distintos países o ámbitos, así como tamaños personalizados. Por ejemplo, dispone de un tamaño especial para visualización de documentos en pantallas de ordenador: \texttt{screen}.
+
+También permite modificar el diseño de la página en mitad del documento, así como hacer un diseño para un tamaño determinado, aunque se vaya a imprimir en un tamaño de papel distinto.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum lacus ac orci adipiscing pretium. Integer adipiscing elit non turpis molestie congue vitae posuere lorem. Vivamus et libero sit amet libero lobortis feugiat. Aenean nec felis neque. Phasellus sit amet dolor libero. Ut sollicitudin purus in erat ullamcorper tempus. Nullam dapibus consectetur eros, ac pharetra odio blandit non. Pellentesque tortor sapien, fermentum et adipiscing eu, vestibulum in mi. Morbi dapibus turpis vel sapien volutpat pretium. Integer et vestibulum velit. Donec ut ligula nibh. 
+
+
+Proin et massa urna, et dictum nulla.
+\marginpar{Esto es una nota marginal, que no suelen ser muy largas, por eso no sigo.}
+Proin sed erat urna, eu faucibus turpis. Pellentesque tempor mi ac magna elementum et tincidunt diam malesuada. Proin volutpat facilisis nisi a vulputate. Cras eleifend, nisi non consectetur bibendum, metus felis egestas mauris, at porta ante tellus aliquet massa. Mauris tincidunt pellentesque ipsum sed ultricies. Mauris imperdiet mauris eu turpis tempor ac posuere odio dictum. Ut vehicula odio eu nisi vulputate pharetra. Etiam congue mattis mauris, a blandit nulla molestie sed%
+\footnote{Esto es una nota al pie, que algunas veces son largas y otras no. Obsérvese que la hemos colocado \textbf{antes} del punto. El caracter de comentario \% que hemos colocado en el código pegado a la palabra sed es para que la llamada al pie de página salga pegada a dicha palabra en el texto. Si lo omitimos, el superíndice 1 saldrá separado de dicha palabra por un espacio en blanco.}.
+
+
+In aliquet egestas elit, et rutrum est facilisis ut. Integer tempor faucibus dolor, in malesuada quam ultrices vel. Maecenas faucibus arcu sit amet velit eleifend dignissim. Nunc nunc augue, fermentum non ultrices sed, ultricies sit amet dui. Aliquam eget lectus a augue malesuada laoreet. Sed eros nulla, tincidunt quis volutpat venenatis, tincidunt ut urna. Nulla facilisi. Cras placerat sem in mi eleifend semper. Fusce euismod pharetra sollicitudin. Nullam vitae odio ac turpis ornare feugiat at at mauris. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sit amet velit non elit lobortis porttitor.
+
+Praesent sodales condimentum arcu sit amet porta.
+\marginpar{Este texto parece latín pero no lo es.}
+ Donec vehicula mi vitae dolor tempus ut venenatis lectus aliquet. Nam quis consectetur mi. Proin dapibus lacus in tellus elementum auctor. Aliquam lobortis odio lacus, sit amet ultrices metus. Praesent cursus blandit magna porta mollis. Mauris luctus augue sed erat faucibus commodo. Mauris aliquam dapibus turpis ac elementum%
+\footnote{Esto es otra nota al pie, muy cortita.}.
+
+Integer lacinia orci nec orci tincidunt sit amet porta libero tincidunt. Vivamus at libero risus, pretium mollis nibh. Morbi vel fermentum ante. Ut faucibus ullamcorper leo sit amet luctus. Ut sit amet tellus eros. Nulla facilisi. Maecenas in leo lacus. In ante massa, accumsan nec viverra a, porttitor eget nulla.
+
+
+
+
+%----------------------------------------------------------------------
+\section{El significado del texto no tiene importancia}
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce rhoncus enim euismod enim porta aliquet. Pellentesque eget eros non nisi molestie interdum. Fusce malesuada mauris eget tortor molestie eleifend. Sed mollis justo quis velit pretium interdum. Vestibulum magna sapien, accumsan eu gravida sed, porta nec mauris. Suspendisse eu ligula vitae urna pulvinar sollicitudin. Quisque varius condimentum nulla vel ullamcorper. Morbi pretium consectetur massa eu tincidunt. Vivamus facilisis nisl ac lorem feugiat lobortis. In gravida odio eget orci fringilla luctus. Sed a augue massa%
+\footnote{Con \texttt{spanish babel} las notas al pie se numeran con cifras arábigas. El contador se reinicia al comenzar un Capítulo nuevo.}.
+
+Morbi augue turpis, hendrerit a fermentum ac, suscipit a magna. Etiam eu ligula tortor, a imperdiet nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla quis dictum magna. Sed mattis sodales mauris et sagittis. Proin elementum, metus et elementum commodo, nisl enim vehicula ipsum, non tempus tortor mi vitae mauris. Vestibulum faucibus metus vel sem consectetur suscipit.  
+
+Phasellus tincidunt sollicitudin est. In hac habitasse platea dictumst. Donec semper tempus dolor eget tincidunt. Nulla odio tortor, pulvinar sed hendrerit nec, consequat facilisis tellus. Nunc malesuada urna a lacus dictum malesuada. Fusce at mauris eget leo fermentum posuere. Nulla id neque odio. Vestibulum vitae turpis pellentesque massa consectetur sodales. Donec lacinia, arcu in rhoncus venenatis, turpis mi eleifend felis, a aliquam sem dolor sit amet dui. Nullam tempor sodales viverra. Nam felis eros, convallis vel consequat et, vulputate non justo. Suspendisse eget mattis nulla. Phasellus ac nulla risus, at consectetur quam. Vivamus ut sollicitudin lectus.
+
+Ut vel sem est. Praesent ut ligula quis quam volutpat pretium eget congue ipsum. Morbi quam dolor, elementum ac porttitor non, elementum quis est. Suspendisse molestie aliquet justo a convallis. Vivamus nec est eu arcu aliquet mollis. Phasellus et nisl nec ipsum tempor ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed tellus nec justo hendrerit venenatis. Donec libero sem, accumsan a porta ac, elementum vel nisi. Curabitur vel mauris eu lacus pharetra pharetra. Ut in mauris dolor, nec egestas sem. Donec convallis dapibus tempor. Nulla tempor neque at lacus dictum in ultricies magna ornare. Quisque tincidunt massa eu risus tempor id tempor odio ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+
+
+
+%----------------------------------------------------------------------
+\subsubsection{Ejemplo de una subsubsección}
+
+Maecenas rhoncus faucibus lectus eget pharetra. Etiam ornare eleifend augue in aliquet. Maecenas sit amet libero ante. In et dui libero. Suspendisse vehicula vehicula porttitor. Ut iaculis tristique felis ut faucibus. Sed vel vehicula augue. Sed sagittis ornare felis, nec blandit dolor consequat eget. Sed sed sem sapien, non scelerisque metus. Sed placerat odio nec leo tincidunt sagittis. Ut elit nisl, faucibus quis laoreet nec, iaculis dictum tellus. Nam vitae mi risus, non sagittis lectus. Donec justo nisi, rhoncus id commodo sed, mattis ut purus. Duis elementum ornare nibh, ut iaculis quam pulvinar id. Nullam congue, augue ut tempus feugiat, dolor felis consequat lacus, viverra pharetra ligula arcu eu tortor. In consequat dui vel nunc tincidunt egestas. Duis hendrerit, est in aliquet mattis, augue nisl posuere odio, non mollis tortor felis vel orci. Nulla ultricies mi sem.
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------
+\chapter{La tipografía}
+\label{cap.tipografia}
+
+
+
+
+%----------------------------------------------------------------------
+\section{Importancia del aspecto tipográfico}
+
+
+Donec ligula mi, dictum a commodo quis, mattis in quam. Mauris consequat fermentum augue sed auctor. Integer consequat commodo dolor mollis lobortis. Curabitur ac turpis enim. Maecenas interdum lectus tristique ante egestas blandit. In varius vestibulum neque nec porta. Vivamus quis leo massa. Donec nec vehicula sapien. Duis sed ligula ac eros hendrerit gravida. Aliquam erat volutpat. Pellentesque accumsan fermentum gravida. Vivamus eleifend suscipit velit sit amet pharetra. Vestibulum tristique diam id ligula dignissim faucibus. Mauris dapibus, arcu sit amet eleifend pulvinar, urna dolor fringilla metus, vel rutrum neque ipsum a risus. Maecenas eu tortor ligula. Proin vel est eros, eget dictum dolor. Vivamus vel ante at turpis imperdiet tincidunt. Etiam quam massa, scelerisque feugiat tristique et, dignissim et mi%
+\footnote{Esta nota al pie pertence al Capítulo~\ref{cap.tipografia}. Por eso, el contador se ha reiniciado y comienza de nuevo en 1.}.
+
+
+
+
+%----------------------------------------------------------------------
+\section{Aclaraciones: notas al pie y marginales}
+
+
+Aliquam id vehicula augue. Donec in odio eget lorem venenatis tempor a vel metus. Aliquam eros dolor, consectetur eu fermentum in, feugiat sed est. Pellentesque malesuada velit at lacus elementum ultricies. Praesent quis ligula dapibus mauris mollis consequat ut a magna. Fusce id ante lectus. Maecenas imperdiet molestie enim vel iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque non dolor id risus lacinia laoreet. Curabitur quis nisi non lectus cursus vulputate eget sed turpis. Nam vitae vestibulum felis. Donec nisl elit, aliquam non scelerisque in, mattis eu metus. Cras arcu eros, gravida ac vestibulum eu, scelerisque eu leo. Ut sapien arcu, placerat id tempor ut, aliquet eget ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam ultrices augue at lectus dignissim fringilla. Aliquam in lacus enim.
+
+Morbi interdum dictum pellentesque. Phasellus vitae orci metus. Cras bibendum nisi sed ante rhoncus nec iaculis turpis rhoncus. Aenean nec mauris id turpis viverra condimentum. Proin eu nunc quam, vel tempor justo. Quisque porta lacus vitae erat hendrerit pharetra. Mauris mattis ante dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur aliquam congue suscipit. Nam ut dui arcu, sed sagittis tellus. Suspendisse varius ligula vitae erat interdum eu blandit lorem lacinia. Nullam lacinia commodo pellentesque. Mauris tincidunt, orci at pharetra dapibus, justo turpis rutrum magna, eget sodales nisi lorem euismod ante. Curabitur vitae semper tortor. 
+
+
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
