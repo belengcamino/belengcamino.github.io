@@ -24,3 +24,4 @@ Asegúrate de que tu argumento está bien hilado y estructurado.
 Tareas:
 - Terminar de leer, comaparando con la presentación del tema 7, los apuntes de los días 23 y 30 de noviembre.
 - Leer enguita e ir poniendo ideas en un md
+- Leer otra de las dos lecturas
