@@ -1,4 +1,4 @@
-- Compartir aulas y pupitres no significa que los jóvenes de ambos sexos tengan las mismas oportunidad educativas... p. 117
+Compartir aulas y pupitres no significa que los jóvenes de ambos sexos tengan las mismas oportunidad educativas... (p. 117)
 ..., o que las ilustraciones recuperen los modelos discriminatorios que tanto ha costado expurgar del discurso escrito. (p. 118)
 ..., el gran problema del contenido de la enseñanza es, sencillamente, que apenas les concede espacio alguno, que las ignora. (p. 118)
 ..., algunas de las pocas autoras reconocidas hubieron de recurrir a seudónimos masculinos. (p. 119)
