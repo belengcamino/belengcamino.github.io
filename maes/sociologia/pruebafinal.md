@@ -26,6 +26,6 @@ Tareas:
 - Leer enguita e ir poniendo ideas en un md
 - Leer otra de las dos lecturas
 
-- Terminar la pregunta de si es o no normal. Decir que si ya que tenemos evidencias cientificas suficientes para poder afirmarlo
+
 - Por que esta pasando? coger la lectura de martinez
 - Sigue habiendo desigualdad segun los distintos tipos de feminismo 

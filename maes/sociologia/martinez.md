@@ -1,11 +1,8 @@
-En la familia, las hijas han dejado de ser tan necesarias en el trabajo del hogar, a medida que su trabajo iba siendo sustituido por cambios en la producción doméstica (agua corriente,electricidad,lavadora,nevera…),por lo que una hija que se considerase con derecho a estudiar y que se rebelase contra su familia no suponía un quebranto tan grave para la economía familiar; es decir, los costes de la oportunidad de estudiar de las hijas descendieron para las familias. (p. 297)
+    En la familia, las hijas han dejado de ser tan necesarias en el trabajo del hogar, a medida que su trabajo iba siendo sustituido por cambios en la producción doméstica (agua corriente,electricidad,lavadora,nevera…),por lo que una hija que se considerase con derecho a estudiar y que se rebelase contra su familia no suponía un quebranto tan grave para la economía familiar; es decir, los costes de la oportunidad de estudiar de las hijas descendieron para las familias. (p. 297)
 
-La combinación entre aumento de la participación laboral femenina y desigualdad
-laboral entre hombres y mujeres ha llevado a ellas a invertir más en educación, pues el
-coste de oportunidad de estudiar para las mujeres es menor y los beneficios,mayores. (p. 297)
-
-Por otro lado,la educación es más importante para la movilidad ascendente de las mujeres que para la de los varones, ya sea mejorando su ocupación con respecto a la de sus progenitores en mayor medida que para los varones (Salido Cortés, 2001),
-ascendiendo socialmente gracias al matrimonio (Hakim, 2000). (p.297)
+    La combinación entre aumento de la participación laboral femenina y desigualdad
+    laboral entre hombres y mujeres ha llevado a ellas a invertir más en educación, pues el
+    coste de oportunidad de estudiar para las mujeres es menor y los beneficios,mayores. (p. 297)
 
 Este argumento no tiene en cuenta que a ellos les va mejor que a ellas en el mercado de trabajo, y quizá sea por eso por lo que no se molestan en ser tan aplicados. (p.298)
 
