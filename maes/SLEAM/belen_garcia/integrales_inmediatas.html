@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Integrales inmediatas | belen_garcia </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="belen garcia" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>
+window.MathJax = {
+  tex: {
+    tags: "ams",
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script">
+</script>
+
+<script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+     </script></head>
+<body class="exe-web-site" id="exe-node-7"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Trabajo exeLearning Belén del Rocío García Camino</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Cálculo Integral</a></li>
+   <li class="current-page-parent"><a href="tema_1_integral_indefinida.html" class="current-page-parent daddy">Tema 1: Integral indefinida</a>
+   <ul>
+      <li><a href="primitiva_de_una_funcin.html" class="no-ch">Primitiva de una función</a></li>
+      <li><a href="integral_indefinida.html" class="no-ch">Integral indefinida</a></li>
+      <li><a href="propiedades_de_la_integral_indefinida.html" class="no-ch">Propiedades de la integral indefinida</a></li>
+      <li id="active"><a href="integrales_inmediatas.html" class="active no-ch">Integrales inmediatas</a></li>
+      <li><a href="mtodos_de_integracin.html" class="daddy">Métodos de integración</a>
+      <ul class="other-section">
+         <li><a href="por_partes.html" class="no-ch">Por partes</a></li>
+         <li><a href="cambio_de_variable.html" class="no-ch">Cambio de variable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="tema_2_integral_definida.html" class="daddy">Tema 2: Integral definida</a>
+   <ul class="other-section">
+      <li><a href="integral_definida.html" class="no-ch">Integral definida</a></li>
+      <li><a href="propiedades_de_la_integral_definida.html" class="no-ch">Propiedades de la integral definida</a></li>
+      <li><a href="regla_de_barrow.html" class="no-ch">Regla de Barrow</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="propiedades_de_la_integral_indefinida.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="mtodos_de_integracin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Integrales inmediatas</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id12">
+<div class="iDevice emphasis0" >
+<div id="ta12_125_2" class="block iDevice_content">
+<div class="exe-text"><p>En la tabla aparecen las integrales inmediatas de las funciones elementales: nula, polínómica, logarítmica, exponencial y trigonométricas con sus inversas.</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice" id="id15">
+<div class="iDevice emphasis0" >
+<div id="ta15_128_2" class="block iDevice_content">
+<div class="exe-text"><table border="1" style="width: 100%; height: 165px; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 50%; height: 25px; text-align: center;">$f(x)$</td>
+<td style="width: 50%; height: 25px; text-align: center;">$\int f(x)\,dx$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$0$</td>
+<td style="width: 50%; height: 10px;">$c$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$x^n$</td>
+<td style="width: 50%; height: 10px;">$\frac{x^{n+1}}{n+1} + c$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$\frac{1}{x}$</td>
+<td style="width: 50%; height: 10px;">$\log(|x|)+c$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$e^x$</td>
+<td style="width: 50%; height: 10px;">$e^x+c$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$a^x$</td>
+<td style="width: 50%; height: 10px;">$\frac{a^x}{\log(a)}+c$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$\sin(x)$</td>
+<td style="width: 50%; height: 10px;">$-\cos(x)+c$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$\cos(x)$</td>
+<td style="width: 50%; height: 10px;">$\sin(x)+c$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$1+\tan^2(x)$</td>
+<td style="width: 50%; height: 10px;">$\tan(x)+c$</td>
+</tr>
+<tr style="height: 10px; text-align: center;">
+<td style="width: 50%; height: 10px;">$\frac{1}{cos^2(x)}$</td>
+<td style="width: 50%; height: 10px;">$\tan(x)+c$</td>
+</tr>
+<tr style="height: 25px; text-align: center;">
+<td style="width: 50%; height: 25px;">$\frac{1}{\sqrt{1-x^2}}$</td>
+<td style="width: 50%; height: 25px;">$\arcsin(x)+c$</td>
+</tr>
+<tr style="height: 25px; text-align: center;">
+<td style="width: 50%; height: 25px;">$\frac{-1}{\sqrt{1-x^2}}$ &amp; $\arccos(x)+c$\\[1ex]</td>
+<td style="width: 50%; height: 25px;">$\arccos(x)+c$</td>
+</tr>
+<tr style="text-align: center;">
+<td style="width: 50%;">$\frac{1}{1+x^2}$</td>
+<td style="width: 50%;">$\arctan(x)+c$</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_magnifier" id="id16">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_magnifier.png)"><h1 class="iDeviceTitle">Observación</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta16_129_2" class="block iDevice_content">
+<div class="exe-text"><p>Si en lugar de funciones elementales nos encontramos funciones compuestas de funciones elementales, debemos tener en cuenta para la integración la Regla de la Cadena.<br />\begin{equation*}<br />\left(<br />f(g(x))<br />\right)'=f'(g(x))\cdot g'(x)<br />\end{equation*}</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice" id="id41">
+<div class="iDevice emphasis0" >
+<div id="ta41_154_2" class="block iDevice_content">
+<div class="exe-text"><p>En la tabla siguiente aparecen las integrales inmediatas de las funciones definidas como la composición de funciones elementales.</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice" id="id14">
+<div class="iDevice emphasis0" >
+<div id="ta14_127_2" class="block iDevice_content">
+<div class="exe-text"><table border="1" style="width: 100%; height: 192px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 50%; text-align: center; height: 25px;">$f(x)$</td>
+<td style="width: 50%; text-align: center; height: 25px;">$\int f(x)\,dx$</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 50%; height: 10px; text-align: center;">$g(x)^n\cdot g'(x)$</td>
+<td style="width: 50%; height: 10px; text-align: center;">$\frac{g(x)^{n+1}}{n+1} + c$</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 50%; height: 10px; text-align: center;">$\frac{g'(x)}{g(x)}$</td>
+<td style="width: 50%; height: 10px; text-align: center;">$\log(|g(x)|)+c$</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 50%; height: 10px; text-align: center;">$e^{g(x)}\cdot g'(x)$</td>
+<td style="width: 50%; height: 10px; text-align: center;">$e^{g(x)}+c$</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 50%; height: 10px; text-align: center;">$a^{g(x)}\cdot g'(x)$</td>
+<td style="width: 50%; height: 10px; text-align: center;">$\frac{a^{g(x)}}{\log(a)}+c$</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 50%; height: 10px; text-align: center;">$\sin(g(x))\cdot g'(x)$</td>
+<td style="width: 50%; height: 10px; text-align: center;">$-\cos(g(x))+c$</td>
+</tr>
+<tr style="height: 10px;">
+<td style="width: 50%; height: 12px; text-align: center;">$\cos(g(x))\cdot g'(x)$</td>
+<td style="width: 50%; height: 12px; text-align: center;">$\sin(g(x))+c$</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 50%; height: 10px; text-align: center;">$(1+\tan^2(g(x)))\cdot g'(x)$</td>
+<td style="width: 50%; height: 10px; text-align: center;">$\tan(g(x))+c$</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 50%; text-align: center; height: 25px;">$\frac{g'(x)}{cos^2(g(x))}$</td>
+<td style="width: 50%; text-align: center; height: 25px;">$\tan(g(x))+c$</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 50%; height: 10px; text-align: center;">$\frac{g'(x)}{\sqrt{1-g(x)^2}}$</td>
+<td style="width: 50%; height: 10px; text-align: center;">$\arcsin(g(x))+c$</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 50%; height: 10px; text-align: center;">$\frac{-g'(x)}{\sqrt{1-g(x)^2}}$</td>
+<td style="width: 50%; height: 10px; text-align: center;">$\arccos(g(x))+c$</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 50%; text-align: center; height: 50px;">$\frac{g'(x)}{1+g(x)^2}$</td>
+<td style="width: 50%; text-align: center; height: 50px;">$\arctan(g(x))+c$</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="propiedades_de_la_integral_indefinida.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="mtodos_de_integracin.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

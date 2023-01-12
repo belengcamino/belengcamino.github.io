@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Primitiva de una función | belen_garcia </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="belen garcia" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>
+window.MathJax = {
+  tex: {
+    tags: "ams",
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script">
+</script>
+
+<script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+     </script></head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Trabajo exeLearning Belén del Rocío García Camino</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Cálculo Integral</a></li>
+   <li class="current-page-parent"><a href="tema_1_integral_indefinida.html" class="current-page-parent daddy">Tema 1: Integral indefinida</a>
+   <ul>
+      <li id="active"><a href="primitiva_de_una_funcin.html" class="active no-ch">Primitiva de una función</a></li>
+      <li><a href="integral_indefinida.html" class="no-ch">Integral indefinida</a></li>
+      <li><a href="propiedades_de_la_integral_indefinida.html" class="no-ch">Propiedades de la integral indefinida</a></li>
+      <li><a href="integrales_inmediatas.html" class="no-ch">Integrales inmediatas</a></li>
+      <li><a href="mtodos_de_integracin.html" class="daddy">Métodos de integración</a>
+      <ul class="other-section">
+         <li><a href="por_partes.html" class="no-ch">Por partes</a></li>
+         <li><a href="cambio_de_variable.html" class="no-ch">Cambio de variable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="tema_2_integral_definida.html" class="daddy">Tema 2: Integral definida</a>
+   <ul class="other-section">
+      <li><a href="integral_definida.html" class="no-ch">Integral definida</a></li>
+      <li><a href="propiedades_de_la_integral_definida.html" class="no-ch">Propiedades de la integral definida</a></li>
+      <li><a href="regla_de_barrow.html" class="no-ch">Regla de Barrow</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="tema_1_integral_indefinida.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="integral_indefinida.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Primitiva de una función</h1></header>
+<article class="iDevice_wrapper AppletIdevice" id="id0">
+<div class="iDevice emphasis0" >
+<div class="iDevice_content">
+
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_reading" id="id3">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_reading.png)"><h1 class="iDeviceTitle">Definición</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta3_116_2" class="block iDevice_content">
+<div class="exe-text"><p>Dada una función $F(x)$ derivable, se dice que es la primitiva de $f(x)$ si se cumple que:</p>
+<p style="text-align: center;">$ F'(x)=f(x)$</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_magnifier" id="id4">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_magnifier.png)"><h1 class="iDeviceTitle">Observación</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta4_117_2" class="block iDevice_content">
+<div class="exe-text"><p>Si una función $f(x)$ tiene primitiva, $F(x)$, entonces tiene infinitas primitivas, diferenciándose todas ellas en una constante. Es decir, si $F(x)$ es la primitiva de $f(x)$ entonces $F(x)+c$ también es una primitiva de $f(x)$, con $c\in\mathbb{R}$. Se demuestra haciendo uso de la definición anterior y la propiedad aditiva de las derivadas.</p>
+<p style="text-align: center;">$\left(F(x)+c\right)'=F'(x)+0=F'(x)=f(x)$</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultichoiceIdevice em_iDevice em_iDevice_question" id="id40">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Pregunta de Elección Múltiple</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<form name="multi-choice-form-40_87" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion40_87" class="block question iDevice_content">
+<p>Teniendo en cuenta la actividad de la <a href="tema_1_integral_indefinida.html" target="_blank" rel="noopener">página anterior</a></p>
+<p>¿Cúal es el valor de la integral de $x^2$?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i40_90" class="sr-av"><a href="#answer-40_90">Opción 1</a></label><input type="radio" name="option40_87" id="i40_90" class="exe-radio-option exe-radio-option-0-4-40_87-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-40_90"><div id="taans40_90" class="block iDevice_content">
+<p>$\dfrac{x^3}{3}$</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i40_93" class="sr-av"><a href="#answer-40_93">Opción 2</a></label><input type="radio" name="option40_87" id="i40_93" class="exe-radio-option exe-radio-option-1-4-40_87-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-40_93"><div id="taans40_93" class="block iDevice_content">
+<p>$\dfrac{x^3}{3}+2$</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i40_232" class="sr-av"><a href="#answer-40_232">Opción 3</a></label><input type="radio" name="option40_87" id="i40_232" class="exe-radio-option exe-radio-option-2-4-40_87-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-40_232"><div id="taans40_232" class="block iDevice_content">
+<p>$\dfrac{x^3}{3}+20$</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i40_235" class="sr-av"><a href="#answer-40_235">Opción 4</a></label><input type="radio" name="option40_87" id="i40_235" class="exe-radio-option exe-radio-option-3-4-40_87-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-40_235"><div id="taans40_235" class="block iDevice_content">
+<p>Todas las anteriores son correctas</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<section id="sa0b40_87" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+<section id="sa1b40_87" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+<section id="sa2b40_87" class="feedback js-hidden">
+<p>Incorrecto</p>
+</section>
+<section id="sa3b40_87" class="feedback js-hidden">
+<p>Opción correcta</p>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-40_90">Incorrecto</a><span> (<a href="#sa0b40_87">Retroalimentación</a>)</span></li>
+<li><a href="#answer-40_93">Incorrecto</a><span> (<a href="#sa1b40_87">Retroalimentación</a>)</span></li>
+<li><a href="#answer-40_232">Incorrecto</a><span> (<a href="#sa2b40_87">Retroalimentación</a>)</span></li>
+<li><a href="#answer-40_235">Opción correcta</a><span> (<a href="#sa3b40_87">Retroalimentación</a>)</span></li>
+</ol>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="tema_1_integral_indefinida.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="integral_indefinida.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

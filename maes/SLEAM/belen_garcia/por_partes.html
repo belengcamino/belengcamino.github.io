@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Por partes | belen_garcia </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="belen garcia" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>
+window.MathJax = {
+  tex: {
+    tags: "ams",
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script">
+</script>
+
+<script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+     </script></head>
+<body class="exe-web-site" id="exe-node-9"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Trabajo exeLearning Belén del Rocío García Camino</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Cálculo Integral</a></li>
+   <li class="current-page-parent"><a href="tema_1_integral_indefinida.html" class="current-page-parent daddy">Tema 1: Integral indefinida</a>
+   <ul>
+      <li><a href="primitiva_de_una_funcin.html" class="no-ch">Primitiva de una función</a></li>
+      <li><a href="integral_indefinida.html" class="no-ch">Integral indefinida</a></li>
+      <li><a href="propiedades_de_la_integral_indefinida.html" class="no-ch">Propiedades de la integral indefinida</a></li>
+      <li><a href="integrales_inmediatas.html" class="no-ch">Integrales inmediatas</a></li>
+      <li class="current-page-parent"><a href="mtodos_de_integracin.html" class="current-page-parent daddy">Métodos de integración</a>
+      <ul>
+         <li id="active"><a href="por_partes.html" class="active no-ch">Por partes</a></li>
+         <li><a href="cambio_de_variable.html" class="no-ch">Cambio de variable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="tema_2_integral_definida.html" class="daddy">Tema 2: Integral definida</a>
+   <ul class="other-section">
+      <li><a href="integral_definida.html" class="no-ch">Integral definida</a></li>
+      <li><a href="propiedades_de_la_integral_definida.html" class="no-ch">Propiedades de la integral definida</a></li>
+      <li><a href="regla_de_barrow.html" class="no-ch">Regla de Barrow</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="mtodos_de_integracin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cambio_de_variable.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Por partes</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id17">
+<div class="iDevice emphasis0" >
+<div id="ta17_130_2" class="block iDevice_content">
+<div class="exe-text"><p>A diferencia de las derivadas, no existe una fórmula para poder integrar cualquier producto de funciones. Lo mas cercano que tenemos a una regla para integrar producto de funciones es la integración por partes.</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_magnifier" id="id18">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_magnifier.png)"><h1 class="iDeviceTitle">Observación</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta18_131_2" class="block iDevice_content">
+<div class="exe-text"><p>Curiosamente, se basa en la fórmula para derivar un producto de funciones. Sin embargo, la integración por partes transforma una integral de un producto en otra integral. Esta fórmula no funciona para integrar todos los productos de funciones.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_technology" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_technology.png)"><h1 class="iDeviceTitle">Teorema</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta19_132_2" class="block iDevice_content">
+<div class="exe-text"><p>Sea $u(x)$ una función derivable y $v(x)$ una función integrable. Se tiene que<br />\begin{equation*}<br />\displaystyle\int u(x)v'(x)\,dx =<br />u(x)v(x)-\displaystyle\int u'(x)v(x)\,dx.<br />\end{equation*}<br />De la misma forma, llamando $du = u'(x)dx$ y $dv = v'(x)dx$, se tendría<br />\begin{equation*}<br />\displaystyle\int u\cdot dv =<br />u\cdot v -\displaystyle\int v\cdot du.<br />\end{equation*}</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_attached" id="id20">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_attached.png)"><h1 class="iDeviceTitle">Regla mnemotécnica</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_133_2" class="block iDevice_content">
+<div class="exe-text"><p>\begin{equation*}<br />\displaystyle\int u\cdot dv =<br />u\cdot v -\displaystyle\int v\cdot du.<br />\end{equation*}</p>
+<table border="1" style="width: 100%; height: 25px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 100%; height: 25px; text-align: center;">Un Día Vi Una Vaca sin rabo Vestida De Uniforme</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_think" id="id21">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_think.png)"><h1 class="iDeviceTitle">Demostración</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta21_134_2" class="block iDevice_content">
+<div class="exe-text"><p>Derivamos el producto de las funciones $u$ y $v$ y a continuación integramos en ambos miembros de la igualdad.<br />\begin{equation*}<br />\begin{array}{rl}<br />\left(u(x)\cdot v(x)\right)' &amp; = u'(x)\cdot v(x) + u(x)\cdot v'(x) \\<br />u(x)\cdot v(x) &amp; = \displaystyle\int\left( u'(x)\cdot v(x) + u(x)\cdot v'(x)\right)\,dx \\<br />&amp; = \displaystyle\int u'(x)\cdot v(x)\,dx + \displaystyle\int u(x)\cdot v'(x)\,dx<br />\end{array}<br />\end{equation*}<br />Si pasamos $\displaystyle\int u'(x)\cdot v(x)\,dx$<br />al miembro izquierdo, obtenemos</p>
+<p><br />\begin{equation*}<br />\displaystyle\int u(x)\cdot v'(x)\,dx =<br />u(x)\cdot v(x) - \displaystyle\int u'(x)\cdot v(x)\,dx<br />\end{equation*}<br /><br /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="mtodos_de_integracin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="cambio_de_variable.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

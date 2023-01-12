@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Propiedades de la integral indefinida | belen_garcia </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="belen garcia" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script>
+window.MathJax = {
+  tex: {
+    tags: "ams",
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script">
+</script>
+
+<script type="text/javascript" async
+     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+     </script></head>
+<body class="exe-web-site" id="exe-node-6"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Trabajo exeLearning Belén del Rocío García Camino</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Cálculo Integral</a></li>
+   <li class="current-page-parent"><a href="tema_1_integral_indefinida.html" class="current-page-parent daddy">Tema 1: Integral indefinida</a>
+   <ul>
+      <li><a href="primitiva_de_una_funcin.html" class="no-ch">Primitiva de una función</a></li>
+      <li><a href="integral_indefinida.html" class="no-ch">Integral indefinida</a></li>
+      <li id="active"><a href="propiedades_de_la_integral_indefinida.html" class="active no-ch">Propiedades de la integral indefinida</a></li>
+      <li><a href="integrales_inmediatas.html" class="no-ch">Integrales inmediatas</a></li>
+      <li><a href="mtodos_de_integracin.html" class="daddy">Métodos de integración</a>
+      <ul class="other-section">
+         <li><a href="por_partes.html" class="no-ch">Por partes</a></li>
+         <li><a href="cambio_de_variable.html" class="no-ch">Cambio de variable</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="tema_2_integral_definida.html" class="daddy">Tema 2: Integral definida</a>
+   <ul class="other-section">
+      <li><a href="integral_definida.html" class="no-ch">Integral definida</a></li>
+      <li><a href="propiedades_de_la_integral_definida.html" class="no-ch">Propiedades de la integral definida</a></li>
+      <li><a href="regla_de_barrow.html" class="no-ch">Regla de Barrow</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="integral_indefinida.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="integrales_inmediatas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Propiedades de la integral indefinida</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_technology" id="id8">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_technology.png)"><h1 class="iDeviceTitle">Teorema</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta8_121_2" class="block iDevice_content">
+<div class="exe-text"><p>La integral de la suma de dos funciones $f(x)$ y $g(x)$ es igual a la suma de las integrales de dichas funciones.<br />\begin{equation*}<br />\displaystyle\int<br />\left(<br />f(x)+g(x)<br />\right)<br />dx = <br />\displaystyle\int f(x)\,dx +<br />\displaystyle\int g(x)\,dx<br />\end{equation*}</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_think" id="id9">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_think.png)"><h1 class="iDeviceTitle">Demostración</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta9_122_2" class="block iDevice_content">
+<div class="exe-text"><p>Para probar la igualdad anterior, derivaremos ambos miembros por separado y comprobaremos que se tiene la igualdad. En la segunda línea usamos la propiedad aditiva de las derivadas.<br />\begin{equation*}<br />\begin{array}{lr}<br />\dfrac{\partial}{\partial x}<br />\left [<br />\displaystyle\int<br />\left(<br />f(x)+g(x)<br />\right)<br />dx<br />\right ] = f(x)+g(x) \\[2em]<br />\dfrac{\partial}{\partial x}<br />\left [<br />\displaystyle\int f(x)\,dx +<br />\displaystyle\int g(x)\,dx<br />\right ] =<br />\dfrac{\partial}{\partial x}<br />\left [<br />\displaystyle\int f(x)\,dx<br />\right ] + <br />\dfrac{\partial}{\partial x}<br />\left [<br />\displaystyle\int g(x)\,dx<br />\right ] = f(x)+g(x) \\<br />\end{array}<br />\end{equation*}</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_technology" id="id10">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_technology.png)"><h1 class="iDeviceTitle">Teorema</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta10_123_2" class="block iDevice_content">
+<div class="exe-text"><p>La integral del producto de una constante $\alpha$ por una función $f(x)$ es igual al producto de la constante por la integral de la función.<br />\begin{equation*}<br />\displaystyle\int \alpha f(x)\,dx = <br />\alpha\displaystyle\int f(x)\,dx<br />\end{equation*}</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_think" id="id11">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_think.png)"><h1 class="iDeviceTitle">Demostración</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta11_124_2" class="block iDevice_content">
+<div class="exe-text"><p>Para probar la igualdad anterior, derivaremos ambos miembros por separado y comprobaremos que se tiene la igualdad. Tendremos en cuenta que la derivada de una constante por una función es igual al producto de la constante por la derivada de la función.<br />\begin{equation*}<br />\begin{array}{lr}<br />\dfrac{\partial}{\partial x}<br />\left [<br />\displaystyle\int \alpha f(x)\,dx<br />\right ] = \alpha f(x) \\[2em]<br />\dfrac{\partial}{\partial x}<br />\left [<br />\alpha\displaystyle\int f(x)\,dx<br />\right ] =<br />\alpha\dfrac{\partial}{\partial x}<br />\left [<br />\displaystyle\int f(x)\,dx<br />\right ] = \alpha f(x) \\<br />\end{array}<br />\end{equation*}</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="integral_indefinida.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="integrales_inmediatas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

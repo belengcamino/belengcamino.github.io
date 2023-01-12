@@ -1,19 +1,20 @@
 /* Kids Style for eXeLearning (see config.xml for details) */
 :root {
+	--rojoOscuro: rgb(157, 34, 53);
 	--color-anchor: #771F35;
 	--color-idevice-inner-anchor: #B85F75;
-	--color-header-background: #5ab493;
-	--color-header-border: #468770;
-	--color-header-content: #cff0e5;
+	--color-header-background: rgb(157, 34, 53);
+	--color-header-border: rgb(73, 16, 24);
+	--color-header-content: rgb(246, 182, 193);
 	--color-body: #333;
-	--color-background-body: #aee7d3;
+	--color-background-body: rgb(249, 216, 221);
 	--color-header-h1: #cff0e5;
-	--color-idevice-header: #60c29e;
-	--color-idevice-background: #7ca2d7;
+	--color-idevice-header: rgb(73, 16, 24);
+	--color-idevice-background: rgb(157, 34, 53);
 	--color-idevice-title: #FFF;
-	--color-idevice-inner-border: #60c29e;
+	--color-idevice-inner-border: rgb(73, 16, 24);
 	--color-idevice-inner-background: #f9fffc;
-	--color-enlarge-icon: #468770;
+	--color-enlarge-icon: rgb(73, 16, 24);
 	--color-submit-button: #444;
 	--color-submit-button-background: #f1f1f1;
 	--color-submit-button-gradient-1: #f6f6f6;
@@ -27,10 +28,10 @@
 	--color-hint-background: #f9f9f9;
 	--color-feedback-background: #fff6db;
 	--color-feedback-border: #ffe38e;
-	--color-site-footer: #aee7d3;
-	--color-download-package: #468770;
+	--color-site-footer: rgb(243, 222, 225);
+	--color-download-package: rgb(73, 16, 24);
 	--color-download-hover: #000;
-	--color-download-hover-background: #e9c34f;
+	--color-download-hover-background: rgb(73, 16, 24);
 	--color-effect: #FFF;
 	--color-emphasis: #E7F8F2;
 }
@@ -49,8 +50,10 @@
 	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(open-sans-bold.woff2) format('woff2'), url(open-sans-bold.woff) format('woff');
 }
 
+
 html {
-	font-size: 105%
+	font-size: 105%;
+	background-color: white;
 }
 
 body {
@@ -525,7 +528,7 @@ select {
 
 .exe-fx .fx-C1,
 .exe-fx .fx-C1 a {
-	background: #468770;
+	background: rgb(216, 130, 142);
 	color: var(--color-effect)
 }
 

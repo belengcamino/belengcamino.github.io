@@ -5,12 +5,11 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>belen_garcia </title>
+<title>Propiedades de la integral definida | belen_garcia </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="belen garcia" />
 <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
 <meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
-<meta name="description" content="prueba2" />
 <!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
@@ -36,13 +35,13 @@ window.MathJax = {
 <script type="text/javascript" async
      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
      </script></head>
-<body class="exe-web-site" id="exe-node-0"><script type="text/javascript">document.body.className+=" js"</script>
+<body class="exe-web-site" id="exe-node-12"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
 <header id="header" ><div id="headerContent">Trabajo exeLearning Belén del Rocío García Camino</div></header>
 <nav id="siteNav">
 <ul>
-   <li id="active"><a href="index.html" class="active daddy main-node">Cálculo Integral</a></li>
+   <li><a href="index.html" class="daddy main-node">Cálculo Integral</a></li>
    <li><a href="tema_1_integral_indefinida.html" class="daddy">Tema 1: Integral indefinida</a>
    <ul class="other-section">
       <li><a href="primitiva_de_una_funcin.html" class="no-ch">Primitiva de una función</a></li>
@@ -57,10 +56,10 @@ window.MathJax = {
       </li>
    </ul>
    </li>
-   <li><a href="tema_2_integral_definida.html" class="daddy">Tema 2: Integral definida</a>
-   <ul class="other-section">
+   <li class="current-page-parent"><a href="tema_2_integral_definida.html" class="current-page-parent daddy">Tema 2: Integral definida</a>
+   <ul>
       <li><a href="integral_definida.html" class="no-ch">Integral definida</a></li>
-      <li><a href="propiedades_de_la_integral_definida.html" class="no-ch">Propiedades de la integral definida</a></li>
+      <li id="active"><a href="propiedades_de_la_integral_definida.html" class="active no-ch">Propiedades de la integral definida</a></li>
       <li><a href="regla_de_barrow.html" class="no-ch">Regla de Barrow</a></li>
    </ul>
    </li>
@@ -68,21 +67,25 @@ window.MathJax = {
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="tema_1_integral_indefinida.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="integral_definida.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="regla_de_barrow.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
 <section id="main">
-<header id="nodeDecoration"><h1 id="nodeTitle">Cálculo Integral</h1></header>
-<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_question" id="id49">
+<header id="nodeDecoration"><h1 id="nodeTitle">Propiedades de la integral definida</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_technology" id="id30">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header" style="background-image:url(icon_question.png)"><h1 class="iDeviceTitle">¿Siempre fue la integración la operación inversa a la derivación?</h1></header>
+<header class="iDevice_header" style="background-image:url(icon_technology.png)"><h1 class="iDeviceTitle">Propiedades de la integral definida</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta49_162_2" class="block iDevice_content">
-<div class="exe-text"><p>El origen del cálculo integral se remonta a la época de Arquímedes (287-212 a.C.), matemático griego de la antigüedad, que obtuvo resultados tan importantes como el valor del área encerrada por un segmento parabólico.</p>
-<p>La derivada apareció veinte siglos después para resolver otros problemas que en principio no tenían nada en común con el cálculo integral.</p>
-<p>El descubrimiento más importante del cálculo infinitesimal es la íntima relación entre la derivada y la integral definida, a pesar de haber seguido caminos diferentes durante <strong>veinte siglos</strong>. Una vez conocida la conexión entre derivada e integral (<a href="regla_de_barrow.html" target="_blank" rel="noopener">Teorema de Barrow</a>), el cálculo de <a href="tema_2_integral_definida.html" target="_blank" rel="noopener">integrales definidas</a> se hace tan sencillo como el de las derivadas.</p></div>
+<div id="ta30_143_2" class="block iDevice_content">
+<div class="exe-text"><ul>
+<li>El valor de la integral definida cambia de signo si se permutan los límites de integración.<br />\begin{equation*}<br />\displaystyle\int_a^bf(x)\,dx = -\displaystyle\int_b^af(x)\,dx<br />\end{equation*}</li>
+<li>Si los límites de integración coinciden, la integral definida val cero.<br />\begin{equation*}<br />\displaystyle\int_a^af(x)\,dx = 0<br />\end{equation*}</li>
+<li>Si $c$ es un punto del interior del intervalo $[a,b]$, la integral definida de la función $f(x)$ en el intervalo $[a,b]$ puede descomponerse como suma de dos integrales extendidas a los intervalos $[a,c]$ y $[c,b]$.<br />\begin{equation*}<br />\displaystyle\int_a^bf(x)\,dx = \displaystyle\int_a^cf(x)\,dx + \displaystyle\int_c^bf(x)\,dx<br />\end{equation*}</li>
+<li>La integral definida de una suma de funciones es igual a la suma de las integrales.<br />\begin{equation*}<br />\displaystyle\int_a^b<br />\left(<br />f(x)+g(x)<br />\right)<br />dx = <br />\displaystyle\int_a^b f(x)\,dx +<br />\displaystyle\int_a^b g(x)\,dx<br />\end{equation*}</li>
+<li>La integral del producto de una constante por una función es igual a la constante por la integral de la función.<br />\begin{equation*}<br />\displaystyle\int_a^b \alpha f(x)\,dx = <br />\alpha\displaystyle\int_a^b f(x)\,dx<br />\end{equation*}</li>
+</ul></div>
 </div>
 </div>
 </div>
@@ -95,7 +98,7 @@ window.MathJax = {
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="tema_1_integral_indefinida.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+<a href="integral_definida.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="regla_de_barrow.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
